@@ -1,0 +1,30 @@
+# 網路概論 讀書與練習系統
+
+雲科大「網路概論」課程的重點筆記與本機出題練習系統。
+
+## 內容
+
+| 路徑 | 說明 |
+|---|---|
+| `ch1.md`～`ch8.md` | 各章重點整理（⭐ 小考考點、⚠️ 投影片易混淆處、❌ 我答錯過） |
+| `綜合考試複習筆記.md` | 第 1～4 章綜合考試的錯題複習 |
+| `img/` | 圖解（點對點／群播／廣播、網路拓樸） |
+| `quiz/` | 出題練習系統 |
+
+
+> 課程講義 `ch01.pdf`～`ch08.pdf` 與小考 `test1.pdf`、`test2.pdf` 有版權且檔案大，**不放進倉庫**（已列入 `.gitignore`），請自行放在專案根目錄。
+
+## 出題系統
+
+純 Python 標準函式庫，不需安裝套件。
+
+```bash
+python quiz/server.py          # 啟動 → http://127.0.0.1:8765
+python quiz/cli.py validate    # 驗證所有題庫
+python quiz/cli.py stats       # 各章／小節正確率與未訂正錯題
+python -m pytest quiz/tests -q # 測試
+```
+
+- `quiz/quizzes/*.json`：題庫（格式見 `CLAUDE.md`）
+- `quiz/history/*.json`：作答紀錄（網頁交卷自動寫入）
+- 網頁功能：練習／考試模式、合併多份題庫作答、逐題檢討卡片、錯題本與各章正確率

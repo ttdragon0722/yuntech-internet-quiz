@@ -1,0 +1,524 @@
+{
+  "id": "20261101-112114-ea45",
+  "title": "第三章 通訊協定和網路模型 — 30 題",
+  "quizIds": [
+    "ch3-001"
+  ],
+  "finishedAt": "2026-11-01T11:21:14",
+  "durationSec": 616,
+  "total": 30,
+  "correct": 13,
+  "score": 43,
+  "items": [
+    {
+      "quizId": "ch3-001",
+      "qid": "q15",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "確保資料傳輸品質「正確、沒有遺失、沒有重複」的是 OSI 的哪一層？",
+      "options": [
+        "第 2 層 資料鏈結層",
+        "第 3 層 網路層",
+        "第 4 層 傳輸層",
+        "第 5 層 會議層"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "傳輸層（Transport）：確保網路層與會議層之間的傳輸品質。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "負責字碼轉換、編碼與解碼、資料格式轉換、壓縮與解壓縮的是 OSI 的哪一層？",
+      "options": [
+        "第 7 層 應用層",
+        "第 6 層 表現層",
+        "第 5 層 會議層",
+        "第 4 層 傳輸層"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "表現層（Presentation）：把資訊以有意義的形式表達，包含編碼解碼、格式轉換、壓縮解壓縮。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q02",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "電子郵件「收信」使用的是哪一種協定？",
+      "options": [
+        "POP3",
+        "SMTP",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "收信：POP3（郵局協定第 3 版）；送信：SMTP；瀏覽網頁：HTTP；檔案傳輸：FTP。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q09",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "RFC 文件是由哪一個組織所制定？",
+      "options": [
+        "ISO（國際標準組織）",
+        "ANSI（美國國家標準協會）",
+        "ITU（國際電訊聯盟）",
+        "IAB（網際網路架構委員會）"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "IAB → RFC 文件；TCP/IP 協定標準也是由 IAB 制定。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q06",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "OSI 網路參考模型是由哪一個組織所制定？",
+      "options": [
+        "ITU（國際電訊聯盟）",
+        "IEEE（電機電子工程師學會）",
+        "ISO（國際標準組織）",
+        "IAB（網際網路架構委員會）"
+      ],
+      "answer": 2,
+      "choice": 1,
+      "correct": false,
+      "explanation": "ISO → OSI 模型；ITU → X.25、ISDN；ANSI → ASCII；IEEE → 802 標準；IAB → RFC 文件。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q29",
+      "chapter": 3,
+      "section": "3-6",
+      "question": "IP 協定工作於哪一層，主要功能是什麼？",
+      "options": [
+        "傳輸層，確保資料沒有遺失",
+        "網路層，把封包從一個網路路由到另一個網路",
+        "應用層，提供網頁瀏覽",
+        "實體層，傳送電氣訊號"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "TCP/IP = TCP（傳輸層）＋ IP（網路層）。IP 負責把封包路由到另一個網路；TCP 在 IP 之上說明雙方如何傳送資料。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q25",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "資料「封裝」時，下層協定對上層傳下來的封包會怎麼處理？",
+      "options": [
+        "拆開上層封包重新組合",
+        "刪除上層的表頭再傳送",
+        "不理會上層如何封裝，照單全收再加上自己的表頭（Header）往下傳",
+        "直接丟棄不認得的封包"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "上層封包對下層而言就是資料（Payload），下層只加上自己的表頭。接收端解封裝時則每層拿掉自己的表頭與表尾。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q20",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的別名中，下列何者「不正確」？",
+      "options": [
+        "DoD 模型",
+        "ISO 模型",
+        "DARPA 模型",
+        "ARPANET 模型"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "TCP/IP 起源於美國國防部（DoD 模型）、由 DARPA 開發（DARPA 模型）、為 ARPANET 計畫開發（ARPANET 模型）。ISO 制定的是 OSI 模型。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q07",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "ASCII Code 是由哪一個組織所制定的標準？",
+      "options": [
+        "國際標準組織（ISO）",
+        "美國國家標準協會（ANSI）",
+        "國際電訊聯盟（ITU）",
+        "電機電子工程師學會（IEEE）"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "ASCII Code 由 ANSI 制定。⚠️ 投影片把 ANSI 誤寫為「NSI」。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q14",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "管理使用者之間資料的「交換形式」（單工、半雙工、全雙工）的是 OSI 的哪一層？",
+      "options": [
+        "第 4 層 傳輸層",
+        "第 6 層 表現層",
+        "第 3 層 網路層",
+        "第 5 層 會議層"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "會議層（Session）：管理交換形式，有單工、半雙工及全雙工。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q30",
+      "chapter": 3,
+      "section": "3-7",
+      "question": "包含了所有 TCP/IP 協定標準及其最新版本的文件是？",
+      "options": [
+        "RFC 文件",
+        "OSI 文件",
+        "IEEE 802 文件",
+        "ISO 9001 文件"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "RFC 文件包含所有 TCP/IP 協定標準，可透過 FTP、Email、HTTP 取得；RFC 1000 是 RFC 的文件指引。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q10",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 網路參考模型是 ISO 在哪一年制定的？",
+      "options": [
+        "1969 年",
+        "1984 年",
+        "1974 年",
+        "1993 年"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "ISO 於 1984 年制定 OSI（Open System Interconnection）參考模型。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q27",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "TCP/IP 模型的「應用層」大致對應 OSI 模型的哪幾層？",
+      "options": [
+        "第 5、6、7 層",
+        "第 7 層",
+        "第 4、5 層",
+        "第 1、2 層"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "TCP/IP 應用層 ↔ OSI 5、6、7；傳輸層 ↔ 4；網際網路層 ↔ 3；網路介面層 ↔ 1、2。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q28",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "下列何者是網路參考模型分層的「缺點」？",
+      "options": [
+        "分層負責",
+        "易於理解",
+        "提供網路標準",
+        "效率低落"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "分層優點：分層負責、對等交談、逐層處理、提供網路標準、易於理解。缺點：效率低落、OSI 過於學術化。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q18",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "規範電壓、電流準位、連接器種類與接腳定義、傳輸距離的是 OSI 的哪一層？",
+      "options": [
+        "第 2 層 資料鏈結層",
+        "第 3 層 網路層",
+        "第 1 層 實體層",
+        "第 7 層 應用層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "實體層（Physical）：位元在實體媒介上傳輸，包含網路的電器規格。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q21",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的傳輸層又被稱為什麼？",
+      "options": [
+        "網際網路層",
+        "主機對主機層（Host to Host）",
+        "網路介面層",
+        "會議層"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "傳輸層又稱主機對主機層，負責流量控制、錯誤處理、資料重送；協定有 TCP、UDP。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q11",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的協定像堆積木一樣層層疊上去，因此這種架構常被稱為什麼？",
+      "options": [
+        "堆疊（stack）",
+        "封包（packet）",
+        "訊框（frame）",
+        "拓樸（topology）"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "協定層層疊上去 → 堆疊（stack）或協定堆疊。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q19",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "提供使用者網頁存取、檔案交換、電子郵件、模擬終端機等服務的是 OSI 的哪一層？",
+      "options": [
+        "第 6 層 表現層",
+        "第 5 層 會議層",
+        "第 4 層 傳輸層",
+        "第 7 層 應用層"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "應用層（Application）：提供使用者網路上的服務。口訣由上而下：應表會傳網資實。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q26",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的「網路介面層」對應到電腦的哪些軟硬體？",
+      "options": [
+        "瀏覽器的 HTTP",
+        "網路卡驅動程式＋網路卡＋網路線",
+        "作業系統內建的 TCP/IP 協定",
+        "應用程式伺服器"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "應用層 → 瀏覽器 HTTP；傳輸層／網際網路層 → 作業系統內建的 TCP/IP；網路介面層 → 網卡驅動程式＋網卡＋網路線。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q08",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "X.25、X.400、X.500 和 ISDN 是由哪一個組織所制定？",
+      "options": [
+        "ISO（國際標準組織）",
+        "IEEE（電機電子工程師學會）",
+        "IETF（網際網路工程任務組）",
+        "ITU（國際電訊聯盟）"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "ITU 制定 X.25、X.400、X.500 和 ISDN。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q24",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "IPv4、IPv6 屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "傳輸層",
+        "應用層",
+        "網際網路層",
+        "網路介面層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "網際網路層（又叫網路層）：傳送 IP 資料包，資料單位 Packet，協定 IPv4、IPv6。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q01",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "在網路通訊中，「協定（protocol）」指的是什麼？",
+      "options": [
+        "連接兩台電腦的實體線材",
+        "網路卡的驅動程式",
+        "網路中的設備以何種方式交換訊息的一系列相關規定",
+        "作業系統內建的瀏覽器"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "協定就是網路的共同語言：規範訊息交換的速率、傳輸代碼、代碼架構、傳輸控制步驟、錯誤控制等參數。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q16",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "管理節點到另一個節點的「路徑」，使資料依其路徑傳輸的是 OSI 的哪一層？",
+      "options": [
+        "第 3 層 網路層",
+        "第 2 層 資料鏈結層",
+        "第 4 層 傳輸層",
+        "第 1 層 實體層"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "網路層（Network）：管理路徑，負責建立、維護及終止兩個使用者之間的連結。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q03",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "電子郵件「送信」使用的是哪一種協定？",
+      "options": [
+        "POP3",
+        "HTTP",
+        "DNS",
+        "SMTP"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "送信用 SMTP（Simple Mail Transfer Protocol），收信用 POP3。⚠️ 投影片把 SMTP 寫成「簡易訊息傳輸協定」。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q04",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "全球資訊網（WWW）用來傳輸並瀏覽超文字文件的協定是？",
+      "options": [
+        "FTP（檔案傳輸協定）",
+        "HTTP（超文字傳輸協定）",
+        "SMTP（簡易郵件傳輸協定）",
+        "POP3（郵局協定）"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "WWW → HTTP；檔案傳輸 → FTP；Email 送信 → SMTP、收信 → POP3。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q22",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "在 TCP/IP 模型中，TCP 傳送的資料單位稱為什麼？",
+      "options": [
+        "Segment",
+        "Frame",
+        "Packet",
+        "Message"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "應用層 Message；傳輸層 TCP：Segment、UDP：Datagram；網際網路層 Packet；網路介面層 Frame。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q23",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "「Frame（訊框）」是 TCP/IP 模型哪一層傳送資料的名稱？",
+      "options": [
+        "網際網路層",
+        "傳輸層",
+        "應用層",
+        "網路介面層"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "網路介面層（又稱資料鏈結層）：Frame 訊框；協定有乙太網路、記號環、IEEE 802.11。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q12",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "在 OSI 模型中，每一個層級可以跟哪些層溝通？",
+      "options": [
+        "可以跟任何一層溝通",
+        "只能跟應用層溝通",
+        "只能跟它的上一層或下一層溝通",
+        "只能跟實體層溝通"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "每個層級都只能跟它的上一層或下一層溝通，對方主機則是同層「對等交談」。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q17",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "負責資料的錯誤偵測及錯誤更正，確保實體層連結資料正確性的是 OSI 的哪一層？",
+      "options": [
+        "第 2 層 資料鏈結層",
+        "第 1 層 實體層",
+        "第 3 層 網路層",
+        "第 4 層 傳輸層"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "資料鏈結層（Data link）：確保資料正確性，包含錯誤偵測及錯誤更正。"
+    },
+    {
+      "quizId": "ch3-001",
+      "qid": "q05",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "微軟公司所制定的 NetBIOS，屬於哪一種標準？",
+      "options": [
+        "業界標準",
+        "正規（formal）標準",
+        "國際電信標準",
+        "RFC 標準"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "業界標準：由某家公司制定，產品市佔率高而成為標準（例：NetBIOS）。正規標準：由工業組織或政府單位制定（例：乙太網路）。"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956 756" width="956" height="756" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<title>網路拓樸示意圖</title>
+<style>
+ .bg{fill:#fff} .panel{fill:#f6f5f1;stroke:#e0ddd5} .title{fill:#1d232b;font-size:19px;font-weight:700}
+ .cap{fill:#1d232b;font-size:13.5px} .cap.sub{fill:#5f6873} .note{fill:#5f6873;font-size:11.5px}
+ .pc{fill:#1f5f8b} .hub{fill:#3c4652} .router{fill:#9a5b13} .boxlbl{fill:#fff;font-size:11.5px;font-weight:700}
+ .wire{stroke:#8b96a3;stroke-width:2} .trunk{stroke:#3c4652;stroke-width:4;fill:none} .term{fill:#b3372f}
+ .flow{stroke:#b3372f;stroke-width:2;fill:none} .ah{fill:#b3372f}
+ @media (prefers-color-scheme: dark) {
+  .bg{fill:#15181c} .panel{fill:#1e2227;stroke:#30363d} .title,.cap{fill:#e8e6e1} .cap.sub,.note{fill:#9aa3ad}
+  .pc{fill:#4f95c6} .hub{fill:#6b7682} .router{fill:#c98a3e} .wire{stroke:#5c6670} .trunk{stroke:#9aa3ad}
+  .term,.ah{fill:#e06a60} .flow{stroke:#e06a60}
+ }
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="ah" d="M0 0L10 5L0 10z"/></marker></defs>
+<rect class="bg" width="956" height="756"/>
+<rect class="panel" x="16" y="16" width="300" height="356" rx="12"/>
+<text class="title" x="166.0" y="50" text-anchor="middle">匯流排（Bus）</text>
+<line class="trunk" x1="46.0" y1="168.0" x2="286.0" y2="168.0"/>
+<rect class="term" x="38.0" y="159" width="8" height="18" rx="2"/>
+<rect class="term" x="286.0" y="159" width="8" height="18" rx="2"/>
+<line class="wire" x1="70.0" y1="168.0" x2="70.0" y2="116.0"/>
+<circle class="pc" cx="70.0" cy="116.0" r="12"/>
+<line class="wire" x1="118.0" y1="168.0" x2="118.0" y2="220.0"/>
+<circle class="pc" cx="118.0" cy="220.0" r="12"/>
+<line class="wire" x1="166.0" y1="168.0" x2="166.0" y2="116.0"/>
+<circle class="pc" cx="166.0" cy="116.0" r="12"/>
+<line class="wire" x1="214.0" y1="168.0" x2="214.0" y2="220.0"/>
+<circle class="pc" cx="214.0" cy="220.0" r="12"/>
+<line class="wire" x1="262.0" y1="168.0" x2="262.0" y2="116.0"/>
+<circle class="pc" cx="262.0" cy="116.0" r="12"/>
+<text class="note" x="294.0" y="192" text-anchor="end">終端器</text>
+<text class="cap" x="166.0" y="278" text-anchor="middle">所有電腦接在一條電纜上</text>
+<text class="cap sub" x="166.0" y="300" text-anchor="middle">例：10Base2、10Base5、802.4</text>
+<text class="cap" x="166.0" y="322" text-anchor="middle">✓ 不用買集線器；一台壞不影響</text>
+<text class="cap" x="166.0" y="344" text-anchor="middle">✗ 纜線一斷全網中斷；會碰撞</text>
+<rect class="panel" x="328" y="16" width="300" height="356" rx="12"/>
+<text class="title" x="478.0" y="50" text-anchor="middle">星狀（Star）</text>
+<line class="wire" x1="478.0" y1="168.0" x2="478.0" y2="96.0"/>
+<circle class="pc" cx="478.0" cy="96.0" r="12"/>
+<line class="wire" x1="478.0" y1="168.0" x2="554.2" y2="132.0"/>
+<circle class="pc" cx="554.2" cy="132.0" r="12"/>
+<line class="wire" x1="478.0" y1="168.0" x2="554.2" y2="204.0"/>
+<circle class="pc" cx="554.2" cy="204.0" r="12"/>
+<line class="wire" x1="478.0" y1="168.0" x2="478.0" y2="240.0"/>
+<circle class="pc" cx="478.0" cy="240.0" r="12"/>
+<line class="wire" x1="478.0" y1="168.0" x2="401.8" y2="204.0"/>
+<circle class="pc" cx="401.8" cy="204.0" r="12"/>
+<line class="wire" x1="478.0" y1="168.0" x2="401.8" y2="132.0"/>
+<circle class="pc" cx="401.8" cy="132.0" r="12"/>
+<rect class="hub" x="456.0" y="156.0" width="44" height="24" rx="5"/>
+<text class="boxlbl" x="478.0" y="172.0" text-anchor="middle">Hub</text>
+<text class="cap" x="478.0" y="278" text-anchor="middle">又稱放射狀，全接到集線器</text>
+<text class="cap sub" x="478.0" y="300" text-anchor="middle">例：乙太網路｜⭐ 小型 LAN 最常見</text>
+<text class="cap" x="478.0" y="322" text-anchor="middle">✓ 佈線、檢修容易；斷線只影響一台</text>
+<text class="cap" x="478.0" y="344" text-anchor="middle">✗ 集線器壞全網癱瘓；會碰撞</text>
+<rect class="panel" x="640" y="16" width="300" height="356" rx="12"/>
+<text class="title" x="790.0" y="50" text-anchor="middle">環狀（Ring）</text>
+<ellipse class="trunk" cx="790.0" cy="168" rx="86" ry="70" fill="none"/>
+<circle class="pc" cx="790.0" cy="98.0" r="12"/>
+<circle class="pc" cx="864.5" cy="133.0" r="12"/>
+<circle class="pc" cx="864.5" cy="203.0" r="12"/>
+<circle class="pc" cx="790.0" cy="238.0" r="12"/>
+<circle class="pc" cx="715.5" cy="203.0" r="12"/>
+<circle class="pc" cx="715.5" cy="133.0" r="12"/>
+<path class="flow" d="M 760.0 128 A 50 40 0 0 1 820.0 128" marker-end="url(#ah)"/>
+<text class="note" x="790.0" y="173" text-anchor="middle">記號依序傳遞</text>
+<text class="cap" x="790.0" y="278" text-anchor="middle">主幹線形成環狀迴路</text>
+<text class="cap sub" x="790.0" y="300" text-anchor="middle">例：IEEE 802.5 Token Ring</text>
+<text class="cap" x="790.0" y="322" text-anchor="middle">✓ 不會碰撞；可用橋接器擴大</text>
+<text class="cap" x="790.0" y="344" text-anchor="middle">✗ 電纜斷裂網路損毀｜實務接 MAU</text>
+<rect class="panel" x="16" y="384" width="300" height="356" rx="12"/>
+<text class="title" x="166.0" y="418" text-anchor="middle">樹狀（Tree）</text>
+<line class="wire" x1="166.0" y1="470.0" x2="96.0" y2="532.0"/>
+<line class="wire" x1="96.0" y1="532.0" x2="66.0" y2="598.0"/>
+<circle class="pc" cx="66.0" cy="598.0" r="12"/>
+<line class="wire" x1="96.0" y1="532.0" x2="96.0" y2="598.0"/>
+<circle class="pc" cx="96.0" cy="598.0" r="12"/>
+<line class="wire" x1="96.0" y1="532.0" x2="126.0" y2="598.0"/>
+<circle class="pc" cx="126.0" cy="598.0" r="12"/>
+<line class="wire" x1="166.0" y1="470.0" x2="236.0" y2="532.0"/>
+<line class="wire" x1="236.0" y1="532.0" x2="206.0" y2="598.0"/>
+<circle class="pc" cx="206.0" cy="598.0" r="12"/>
+<line class="wire" x1="236.0" y1="532.0" x2="236.0" y2="598.0"/>
+<circle class="pc" cx="236.0" cy="598.0" r="12"/>
+<line class="wire" x1="236.0" y1="532.0" x2="266.0" y2="598.0"/>
+<circle class="pc" cx="266.0" cy="598.0" r="12"/>
+<rect class="hub" x="138.0" y="458.0" width="56" height="24" rx="5"/>
+<text class="boxlbl" x="166.0" y="474.0" text-anchor="middle">Switch</text>
+<rect class="hub" x="74.0" y="520.0" width="44" height="24" rx="5"/>
+<text class="boxlbl" x="96.0" y="536.0" text-anchor="middle">Hub</text>
+<rect class="hub" x="214.0" y="520.0" width="44" height="24" rx="5"/>
+<text class="boxlbl" x="236.0" y="536.0" text-anchor="middle">Hub</text>
+<text class="cap" x="166.0" y="646" text-anchor="middle">一層接一層，像倒長的樹</text>
+<text class="cap sub" x="166.0" y="668" text-anchor="middle">又稱「階層式網路」</text>
+<text class="cap" x="166.0" y="690" text-anchor="middle">實務：集線器、交換器串接</text>
+<rect class="panel" x="328" y="384" width="300" height="356" rx="12"/>
+<text class="title" x="478.0" y="418" text-anchor="middle">網狀（Mesh）</text>
+<line class="wire" x1="478.0" y1="466.0" x2="557.9" y2="517.1"/>
+<line class="wire" x1="478.0" y1="466.0" x2="527.4" y2="599.9"/>
+<line class="wire" x1="478.0" y1="466.0" x2="428.6" y2="599.9"/>
+<line class="wire" x1="478.0" y1="466.0" x2="398.1" y2="517.1"/>
+<line class="wire" x1="557.9" y1="517.1" x2="527.4" y2="599.9"/>
+<line class="wire" x1="557.9" y1="517.1" x2="428.6" y2="599.9"/>
+<line class="wire" x1="557.9" y1="517.1" x2="398.1" y2="517.1"/>
+<line class="wire" x1="527.4" y1="599.9" x2="428.6" y2="599.9"/>
+<line class="wire" x1="527.4" y1="599.9" x2="398.1" y2="517.1"/>
+<line class="wire" x1="428.6" y1="599.9" x2="398.1" y2="517.1"/>
+<rect class="router" x="464.0" y="454.0" width="28" height="24" rx="5"/>
+<text class="boxlbl" x="478.0" y="470.0" text-anchor="middle">R</text>
+<rect class="router" x="543.9" y="505.1" width="28" height="24" rx="5"/>
+<text class="boxlbl" x="557.9" y="521.1" text-anchor="middle">R</text>
+<rect class="router" x="513.4" y="587.9" width="28" height="24" rx="5"/>
+<text class="boxlbl" x="527.4" y="603.9" text-anchor="middle">R</text>
+<rect class="router" x="414.6" y="587.9" width="28" height="24" rx="5"/>
+<text class="boxlbl" x="428.6" y="603.9" text-anchor="middle">R</text>
+<rect class="router" x="384.1" y="505.1" width="28" height="24" rx="5"/>
+<text class="boxlbl" x="398.1" y="521.1" text-anchor="middle">R</text>
+<text class="cap" x="478.0" y="646" text-anchor="middle">每台連到其他每一台（或一台以上）</text>
+<text class="cap sub" x="478.0" y="668" text-anchor="middle">實務：路由器（R）串接</text>
+<text class="cap" x="478.0" y="690" text-anchor="middle">路徑很多，路由器會自動選路</text>
+<rect class="panel" x="640" y="384" width="300" height="356" rx="12"/>
+<text class="title" x="790.0" y="418" text-anchor="middle">混合式（Hybrid）</text>
+<line class="trunk" x1="670.0" y1="480.0" x2="910.0" y2="480.0"/>
+<rect class="term" x="662.0" y="471" width="8" height="18" rx="2"/>
+<rect class="term" x="910.0" y="471" width="8" height="18" rx="2"/>
+<line class="wire" x1="724.0" y1="480.0" x2="724.0" y2="542.0"/>
+<line class="wire" x1="724.0" y1="542.0" x2="690.0" y2="600.0"/>
+<circle class="pc" cx="690.0" cy="600.0" r="12"/>
+<line class="wire" x1="724.0" y1="542.0" x2="724.0" y2="600.0"/>
+<circle class="pc" cx="724.0" cy="600.0" r="12"/>
+<line class="wire" x1="724.0" y1="542.0" x2="758.0" y2="600.0"/>
+<circle class="pc" cx="758.0" cy="600.0" r="12"/>
+<rect class="hub" x="702.0" y="530.0" width="44" height="24" rx="5"/>
+<text class="boxlbl" x="724.0" y="546.0" text-anchor="middle">Hub</text>
+<line class="wire" x1="856.0" y1="480.0" x2="856.0" y2="542.0"/>
+<line class="wire" x1="856.0" y1="542.0" x2="822.0" y2="600.0"/>
+<circle class="pc" cx="822.0" cy="600.0" r="12"/>
+<line class="wire" x1="856.0" y1="542.0" x2="856.0" y2="600.0"/>
+<circle class="pc" cx="856.0" cy="600.0" r="12"/>
+<line class="wire" x1="856.0" y1="542.0" x2="890.0" y2="600.0"/>
+<circle class="pc" cx="890.0" cy="600.0" r="12"/>
+<rect class="hub" x="834.0" y="530.0" width="44" height="24" rx="5"/>
+<text class="boxlbl" x="856.0" y="546.0" text-anchor="middle">Hub</text>
+<text class="note" x="790.0" y="468" text-anchor="middle">匯流排主幹</text>
+<text class="cap" x="790.0" y="646" text-anchor="middle">結合匯流排、星狀、環狀</text>
+<text class="cap sub" x="790.0" y="668" text-anchor="middle">例：星狀匯流排（本圖）、星狀環</text>
+<text class="cap" x="790.0" y="690" text-anchor="middle">實務上：樹狀 ＋ 網狀</text>
+</svg>

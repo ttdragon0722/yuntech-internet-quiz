@@ -1,0 +1,524 @@
+{
+  "id": "20261101-110029-a1b0",
+  "title": "第二章 基礎網路觀念 — 第二回 30 題（換句話說＋情境題）",
+  "quizIds": [
+    "ch2-002"
+  ],
+  "finishedAt": "2026-11-01T11:00:29",
+  "durationSec": 398,
+  "total": 30,
+  "correct": 22,
+  "score": 73,
+  "items": [
+    {
+      "quizId": "ch2-002",
+      "qid": "q08",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "老師想讓同學透過網路「上傳、下載」作業檔案，最適合架設哪一種提供檔案傳輸功能的伺服器？",
+      "options": [
+        "WWW 伺服器",
+        "資料庫伺服器",
+        "BBS 伺服器",
+        "FTP 伺服器"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "FTP 伺服器：提供檔案傳輸功能，可供用戶端上下載傳輸檔案（FTP = File Transfer Protocol）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q04",
+      "chapter": 2,
+      "section": "2-2",
+      "question": "下列何者屬於「用戶端」網路作業系統？",
+      "options": [
+        "Windows 2022 Server",
+        "Windows 10",
+        "Windows 2008 Server",
+        "Windows NT Server"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "名稱有 Server 的是伺服器端 NOS；Windows 95/98/XP/7/10/11 等是用戶端 NOS，主要當工作站使用。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q21",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "使用 TCP/IP 協定、可以「提供或接受」服務、但「沒有路由功能」的電腦，稱為什麼？",
+      "options": [
+        "路由器",
+        "主機",
+        "集線器",
+        "閘道器"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "主機：提供或接受服務的電腦（兩者都可以），無路由功能。上次你以為主機「只能接受服務」，這是錯的。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q10",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "下列「伺服器－功能」的配對，何者「錯誤」？",
+      "options": [
+        "WWW 伺服器－存放 HTML 網頁",
+        "BBS 伺服器－改善服務品質、減少等待時間",
+        "E-mail 伺服器－提供寄信或收信",
+        "應用程式伺服器－提供用戶端下載、執行應用程式"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "「改善服務品質、減少等待時間」是 Proxy 伺服器；BBS 伺服器是電子佈告欄。其他三個配對都正確。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q18",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "傳一則 LINE 私訊給一位同學，對應到哪一種傳輸形式？",
+      "options": [
+        "廣播式傳輸",
+        "群播式傳輸",
+        "點對點式傳輸",
+        "全雙工傳輸"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "一個節點單獨對另一個節點 → 點對點（Unicast）。傳到 LINE 群組才是群播。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q25",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "「頻寬」的定義為何？",
+      "options": [
+        "每秒所傳送的訊號單元數目",
+        "單位時間內某事件重複發生的次數",
+        "數位訊號在網路上傳輸的最高位元率",
+        "由 8 個位元所構成的數位資料"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "頻寬：最高位元率（bps）。A 是鮑率（baud）、B 是頻率（Hz）、D 是位元組（Byte）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q11",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "下列何者是「主從式（Client/Server）」架構的特徵？",
+      "options": [
+        "網路中有一部以上的伺服器，其他電腦扮演用戶端",
+        "所有電腦地位平等，自身既是 Client 也是 Server",
+        "同時存在兩種架構",
+        "網路中沒有任何伺服器"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "主從式：有專門的伺服器提供服務，其他電腦當用戶端（例：WWW 網站）。B 是對等式，C 是混合式。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q07",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "BBS 伺服器提供的是什麼服務？",
+      "options": [
+        "網頁（HTML）瀏覽",
+        "電子佈告欄系統",
+        "檔案上傳下載",
+        "網路列印"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "BBS 伺服器只提供電子佈告欄服務。上次你兩次把其他功能選成 BBS，記住：BBS = 佈告欄，沒有別的意思。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q13",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "雲端運算架構中，「本地端」使用雲端服務的電腦被稱為什麼？",
+      "options": [
+        "雲端伺服器",
+        "精簡型用戶端（thin client）",
+        "對等節點（peer）",
+        "路由器"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "雲端運算：另一端是提供服務的雲端伺服器，本地端是精簡型用戶端（thin client），是從主從式衍生的概念。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q29",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "下載速度 512 Kbps 的 ADSL，每秒可傳輸多少位元組（Byte）？",
+      "options": [
+        "512 KByte",
+        "64 KByte",
+        "4096 KByte",
+        "51.2 KByte"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "512 Kbps ÷ 8 = 64 KByte/s。再考慮 ATM Cell 效率 90.5%：64 × 90.5% = 57.92 KByte/s。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q03",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "手機透過藍牙連接無線耳機與智慧手錶所形成的網路，屬於哪一種網路？",
+      "options": [
+        "區域網路 LAN",
+        "都會網路 MAN",
+        "廣域網路 WAN",
+        "個人網路 PAN"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "PAN（Personal Area Network）：由人身周邊裝置連結起來的網路。記法：P = Personal 個人。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q24",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "區域網路因為傳送距離短，使用的是哪一種訊號傳輸方式？",
+      "options": [
+        "寬頻傳輸（Broadband）",
+        "Wideband 傳輸",
+        "基頻傳輸（Baseband）",
+        "類比調變傳輸"
+      ],
+      "answer": 2,
+      "choice": 1,
+      "correct": false,
+      "explanation": "LAN 距離短 → 基頻（Baseband）；WAN 距離遠 → 寬頻（Broadband）。Wideband 是廣告「寬頻上網」的寬頻，不是訊號傳輸方式的分類。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q19",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "依投影片定義，下列何者「不是」網路節點？",
+      "options": [
+        "有 IP 位址的個人電腦",
+        "有 IP 位址的路由器",
+        "有 IP 位址的伺服器",
+        "沒有連上網路、沒有 IP 位址的電腦"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "節點 = 使用 TCP/IP、具有一個 IP 位址的電腦或網路設備。不管是個人電腦、路由器還是伺服器，有 IP 就算；沒有 IP 就不算。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q22",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "關於「寬頻傳輸（Broadband）」，下列敘述何者正確？",
+      "options": [
+        "使用類比訊號，需要調變器，適合遠距離的廣域網路",
+        "使用數位方波訊號，不需要調變",
+        "使用分時多工（TDM）技術",
+        "雙向傳輸，主要用於區域網路"
+      ],
+      "answer": 0,
+      "choice": 3,
+      "correct": false,
+      "explanation": "寬頻：類比（正弦波）、需調變器、單向、距離遠、FDM、WAN。B、C、D 描述的都是基頻。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q14",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "關於 Client 與 Server 的網路架構，下列敘述何者「錯誤」？",
+      "options": [
+        "WWW 網站採用主從式架構",
+        "對等式架構中，自身既是 Client 也是 Server",
+        "混合式架構同時存在主從式與對等式，常見於內部區網",
+        "雲端運算架構是從對等式架構衍生的概念"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "雲端運算是從「主從式」衍生的（雲端伺服器提供服務、本地 thin client 使用），不是對等式。上次這題你選了混合式，要記住是主從式。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q20",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "下列何者是「具有路由功能」的網路設備？",
+      "options": [
+        "主機",
+        "路由器",
+        "用戶端電腦",
+        "檔案伺服器"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "路由器具有路由功能；主機（包含用戶端電腦、伺服器）提供或接受服務，但沒有路由功能。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q06",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "Proxy 伺服器的主要用途是什麼？",
+      "options": [
+        "提供電子佈告欄系統的服務",
+        "提供電子郵件寄信或收信",
+        "改善服務品質，例如減少 WWW 服務啟始的等待時間",
+        "持續儲存交易和使用者資料"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "Proxy：改善服務品質、減少等待時間。電子佈告欄是 BBS；寄收信是 E-mail；交易與使用者資料是資料庫伺服器。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q01",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "某公司把同一棟辦公大樓內各樓層的電腦連成網路，這屬於哪一種網路？",
+      "options": [
+        "廣域網路 WAN",
+        "都會網路 MAN",
+        "區域網路 LAN",
+        "個人網路 PAN"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "一棟建築物內、企業內部辦公室、自己家裡，範圍約 2 公里以內 → LAN。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q28",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "用 100 Mbps 的網路卡傳輸一個 25 MByte 的檔案，理論上需要多久？",
+      "options": [
+        "0.25 秒",
+        "4 秒",
+        "25 秒",
+        "2 秒"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "100 Mbps ÷ 8 = 12.5 MByte/s；25 ÷ 12.5 = 2 秒。（投影片範例是 50 MByte → 4 秒）"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q23",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "下列關於基頻與寬頻的對照，何者「錯誤」？",
+      "options": [
+        "基頻－使用數位訊號",
+        "寬頻－使用分頻多工 FDM",
+        "基頻－用於區域網路",
+        "基頻－單向性傳輸"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "基頻是「雙向」傳輸；寬頻才是單向。其他配對都正確。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q16",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "講電話時，雙方可以同時說話、也同時聽到對方，這屬於哪一種傳輸模式？",
+      "options": [
+        "全雙工",
+        "半雙工",
+        "單工",
+        "群播"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "同時執行接收與發送 → 全雙工（Full Duplex）。只能單一方向的是單工（例：廣播電台）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q02",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "台北總公司與高雄分公司之間的網路連線，屬於哪一種網路？",
+      "options": [
+        "廣域網路 WAN",
+        "區域網路 LAN",
+        "都會網路 MAN",
+        "個人網路 PAN"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "跨縣市、跨國的網路，範圍約 10 公里以上 → WAN。都會網路 MAN 只限一個城市內（約 2～10 公里）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q12",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "BT 下載時，每個使用者一邊下載、一邊把已下載的部分分享給其他人，沒有專門的伺服器。這屬於哪一種架構？",
+      "options": [
+        "主從式",
+        "雲端運算架構",
+        "對等式（P2P）",
+        "混合式"
+      ],
+      "answer": 2,
+      "choice": 3,
+      "correct": false,
+      "explanation": "每台都負責儲存部分資料，既發出請求也處理別人的請求，自身既是 Client 也是 Server → 對等式 P2P。（BT 為補充例子，投影片沒有提到）"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q05",
+      "chapter": 2,
+      "section": "2-2",
+      "question": "MS-DOS 與 Windows 3.1 在投影片中被歸類為什麼？",
+      "options": [
+        "一般作業系統 OS（控制基本輸入和輸出裝備）",
+        "伺服器端網路作業系統",
+        "用戶端網路作業系統",
+        "網路應用程式"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "OS：控制基本輸入輸出裝備，例如 MS-DOS、Windows 3.1。NOS 則是多了網路連線功能（Windows 95 以後、Unix/Linux）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q30",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "ATM Cell 固定長度 53 Bytes，其中真正運載「資料」的部分有多少 Bytes？",
+      "options": [
+        "48 Bytes",
+        "5 Bytes",
+        "53 Bytes",
+        "43 Bytes"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "53 = 表頭 5 + 資料 48。傳輸效率 = 資料 ÷ 全部 = 48 ÷ 53 ≈ 90.5%；5 ÷ 53 ≈ 9.4% 是表頭佔的比例（上次你選了這個）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q26",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "1 個位元組（Byte）等於幾個位元（bit）？",
+      "options": [
+        "4 bits",
+        "8 bits",
+        "16 bits",
+        "1024 bits"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "1 Byte = 8 bits。所以網路速率（bit）換成檔案大小（Byte）要除以 8。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q27",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "1000 Mbps（Gigabit）的網路卡，理論上每秒可傳輸多少 Byte？",
+      "options": [
+        "125 MByte",
+        "1000 MByte",
+        "100 MByte",
+        "8000 MByte"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "小寫 b = bit，要 ÷8：1000 ÷ 8 = 125 MByte/s。（同理 100 Mbps = 12.5 MByte/s）"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q09",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "網路購物網站的「訂單交易紀錄」與「會員資料」，應該存放在哪一種伺服器？",
+      "options": [
+        "印表機伺服器",
+        "Proxy 伺服器",
+        "檔案伺服器",
+        "資料庫伺服器"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "關鍵字「交易」「使用者資料」→ 資料庫伺服器（用來持續儲存交易和使用者資料）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q15",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "無線對講機要按住按鈕才能講話、放開才能聽到對方，這屬於哪一種傳輸模式？",
+      "options": [
+        "單工",
+        "全雙工",
+        "半雙工",
+        "廣播"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "可以收也可以發，但不能同時 → 半雙工（Half Duplex）。"
+    },
+    {
+      "quizId": "ch2-002",
+      "qid": "q17",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "視訊會議的影音資料只傳給「有加入這場會議」的成員，沒加入的人收不到。這屬於哪一種傳輸形式？",
+      "options": [
+        "群播式傳輸",
+        "廣播式傳輸",
+        "點對點式傳輸",
+        "單工傳輸"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "一對「一群」（只有群組內的成員）→ 群播。廣播是一對「其他全部」，不挑對象。"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "id": "ch4-001",
+  "title": "第四章 傳輸媒介和網路設備 — 30 題",
+  "created": "2026-11-01",
+  "description": "設備對應 OSI 層、雙絞線等級與接線、同軸／光纖、五種拓樸、各種網路設備功能",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "交換器（Switch）屬於第幾層的網路設備？",
+      "options": [
+        "第一層 實體層設備",
+        "第三層 網路層設備",
+        "第二層 資料鏈結層設備",
+        "第四層 傳輸層設備"
+      ],
+      "answer": 2,
+      "explanation": "第一層：數據機、中繼器、集線器；第二層：網路卡、交換器、橋接器；第三層：路由器、IP 分享器。"
+    },
+    {
+      "id": "q02",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "下列哪一組設備都屬於「第一層實體層」設備？",
+      "options": [
+        "數據機、中繼器、集線器",
+        "網路卡、交換器、橋接器",
+        "路由器、IP 分享器",
+        "交換器、路由器"
+      ],
+      "answer": 0,
+      "explanation": "第一層只實作實體層功能：數據機、中繼器、集線器。"
+    },
+    {
+      "id": "q03",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "IP 分享器支援 OSI 模型的哪幾層？",
+      "options": [
+        "第 1 層",
+        "第 1、2 層",
+        "第 2、3 層",
+        "第 1、2、3 層"
+      ],
+      "answer": 3,
+      "explanation": "IP 分享器和路由器一樣屬第三層設備，實作第 1、2、3 層。⭐ 小考考過路由器是第 1、2、3 層。"
+    },
+    {
+      "id": "q04",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "雙絞線把兩根銅線絞合成螺旋狀，主要目的是什麼？",
+      "options": [
+        "增加線材的重量",
+        "減少訊號衰減，以及減少串音與雜訊",
+        "讓線材更容易彎折",
+        "讓線材可以傳送光訊號"
+      ],
+      "answer": 1,
+      "explanation": "絞合的物理原理：減少傳送中訊號的衰減、減少串音（crosstalk）及雜音（Noise）。"
+    },
+    {
+      "id": "q05",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "在塑膠外皮和絞線間多一層金屬遮蔽、價格較貴的雙絞線是？",
+      "options": [
+        "STP（遮蔽式雙絞線）",
+        "UTP（無遮蔽式雙絞線）",
+        "RG-58 同軸電纜",
+        "多模光纖"
+      ],
+      "answer": 0,
+      "explanation": "STP：有金屬遮蔽、較貴；UTP：無遮蔽、便宜但易受干擾，是目前最常用的網路線材。"
+    },
+    {
+      "id": "q06",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "目前「最常使用」的網路線材是？",
+      "options": [
+        "STP 遮蔽式雙絞線",
+        "RG-11 粗同軸電纜",
+        "UTP 無遮蔽式雙絞線",
+        "單模光纖"
+      ],
+      "answer": 2,
+      "explanation": "UTP 便宜，雖然容易受干擾，仍是目前最常用的網路線材。"
+    },
+    {
+      "id": "q07",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "最高傳輸速率 1000 Mbps、用於 1000BaseT，目前為網路線主流規格的是哪一類雙絞線？",
+      "options": [
+        "Category 3",
+        "Category 5e",
+        "Category 5",
+        "Category 1"
+      ],
+      "answer": 1,
+      "explanation": "Cat 3：16 Mbps（10BaseT）；Cat 5：100 Mbps（100BaseTX，已淘汰）；Cat 5e：1000 Mbps（主流）；Cat 6：2.4 Gbps（主流）。"
+    },
+    {
+      "id": "q08",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "將兩台電腦（PC 對 PC）直接以 UTP 線連接時，網路線兩端應如何接？",
+      "options": [
+        "兩端都是 TIA/EIA-568B",
+        "兩端都是 TIA/EIA-568A",
+        "只需要接 1、2 兩根線",
+        "一端 TIA/EIA-568A、另一端 TIA/EIA-568B（跳接線）"
+      ],
+      "answer": 3,
+      "explanation": "PC ↔ PC、Hub ↔ Hub 用跳接線（568A + 568B）；PC ↔ Hub/Switch 用正常接線（兩端 568B）。"
+    },
+    {
+      "id": "q09",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "電腦接到集線器或交換器的「正常接線」，兩端各採用哪一種標準？",
+      "options": [
+        "一端 568A、一端 568B",
+        "兩端都是 TIA/EIA-568A",
+        "一端 568B、一端不接",
+        "兩端都是 TIA/EIA-568B"
+      ],
+      "answer": 3,
+      "explanation": "正常接線：A 端 Tx 本來就接 B 端 Rx，不需要交錯，兩端同為 568B。"
+    },
+    {
+      "id": "q10",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "TIA/EIA-568B 標準中，第 1 腳位是什麼顏色？",
+      "options": [
+        "白底綠紋",
+        "白底橙紋",
+        "藍色",
+        "棕色"
+      ],
+      "answer": 1,
+      "explanation": "568B：1 白橙、2 橙、3 白綠、4 藍、5 白藍、6 綠、7 白棕、8 棕。568A 則是 1、3 與 2、6 對調（綠橙互換）。"
+    },
+    {
+      "id": "q11",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "網路卡的 RJ-45 插槽中，負責「傳送（Tx）」的是哪兩個腳位？",
+      "options": [
+        "1、2",
+        "3、6",
+        "4、5",
+        "7、8"
+      ],
+      "answer": 0,
+      "explanation": "網路卡：1、2 = Tx（傳送）；3、6 = Rx（接收）。集線器端則相反。"
+    },
+    {
+      "id": "q12",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "10Base2 乙太網路使用的是哪一種同軸電纜？",
+      "options": [
+        "RG-11（75Ω）",
+        "RG-8（50Ω）",
+        "RG-58A/U（50Ω）",
+        "Category 5e"
+      ],
+      "answer": 2,
+      "explanation": "RG-8（50Ω）或 RG-11（75Ω）→ 10Base5；RG-58A/U（50Ω）→ 10Base2。"
+    },
+    {
+      "id": "q13",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "下列何者是「同軸電纜」的缺點？",
+      "options": [
+        "抗干擾性很差",
+        "一個地方故障就會影響整個網路",
+        "可服務的地理範圍很小",
+        "完全無法用於有線電視"
+      ],
+      "answer": 1,
+      "explanation": "同軸電纜優點：連通性佳、範圍廣、抗干擾性很好。缺點：接頭多易接觸不良、一處故障影響整個網路、診斷修復麻煩。"
+    },
+    {
+      "id": "q14",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "下列何者「不是」光纖的優點？",
+      "options": [
+        "完全不受電磁干擾",
+        "衰減小、傳輸距離遠",
+        "保密性高",
+        "價格便宜、架設費用低"
+      ],
+      "answer": 3,
+      "explanation": "光纖缺點：價錢高、架設費用高、彎曲半徑不宜過小、終端處理不易、熔接繁瑣。"
+    },
+    {
+      "id": "q15",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "光纖中保護光傳導纖維的那層薄薄外衣稱為什麼？",
+      "options": [
+        "STP 遮蔽層",
+        "RJ-45",
+        "cladding（披覆層）",
+        "MAU"
+      ],
+      "answer": 2,
+      "explanation": "光只在塑膠或玻璃纖維裡傳導，外面由一層稱為 cladding 的外衣保護。"
+    },
+    {
+      "id": "q16",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "下列何者是「匯流排拓樸」的特點？",
+      "options": [
+        "不用買集線器，但纜線損壞會使整個網路通訊中斷",
+        "以集線器為中心，集線器故障全網癱瘓",
+        "沒有封包碰撞問題",
+        "以多站存取單元 MAU 接線"
+      ],
+      "answer": 0,
+      "explanation": "匯流排：所有電腦接一條電纜，不需集線器；但纜線壞全斷、檢修要從頭查到尾。"
+    },
+    {
+      "id": "q17",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "又稱為「放射狀」，所有電腦都直接連到集線器的拓樸是？",
+      "options": [
+        "星狀拓樸",
+        "匯流排拓樸",
+        "環狀拓樸",
+        "網狀拓樸"
+      ],
+      "answer": 0,
+      "explanation": "星狀：以集線器為中心接成星形；乙太網路採用，⭐ 小型區域網路最常見。"
+    },
+    {
+      "id": "q18",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "三種基本拓樸中，「不會」發生封包碰撞的是？",
+      "options": [
+        "匯流排拓樸",
+        "星狀拓樸",
+        "環狀拓樸",
+        "三種都會碰撞"
+      ],
+      "answer": 2,
+      "explanation": "比較表：匯流排會碰撞、星狀會碰撞、環狀不會碰撞（例：IEEE 802.5 Token Ring）。"
+    },
+    {
+      "id": "q19",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "記號環網路透過哪一種設備接線，讓實體上完成星狀的拓樸？",
+      "options": [
+        "中繼器",
+        "橋接器",
+        "CSU/DSU",
+        "多站存取單元（MAU / MSAU）"
+      ],
+      "answer": 3,
+      "explanation": "MAU（Multi-station Access Unit，唸「帽」）把環狀所需的兩條線設計成一條直線（內含兩條線），實體接成星狀。"
+    },
+    {
+      "id": "q20",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "一個電腦連接下一層數個電腦，下一層再連接數個電腦，又稱為「階層式網路」的是？",
+      "options": [
+        "網狀拓樸",
+        "樹狀拓樸",
+        "環狀拓樸",
+        "匯流排拓樸"
+      ],
+      "answer": 1,
+      "explanation": "樹狀（Tree）：像倒長的樹，又稱階層式網路；實務上是集線器、交換器串接。網狀則是路由器串接。"
+    },
+    {
+      "id": "q21",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "10 Mbps 乙太網路的「5-4-3 規則」中，最多只能有幾個集線器？",
+      "options": [
+        "5 個",
+        "4 個",
+        "3 個",
+        "8 個"
+      ],
+      "answer": 1,
+      "explanation": "5-4-3：網路總長度不能超過 5 個區段、最多 4 個集線器、只有 3 個區段可接電腦。"
+    },
+    {
+      "id": "q22",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "交換器與集線器「最大」的差異是什麼？",
+      "options": [
+        "交換器每個埠享有專屬頻寬；集線器所有埠共用一個頻寬",
+        "交換器外觀比集線器大很多",
+        "集線器具有路由功能",
+        "交換器只能接兩台電腦"
+      ],
+      "answer": 0,
+      "explanation": "交換器（智慧型集線器、Layer 2 交換器）每埠有獨立頻寬並具資料交換功能；集線器是把資訊廣播到所有埠、共用頻寬。"
+    },
+    {
+      "id": "q23",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "IP 分享器主要具備哪一種功能，讓多台 PC 分享一個 IP？",
+      "options": [
+        "DNS 伺服器",
+        "FTP 伺服器",
+        "Proxy 伺服器",
+        "DHCP 伺服器（動態 IP 指派）"
+      ],
+      "answer": 3,
+      "explanation": "IP 分享器功能類似 HUB，主要具備 DHCP 伺服器，簡單設定就能讓多台 PC 分享一個 IP。"
+    },
+    {
+      "id": "q24",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "用來「連接不同網路區段」，例如把 Token Ring 區段連到乙太區段、或無線橋接到有線的設備是？",
+      "options": [
+        "中繼器（Repeater）",
+        "數據機（Modem）",
+        "橋接器（Bridge）",
+        "集線器（Hub）"
+      ],
+      "answer": 2,
+      "explanation": "橋接器：連接不同網路區段（兩個乙太區段、Token Ring ↔ 乙太、Mac ↔ PC、無線 ↔ 有線）。"
+    },
+    {
+      "id": "q25",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "專門設計給「兩個完全不同的網路結構」（如 TCP/IP 與 AppleTalk），能轉換封包格式的設備是？",
+      "options": [
+        "橋接器（Bridge）",
+        "交換器（Switch）",
+        "閘道器（Gateway）",
+        "中繼器（Repeater）"
+      ],
+      "answer": 2,
+      "explanation": "閘道器：轉換完全不同的封包格式，例如 PC 網路 ↔ IBM SNA、TCP/IP ↔ AppleTalk。"
+    },
+    {
+      "id": "q26",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "數據機的「調變」是指什麼？",
+      "options": [
+        "將類比信號轉換為數位信號",
+        "將數位信號轉換為類比信號",
+        "將光訊號轉換為電訊號",
+        "將封包重新排序"
+      ],
+      "answer": 1,
+      "explanation": "Modem = MOdulator/DEModulator。調變：數位 → 類比；解調變：類比 → 數位。"
+    },
+    {
+      "id": "q27",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "第 3 層交換器（Layer 3 Switch）為了加速路徑選擇，是用什麼技術處理路由？",
+      "options": [
+        "ASIC 硬體技術",
+        "軟體處理",
+        "人工設定",
+        "光纖技術"
+      ],
+      "answer": 0,
+      "explanation": "第 3 層交換器又稱交換式路由器，透過 ASIC 硬體加速；傳統路由器是由軟體處理路由。"
+    },
+    {
+      "id": "q28",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "區域網路的「預設閘道」通常是哪一種設備？",
+      "options": [
+        "集線器",
+        "中繼器",
+        "網路卡",
+        "路由器"
+      ],
+      "answer": 3,
+      "explanation": "預設閘道通常是該區域網路的路由器；路由器會自動選擇路由的路徑。"
+    },
+    {
+      "id": "q29",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "中繼器（Repeater）的作用是什麼？",
+      "options": [
+        "轉換完全不同的封包格式",
+        "把衰減的訊號重新還原為原本強度再傳送",
+        "指派動態 IP 給電腦",
+        "選擇最佳路由路徑"
+      ],
+      "answer": 1,
+      "explanation": "傳輸距離太長（約 200～500 公尺）訊號會衰減，中繼器把訊號還原後再傳送。"
+    },
+    {
+      "id": "q30",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "ADSL 與 Cable Modem 上網都必須加裝數據機，原因是什麼？",
+      "options": [
+        "電話線與有線電視電纜都是類比訊號的傳輸媒介",
+        "它們都使用光纖傳輸",
+        "它們都需要路由功能",
+        "它們都是基頻傳輸"
+      ],
+      "answer": 0,
+      "explanation": "電話線 ADSL、有線電視電纜都是類比訊號傳輸媒介，所以都需數據機。⭐ 不需要數據機的連線方式是專線。"
+    }
+  ]
+}

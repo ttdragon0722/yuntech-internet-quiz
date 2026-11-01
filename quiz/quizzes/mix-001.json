@@ -1,0 +1,708 @@
+{
+  "id": "mix-001",
+  "title": "第 1～4 章 綜合考試 — 50 題",
+  "created": "2026-11-01",
+  "description": "第 1 章 10、第 2 章 13、第 3 章 13、第 4 章 14 題；加重 2-10、2-8、3-1、4-3、2-4、1-8、3-4 等弱點小節",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 1,
+      "section": "1-2",
+      "question": "下列哪一組「全部」都屬於有線傳輸媒介？",
+      "options": [
+        "雙絞線、微波、光纖",
+        "紅外線、雷射、衛星",
+        "雙絞線、同軸電纜、光纖、電話線",
+        "同軸電纜、無線電波、電話線"
+      ],
+      "answer": 2,
+      "explanation": "有線：雙絞線、同軸電纜（RG-58）、光纖、電話線；無線：紅外線、無線電波、微波、雷射、衛星。"
+    },
+    {
+      "id": "q02",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "學校的「選課系統」讓學生從遠端登入伺服器操作資料庫，屬於哪一種資源分享？",
+      "options": [
+        "分享應用程式",
+        "分享檔案",
+        "分享週邊設備",
+        "分享訊息"
+      ],
+      "answer": 0,
+      "explanation": "資源分享四種：檔案（網路芳鄰、FTP）、應用程式（選課系統）、週邊設備（印表機）、訊息（公告）。"
+    },
+    {
+      "id": "q03",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "下列 Internet 大事依年代先後排列，何者正確？",
+      "options": [
+        "ARPANET 建立 → WWW 問世 → 拆出 MILNET → ARPANET 終止",
+        "拆出 MILNET → ARPANET 建立 → WWW 問世 → ARPANET 終止",
+        "WWW 問世 → ARPANET 建立 → ARPANET 終止 → 拆出 MILNET",
+        "ARPANET 建立 → 拆出 MILNET → ARPANET 終止 → WWW 問世"
+      ],
+      "answer": 3,
+      "explanation": "1969 ARPANET 建立 → 1983 拆出 MILNET → 1990 ARPANET 終止 → 1993 WWW 問世。"
+    },
+    {
+      "id": "q04",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "台灣學術網路 TANet 是由哪個單位與國立大學共同建立？",
+      "options": [
+        "經濟部",
+        "教育部",
+        "交通部",
+        "中華電信"
+      ],
+      "answer": 1,
+      "explanation": "TANet：教育部＋國立大學，民國 79 年 7 月建立、免費；SeedNet：經濟部委託資策會；HiNet：中華電信。"
+    },
+    {
+      "id": "q05",
+      "chapter": 1,
+      "section": "1-6",
+      "question": "中鋼的電子商務網站讓企業與企業間透過網路溝通與交易，屬於哪一種類型？",
+      "options": [
+        "B2B",
+        "B2C",
+        "C2C",
+        "C2B"
+      ],
+      "answer": 0,
+      "explanation": "B2B（企業↔企業）：中鋼；B2C（企業→消費者）：博客來；C2C（消費者↔消費者）：Yahoo 拍賣。"
+    },
+    {
+      "id": "q06",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "下列雲端服務類型與範例的配對，何者「錯誤」？",
+      "options": [
+        "SaaS－Google Docs",
+        "PaaS－Google App Engine",
+        "IaaS－Google Docs",
+        "IaaS－Microsoft Azure"
+      ],
+      "answer": 2,
+      "explanation": "Google Docs 是 SaaS（軟體即服務），不是 IaaS。"
+    },
+    {
+      "id": "q07",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網三層架構由下而上的順序，下列何者正確？",
+      "options": [
+        "應用層 → 網路層 → 感知層",
+        "感知層 → 網路層 → 應用層",
+        "網路層 → 感知層 → 應用層",
+        "實體層 → 傳輸層 → 應用層"
+      ],
+      "answer": 1,
+      "explanation": "最下層感知層（RFID、Sensor）→ 中間網路層（2G/3G、Wi-Fi）→ 最上層應用層。"
+    },
+    {
+      "id": "q08",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網涵蓋的「三大範疇」是指？",
+      "options": [
+        "Any Time、Any Place、Any Thing",
+        "感知層、網路層、應用層",
+        "SaaS、PaaS、IaaS",
+        "人與人、物件與物件、人與物件"
+      ],
+      "answer": 3,
+      "explanation": "三大範疇：人與人、物與物、人與物。三個維度才是 Any Time／Place／Thing；三層架構是感知／網路／應用。"
+    },
+    {
+      "id": "q09",
+      "chapter": 1,
+      "section": "1-9",
+      "question": "SDN 網路架構中，網路設備本身主要負責什麼？",
+      "options": [
+        "統一管理整個網路",
+        "自行決定所有路由規則",
+        "提供雲端儲存空間",
+        "單純負責資料傳輸"
+      ],
+      "answer": 3,
+      "explanation": "SDN 把設備的操控介面獨立出來交給 SDN 控制器統一管理，網路設備只負責資料傳輸。"
+    },
+    {
+      "id": "q10",
+      "chapter": 1,
+      "section": "1-10",
+      "question": "家中的遊戲機、網路冰箱能互相連結傳輸資料，屬於網路未來四大特點中的哪一項？",
+      "options": [
+        "網路寬頻化",
+        "家庭網路化",
+        "網路無線化",
+        "雲端運算"
+      ],
+      "answer": 1,
+      "explanation": "家庭網路化：在傳統消費家電中引入數位化與網路通訊技術，例：XBOX、PS3、Wii、網路冰箱。"
+    },
+    {
+      "id": "q11",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "一座城市內，分布在不同區域的各校區大樓互相連網，範圍約 5 公里，屬於？",
+      "options": [
+        "都會網路 MAN",
+        "區域網路 LAN",
+        "廣域網路 WAN",
+        "個人網路 PAN"
+      ],
+      "answer": 0,
+      "explanation": "LAN ≤ 2 km < MAN（2～10 km，城市內）< WAN（10 km 以上，跨縣市、跨國）。"
+    },
+    {
+      "id": "q12",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "下列哪一個描述對應到「應用程式伺服器」？",
+      "options": [
+        "存放 HTML 網頁供瀏覽器瀏覽",
+        "持續儲存交易和使用者資料",
+        "存放程式，提供用戶端電腦下載、執行應用程式",
+        "減少 WWW 服務啟始的等待時間"
+      ],
+      "answer": 2,
+      "explanation": "B 是 WWW 伺服器、C 是資料庫伺服器、D 是 Proxy 伺服器。記關鍵字：「執行程式」→ 應用程式伺服器。"
+    },
+    {
+      "id": "q13",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "公司架設一台伺服器，讓員工連網時能減少網頁服務啟始的等待時間、改善服務品質，應架設？",
+      "options": [
+        "BBS 伺服器",
+        "Proxy 伺服器",
+        "FTP 伺服器",
+        "資料庫伺服器"
+      ],
+      "answer": 1,
+      "explanation": "Proxy：改善服務品質、減少等待時間。BBS 只是電子佈告欄。"
+    },
+    {
+      "id": "q14",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "下列何者採用「主從式（Client/Server）」架構？",
+      "options": [
+        "BT 下載軟體",
+        "所有電腦都互相分享資料的小型網路",
+        "沒有任何伺服器的網路",
+        "WWW 網站"
+      ],
+      "answer": 3,
+      "explanation": "WWW 網站：有伺服器提供網頁、瀏覽器來連 → 主從式。BT 和互相分享是對等式（P2P）。"
+    },
+    {
+      "id": "q15",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "下列敘述何者正確？",
+      "options": [
+        "混合式架構中只有對等式",
+        "對等式架構中一定有專屬伺服器",
+        "雲端運算架構是從主從式架構衍生而來",
+        "WWW 網站採用對等式架構"
+      ],
+      "answer": 2,
+      "explanation": "雲端：雲端伺服器提供服務、本地 thin client 使用 → 從主從式衍生。混合式＝主從式＋對等式同時存在。"
+    },
+    {
+      "id": "q16",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "廣播電台只能由電台發送節目、收音機只能接收，這是哪一種傳輸模式？",
+      "options": [
+        "單工",
+        "半雙工",
+        "全雙工",
+        "群播"
+      ],
+      "answer": 0,
+      "explanation": "單工：只有單方向（發送端 → 接收端）。半雙工：可收可發但不能同時（對講機）；全雙工：同時收發（電話）。"
+    },
+    {
+      "id": "q17",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "一台電腦送出資料，同一網路上「其他所有」電腦都會收到，這是？",
+      "options": [
+        "廣播式傳輸",
+        "群播式傳輸",
+        "點對點式傳輸",
+        "單工傳輸"
+      ],
+      "answer": 0,
+      "explanation": "廣播：一對其他全部；群播：一對一群（要先加入群組）；點對點：一對一。"
+    },
+    {
+      "id": "q18",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "下列何者具有路由功能？",
+      "options": [
+        "主機",
+        "網路節點中所有的電腦",
+        "路由器",
+        "用戶端電腦"
+      ],
+      "answer": 2,
+      "explanation": "主機（提供或接受服務的電腦）沒有路由功能；路由器才有。節點＝有 IP 的電腦或網路設備。"
+    },
+    {
+      "id": "q19",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "下列何者是「基頻傳輸」使用的多頻道技術？",
+      "options": [
+        "分頻多工（FDM）",
+        "跳頻展頻",
+        "載波聚合",
+        "分時多工（TDM）"
+      ],
+      "answer": 3,
+      "explanation": "基頻：數位、不需調變、雙向、距離短、TDM、LAN。寬頻：類比、需調變器、單向、距離遠、FDM、WAN。"
+    },
+    {
+      "id": "q20",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "需要額外加裝一台「調變器」才能傳輸的是哪一種訊號傳輸方式？",
+      "options": [
+        "基頻傳輸（Baseband）",
+        "寬頻傳輸（Broadband）",
+        "點對點傳輸",
+        "全雙工傳輸"
+      ],
+      "answer": 1,
+      "explanation": "寬頻不是用固定頻率，需要調變器記錄每次訊號頻率代表的意思；基頻直接傳數位訊號，不需調變。"
+    },
+    {
+      "id": "q21",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "網路或資料通訊系統的「傳輸速率」稱為什麼？單位為何？",
+      "options": [
+        "鮑率，單位 baud",
+        "位元率，單位 bps",
+        "頻率，單位 Hz",
+        "位元組，單位 Byte"
+      ],
+      "answer": 1,
+      "explanation": "位元率＝傳輸速率（bps）；頻寬＝最高位元率（bps）；鮑率＝每秒訊號單元數（baud）；頻率（Hz）。"
+    },
+    {
+      "id": "q22",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "用 100 Mbps 網路傳輸 100 MByte 的檔案，理論上需要幾秒？",
+      "options": [
+        "8 秒",
+        "1 秒",
+        "4 秒",
+        "12.5 秒"
+      ],
+      "answer": 0,
+      "explanation": "100 Mbps ÷ 8 = 12.5 MByte/s；100 ÷ 12.5 = 8 秒。先 ÷8 再算時間。"
+    },
+    {
+      "id": "q23",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "1 MB 等於多少？",
+      "options": [
+        "1000 bits",
+        "2¹⁰ bits",
+        "8 Byte",
+        "2²⁰ Byte（1024 KByte）"
+      ],
+      "answer": 3,
+      "explanation": "1 KB = 2¹⁰ = 1024 Byte；1 MB = 2²⁰ = 1024 KByte；1 GB = 2³⁰ = 1024 MByte。"
+    },
+    {
+      "id": "q24",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "下列協定與用途的配對，何者「錯誤」？",
+      "options": [
+        "HTTP－瀏覽超文字文件",
+        "FTP－檔案傳輸",
+        "POP3－寄出電子郵件",
+        "SMTP－寄出電子郵件"
+      ],
+      "answer": 2,
+      "explanation": "POP3 是「收信」；寄信（送信）是 SMTP。"
+    },
+    {
+      "id": "q25",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "IEEE 802 標準是由哪一個組織制定？",
+      "options": [
+        "國際標準組織（ISO）",
+        "美國國家標準協會（ANSI）",
+        "電機電子工程師學會（IEEE）",
+        "網際網路架構委員會（IAB）"
+      ],
+      "answer": 2,
+      "explanation": "IEEE → 802；ISO → OSI；ANSI → ASCII；IAB → RFC；ITU → X.25、ISDN。"
+    },
+    {
+      "id": "q26",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "「由某家公司或機構制定，產品在市場上有相當佔有率而成為標準」是指？",
+      "options": [
+        "正規標準",
+        "業界標準",
+        "國際標準",
+        "RFC 標準"
+      ],
+      "answer": 1,
+      "explanation": "業界標準：例 NetBIOS；正規標準：由工業組織或政府制定，例乙太網路，通常曠日費時。"
+    },
+    {
+      "id": "q27",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "國際電訊聯盟（ITU）制定了下列哪一項？",
+      "options": [
+        "ISDN",
+        "OSI 模型",
+        "ASCII Code",
+        "RFC 文件"
+      ],
+      "answer": 0,
+      "explanation": "ITU（國際電訊）→ 電信相關：X.25、X.400、X.500、ISDN。"
+    },
+    {
+      "id": "q28",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型的「第 5 層」是哪一層？",
+      "options": [
+        "傳輸層",
+        "表現層",
+        "網路層",
+        "會議層"
+      ],
+      "answer": 3,
+      "explanation": "應表會傳網資實＝第 7～1 層：7 應用、6 表現、5 會議、4 傳輸、3 網路、2 資料鏈結、1 實體。"
+    },
+    {
+      "id": "q29",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "網路傳輸時發現資料位元出錯並加以更正，屬於 OSI 哪一層的工作？",
+      "options": [
+        "網路層",
+        "資料鏈結層",
+        "傳輸層",
+        "會議層"
+      ],
+      "answer": 1,
+      "explanation": "資料鏈結層「查錯」（錯誤偵測與更正）；網路層「找路」；傳輸層「保品質」（正確、不遺失、不重複）。"
+    },
+    {
+      "id": "q30",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "確保資料「沒有遺失、沒有重複」地在網路層與會議層之間傳輸，是 OSI 哪一層？",
+      "options": [
+        "傳輸層",
+        "資料鏈結層",
+        "實體層",
+        "應用層"
+      ],
+      "answer": 0,
+      "explanation": "傳輸層（第 4 層）確保傳輸品質。"
+    },
+    {
+      "id": "q31",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的哪一層負責資料的「壓縮與解壓縮」？",
+      "options": [
+        "會議層",
+        "應用層",
+        "表現層",
+        "傳輸層"
+      ],
+      "answer": 2,
+      "explanation": "表現層（第 6 層）：字碼轉換、編碼解碼、格式轉換、壓縮解壓縮。"
+    },
+    {
+      "id": "q32",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 中負責「管理路徑」、建立維護及終止兩使用者間連結的是第幾層？",
+      "options": [
+        "第 3 層",
+        "第 2 層",
+        "第 4 層",
+        "第 1 層"
+      ],
+      "answer": 0,
+      "explanation": "第 3 層網路層管路徑；路由器就是第 3 層設備。"
+    },
+    {
+      "id": "q33",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP 與 UDP 屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "網際網路層",
+        "應用層",
+        "網路介面層",
+        "傳輸層"
+      ],
+      "answer": 3,
+      "explanation": "傳輸層（主機對主機層）：TCP、UDP；網際網路層：IPv4、IPv6；應用層：HTTP、FTP、SMTP、POP3、DNS、DHCP。"
+    },
+    {
+      "id": "q34",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "DNS、DHCP 屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "傳輸層",
+        "應用層",
+        "網際網路層",
+        "網路介面層"
+      ],
+      "answer": 1,
+      "explanation": "應用層協定：HTTP、FTP、SMTP、POP3、DNS、DHCP；資料單位 Message。"
+    },
+    {
+      "id": "q35",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "接收端「解封裝」時，每一層會怎麼處理收到的資料？",
+      "options": [
+        "拿掉自己層的表頭（Header）與表尾（Trailer），剩下的交給上層",
+        "再加上一層表頭往上傳",
+        "把資料全部丟給應用層處理",
+        "重新封裝後送回傳送端"
+      ],
+      "answer": 0,
+      "explanation": "封裝（傳送端）：每層加表頭往下傳；解封裝（接收端）：每層拿掉自己的表頭表尾，剩下的 Payload 交給上層。"
+    },
+    {
+      "id": "q36",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "OSI 模型的第 3 層網路層，對應到 TCP/IP 模型的哪一層？",
+      "options": [
+        "傳輸層",
+        "網路介面層",
+        "網際網路層",
+        "應用層"
+      ],
+      "answer": 2,
+      "explanation": "OSI 1、2 → 網路介面層；3 → 網際網路層；4 → 傳輸層；5、6、7 → 應用層。"
+    },
+    {
+      "id": "q37",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "數據機、中繼器、集線器的共同點是什麼？",
+      "options": [
+        "都具有路由功能",
+        "都只實作 OSI 第一層實體層的功能",
+        "都屬於第三層設備",
+        "都能轉換不同的封包格式"
+      ],
+      "answer": 1,
+      "explanation": "第一層設備：數據機、中繼器、集線器；第二層：網路卡、交換器、橋接器；第三層：路由器、IP 分享器。"
+    },
+    {
+      "id": "q38",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "路由器支援 OSI 模型的哪幾層？",
+      "options": [
+        "第 1 層",
+        "第 1、2 層",
+        "第 3、4 層",
+        "第 1、2、3 層"
+      ],
+      "answer": 3,
+      "explanation": "第三層設備會同時實作第 1、2、3 層。⭐ 小考考過：網路卡第 1、2 層；路由器第 1、2、3 層。"
+    },
+    {
+      "id": "q39",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "兩台集線器（Hub ↔ Hub）之間串接，網路線應如何製作？",
+      "options": [
+        "正常接線：兩端都是 568B",
+        "兩端都是 568A",
+        "不需要網路線",
+        "跳接線：一端 568A、一端 568B"
+      ],
+      "answer": 3,
+      "explanation": "同類設備（PC↔PC、Hub↔Hub）用跳接線；不同類（PC↔Hub/Switch）用正常接線（兩端 568B）。"
+    },
+    {
+      "id": "q40",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "依 568B 標準，第 3 腳和第 6 腳分別是什麼顏色？",
+      "options": [
+        "白橙、橙",
+        "白綠、綠",
+        "藍、白藍",
+        "白棕、棕"
+      ],
+      "answer": 1,
+      "explanation": "568B：1 白橙、2 橙、3 白綠、4 藍、5 白藍、6 綠、7 白棕、8 棕（口訣：白橙橙、白綠藍、白藍綠、白棕棕）。"
+    },
+    {
+      "id": "q41",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "無遮蔽式雙絞線（UTP）相較於遮蔽式（STP），下列何者正確？",
+      "options": [
+        "較便宜，但較容易受干擾",
+        "較昂貴，抗干擾較好",
+        "多一層金屬遮蔽",
+        "已經完全淘汰不用"
+      ],
+      "answer": 0,
+      "explanation": "UTP：無金屬遮蔽、便宜、易受干擾、目前最常用；STP：多一層金屬遮蔽、較貴。"
+    },
+    {
+      "id": "q42",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "以「光」為傳遞方式、完全不受電波干擾，常作為遠程通訊或傳輸骨幹的媒介是？",
+      "options": [
+        "同軸電纜",
+        "UTP 雙絞線",
+        "光纖",
+        "STP 雙絞線"
+      ],
+      "answer": 2,
+      "explanation": "光纖：高頻寬、衰減小、抗電磁干擾、保密性高；缺點是價格與架設費高、熔接繁瑣。"
+    },
+    {
+      "id": "q43",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "某拓樸的特點是「佈線容易、檢修容易、電纜斷線不會讓整個網路毀損」，它是？",
+      "options": [
+        "匯流排拓樸",
+        "星狀拓樸",
+        "環狀拓樸",
+        "以上皆是"
+      ],
+      "answer": 1,
+      "explanation": "比較表：只有星狀是佈線容易、斷線不毀損、檢修容易；匯流排和環狀都困難。"
+    },
+    {
+      "id": "q44",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "下列哪一種拓樸「不需要」任何集線設備？",
+      "options": [
+        "星狀拓樸",
+        "環狀拓樸（使用 MAU）",
+        "樹狀拓樸",
+        "匯流排拓樸"
+      ],
+      "answer": 3,
+      "explanation": "匯流排：無集線設備（所有電腦接同一條電纜）；星狀用 Hub/Switch；環狀用 MAU；樹狀是集線器／交換器串接。"
+    },
+    {
+      "id": "q45",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "使用「記號」依序傳遞，因此沒有碰撞問題的拓樸是？",
+      "options": [
+        "星狀拓樸",
+        "匯流排拓樸",
+        "環狀拓樸",
+        "網狀拓樸"
+      ],
+      "answer": 2,
+      "explanation": "環狀（例：IEEE 802.5 Token Ring）不會碰撞；匯流排和星狀都會碰撞。"
+    },
+    {
+      "id": "q46",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "實務上，由路由器互相串接形成的拓樸是？",
+      "options": [
+        "網狀（Mesh）",
+        "樹狀（Tree）",
+        "匯流排（Bus）",
+        "環狀（Ring）"
+      ],
+      "answer": 0,
+      "explanation": "網狀：路由器串接；樹狀：集線器、交換器串接。實務上的混合式＝樹狀＋網狀。"
+    },
+    {
+      "id": "q47",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "交換器又被稱為什麼？",
+      "options": [
+        "智慧型集線器或 Layer 2 交換器",
+        "訊號放大器",
+        "多站存取單元",
+        "預設閘道"
+      ],
+      "answer": 0,
+      "explanation": "交換器：智慧型集線器、Layer 2 交換器；每埠有獨立頻寬並具交換功能。集線器則是所有埠共用一個頻寬。"
+    },
+    {
+      "id": "q48",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "下列何者「不是」集線器（Hub）的特點？",
+      "options": [
+        "是多連接埠的信號放大設備",
+        "把資訊廣播到所有連接埠",
+        "每個連接埠都有專屬頻寬",
+        "用戶加入和退出很自由"
+      ],
+      "answer": 2,
+      "explanation": "「每埠專屬頻寬」是交換器的特點；集線器是所有埠共用一個頻寬。"
+    },
+    {
+      "id": "q49",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "電腦要透過「電話線」撥接上網，電腦端必須安裝什麼設備？",
+      "options": [
+        "交換器",
+        "橋接器",
+        "閘道器",
+        "數據機（Modem）"
+      ],
+      "answer": 3,
+      "explanation": "撥接：電腦裝數據機（或數據卡）接一般電話線；數據機負責調變（數位→類比）與解調變（類比→數位）。"
+    },
+    {
+      "id": "q50",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "CSU/DSU 的主要功能是什麼？",
+      "options": [
+        "把無線網路橋接到有線網路",
+        "提供 WAN 與 LAN 之間的介面，並提供傳輸資料所需的時脈",
+        "指派動態 IP 位址",
+        "讓記號環實體接成星狀"
+      ],
+      "answer": 1,
+      "explanation": "CSU/DSU 通常包在同一裝置：CSU 收發 WAN 訊號並測試迴路，DSU 管理線路與偵測。"
+    }
+  ]
+}

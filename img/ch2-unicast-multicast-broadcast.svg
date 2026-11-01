@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<title>點對點、群播、廣播示意圖</title>
+<style>
+  .bg{fill:#ffffff} .panel{fill:#f6f5f1;stroke:#e0ddd5} .title{fill:#1d232b;font-size:20px;font-weight:700}
+  .cap{fill:#1d232b;font-size:15px} .sub{fill:#5f6873;font-size:14px}
+  .send{fill:#b3372f} .recv{fill:#1f5f8b} .idle{fill:#c9c6be} .lbl{fill:#fff;font-size:15px;font-weight:700}
+  .arrow{stroke:#1f5f8b;stroke-width:2.5;fill:none} .group{fill:#e3eef6;stroke:#1f5f8b;stroke-dasharray:6 4}
+  .gl{fill:#1f5f8b;font-size:13px} .tag{fill:#5f6873;font-size:13px}
+  @media (prefers-color-scheme: dark) {
+    .bg{fill:#15181c} .panel{fill:#1e2227;stroke:#30363d} .title,.cap{fill:#e8e6e1} .sub,.tag{fill:#9aa3ad}
+    .recv{fill:#4f95c6} .idle{fill:#4a4f56} .arrow{stroke:#6fb0de} .group{fill:#1f3343;stroke:#6fb0de} .gl{fill:#6fb0de} .send{fill:#d0564c}
+  }
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0 0L10 5L0 10z" class="recv"/></marker></defs>
+<rect class="bg" width="960" height="440"/>
+<rect class="panel" x="20" y="16" width="300" height="408" rx="12"/>
+<text class="title" x="170" y="50" text-anchor="middle">點對點（Unicast）</text>
+<line class="arrow" x1="170.0" y1="129.0" x2="170.0" y2="243.0" marker-end="url(#ah)"/>
+<circle class="send" cx="170" cy="100" r="26"/>
+<text class="lbl" x="170" y="105" text-anchor="middle">A</text>
+<text class="tag" x="204" y="105">傳送端</text>
+<circle class="idle" cx="58" cy="270" r="22"/>
+<text class="lbl" x="58" y="275" text-anchor="middle">B</text>
+<circle class="idle" cx="114" cy="270" r="22"/>
+<text class="lbl" x="114" y="275" text-anchor="middle">C</text>
+<circle class="recv" cx="170" cy="270" r="22"/>
+<text class="lbl" x="170" y="275" text-anchor="middle">D</text>
+<circle class="idle" cx="226" cy="270" r="22"/>
+<text class="lbl" x="226" y="275" text-anchor="middle">E</text>
+<circle class="idle" cx="282" cy="270" r="22"/>
+<text class="lbl" x="282" y="275" text-anchor="middle">F</text>
+<text class="cap" x="170" y="362" text-anchor="middle">一對一：只有 D 收到</text>
+<text class="sub" x="170" y="386" text-anchor="middle">像打電話給一個人</text>
+<rect class="panel" x="330" y="16" width="300" height="408" rx="12"/>
+<text class="title" x="480" y="50" text-anchor="middle">群播（Multicast）</text>
+<rect class="group" x="390" y="234" width="180" height="72" rx="14"/>
+<text class="gl" x="480.0" y="322" text-anchor="middle">群組</text>
+<line class="arrow" x1="470.9" y1="127.5" x2="432.4" y2="244.4" marker-end="url(#ah)"/>
+<line class="arrow" x1="480.0" y1="129.0" x2="480.0" y2="243.0" marker-end="url(#ah)"/>
+<line class="arrow" x1="489.1" y1="127.5" x2="527.6" y2="244.4" marker-end="url(#ah)"/>
+<circle class="send" cx="480" cy="100" r="26"/>
+<text class="lbl" x="480" y="105" text-anchor="middle">A</text>
+<text class="tag" x="514" y="105">傳送端</text>
+<circle class="idle" cx="368" cy="270" r="22"/>
+<text class="lbl" x="368" y="275" text-anchor="middle">B</text>
+<circle class="recv" cx="424" cy="270" r="22"/>
+<text class="lbl" x="424" y="275" text-anchor="middle">C</text>
+<circle class="recv" cx="480" cy="270" r="22"/>
+<text class="lbl" x="480" y="275" text-anchor="middle">D</text>
+<circle class="recv" cx="536" cy="270" r="22"/>
+<text class="lbl" x="536" y="275" text-anchor="middle">E</text>
+<circle class="idle" cx="592" cy="270" r="22"/>
+<text class="lbl" x="592" y="275" text-anchor="middle">F</text>
+<text class="cap" x="480" y="362" text-anchor="middle">一對一群：只有群組內的 C、D、E 收到</text>
+<text class="sub" x="480" y="386" text-anchor="middle">像傳訊息到 LINE 群組</text>
+<rect class="panel" x="640" y="16" width="300" height="408" rx="12"/>
+<text class="title" x="790" y="50" text-anchor="middle">廣播（Broadcast）</text>
+<line class="arrow" x1="774.0" y1="124.2" x2="692.9" y2="247.5" marker-end="url(#ah)"/>
+<line class="arrow" x1="780.9" y1="127.5" x2="742.4" y2="244.4" marker-end="url(#ah)"/>
+<line class="arrow" x1="790.0" y1="129.0" x2="790.0" y2="243.0" marker-end="url(#ah)"/>
+<line class="arrow" x1="799.1" y1="127.5" x2="837.6" y2="244.4" marker-end="url(#ah)"/>
+<line class="arrow" x1="806.0" y1="124.2" x2="887.1" y2="247.5" marker-end="url(#ah)"/>
+<circle class="send" cx="790" cy="100" r="26"/>
+<text class="lbl" x="790" y="105" text-anchor="middle">A</text>
+<text class="tag" x="824" y="105">傳送端</text>
+<circle class="recv" cx="678" cy="270" r="22"/>
+<text class="lbl" x="678" y="275" text-anchor="middle">B</text>
+<circle class="recv" cx="734" cy="270" r="22"/>
+<text class="lbl" x="734" y="275" text-anchor="middle">C</text>
+<circle class="recv" cx="790" cy="270" r="22"/>
+<text class="lbl" x="790" y="275" text-anchor="middle">D</text>
+<circle class="recv" cx="846" cy="270" r="22"/>
+<text class="lbl" x="846" y="275" text-anchor="middle">E</text>
+<circle class="recv" cx="902" cy="270" r="22"/>
+<text class="lbl" x="902" y="275" text-anchor="middle">F</text>
+<text class="cap" x="790" y="362" text-anchor="middle">一對其他全部：B～F 全部收到</text>
+<text class="sub" x="790" y="386" text-anchor="middle">像學校的廣播系統</text>
+</svg>

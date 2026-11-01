@@ -1,0 +1,184 @@
+{
+  "id": "20261101-100948-73c4",
+  "title": "第一章 網路概論 — 基礎 10 題",
+  "quizIds": [
+    "ch1-001"
+  ],
+  "finishedAt": "2026-11-01T10:09:48",
+  "durationSec": 1171,
+  "total": 10,
+  "correct": 4,
+  "score": 40,
+  "items": [
+    {
+      "quizId": "ch1-001",
+      "qid": "q07",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "Google Docs（網頁版文書軟體）屬於哪一類雲端服務？",
+      "options": [
+        "IaaS 基礎建設即服務",
+        "PaaS 平台即服務",
+        "DaaS 資料即服務",
+        "SaaS 軟體即服務"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "SaaS 代表：Google Docs；PaaS 代表：Google App Engine；IaaS 代表：Microsoft Azure。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q08",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "提供平台給開發人員建構、測試及部署應用程式的雲端服務，例如 Google App Engine，屬於？",
+      "options": [
+        "PaaS",
+        "SaaS",
+        "IaaS",
+        "SDN"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "PaaS（Platform as a Service）提供開發與託管平台，Google App Engine 是投影片的範例。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q03",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "全球資訊網（WWW）是在哪一年問世？",
+      "options": [
+        "1969 年",
+        "1983 年",
+        "1990 年",
+        "1993 年"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "1969 ARPANET 建立；1983 拆出 MILNET；1990 ARPANET 終止；1993 WWW 問世。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q04",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "依投影片，網路的「最大應用」是哪一種資源分享？",
+      "options": [
+        "檔案的分享和管理",
+        "應用程式的分享",
+        "週邊設備（如印表機）的分享",
+        "訊息的公告"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "網路的功用著重於資源分享，共四種：檔案、應用程式、週邊設備、訊息；其中最大應用是「檔案」的分享和管理（網路芳鄰、網路磁碟機、FTP）。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q10",
+      "chapter": 1,
+      "section": "1-9",
+      "question": "關於 SDN（軟體定義網路），下列敘述何者正確？",
+      "options": [
+        "每台網路設備各自獨立決定路由，不需集中管理",
+        "將網路設備的操控介面獨立出來，由 SDN 控制器統一管理",
+        "是一種新型的光纖傳輸媒介",
+        "專指以藍牙連接的個人網路"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "SDN = Software Defined Network：把設備的操控介面獨立出來交給 SDN 控制器統一管理，設備只負責資料傳輸，因而能規劃最佳傳輸路徑。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q06",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "利用「有線電視雙向同軸網路」提供上網服務的寬頻技術是？",
+      "options": [
+        "ADSL",
+        "Cable Modem",
+        "FTTH",
+        "4G 行動上網"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "Cable Modem（纜線數據機）由有線電視業者提供，使用同軸電纜；ADSL 使用普通電話線；FTTH 是光纖到戶。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q09",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網三層架構中，由 RFID、Sensor 等資訊擷取與識別元件所組成的是哪一層？",
+      "options": [
+        "應用層",
+        "網路層",
+        "感知層",
+        "實體層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "物聯網三層：最下層「感知層」（RFID、Sensor）、中間「網路層」（2G/3G、Wi-Fi）、最上層「應用層」。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q05",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "下列哪一個是由教育部與幾所主要國立大學共同建立、免費提供全國各級學校使用的網路？",
+      "options": [
+        "HiNet",
+        "SeedNet",
+        "TANet",
+        "TFN"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "TANet（台灣學術網路）民國 79 年 7 月建立，是全國性教學研究網路；HiNet 屬中華電信；SeedNet 由經濟部委託資策會成立。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q02",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "1983 年 ARPANET 拆分成兩個部分，其中專供國防、軍事用途的網路稱為？",
+      "options": [
+        "NSFNET",
+        "TANet",
+        "MILNET",
+        "SeedNet"
+      ],
+      "answer": 2,
+      "choice": 3,
+      "correct": false,
+      "explanation": "1983 年 ARPANET 分為：ARPANET（開放給民間研究機構）與 MILNET（國防軍事用途）。"
+    },
+    {
+      "quizId": "ch1-001",
+      "qid": "q01",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "ARPANET 是由美國國防部委託哪一個單位所發展的？",
+      "options": [
+        "NSF（國家科學基金會）",
+        "ARPA（高級研究計畫署，現 DARPA）",
+        "IETF（網際網路工程任務組）",
+        "Xerox PARC（全錄研究中心）"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "1969 年美國國防部（DoD）委託高級研究計畫署 ARPA（現改名 DARPA）發展 ARPANET，目的是部分網路被破壞時仍能透過其他線路傳資料。"
+    }
+  ]
+}

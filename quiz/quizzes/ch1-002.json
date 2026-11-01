@@ -1,0 +1,168 @@
+{
+  "id": "ch1-002",
+  "title": "第一章 網路概論 — 進階 20 題",
+  "created": "2026-11-01",
+  "description": "網路定義與媒介、TCP/IP 大事紀年份與速率、台灣 ISP、電子商務類型、MOD、Fintech、IaaS、物聯網起源與維度、未來四大特點",
+  "questions": [
+    {
+      "id": "q01", "chapter": 1, "section": "1-2",
+      "question": "依投影片定義，「網路」是透過哪兩項將電腦加以連接，使其能互相傳送資料與訊息？",
+      "options": ["網路介面裝置與傳輸媒介", "作業系統與應用程式", "伺服器與用戶端", "路由器與數據機"],
+      "answer": 0,
+      "explanation": "定義：透過「網路介面裝置」與「傳輸媒介」將電腦相連接，使其能相互傳送資料與訊息。",
+      "tags": ["定義"]
+    },
+    {
+      "id": "q02", "chapter": 1, "section": "1-2",
+      "question": "下列何者「不屬於」無線傳輸媒介？",
+      "options": ["紅外線", "微波", "同軸電纜", "衛星"],
+      "answer": 2,
+      "explanation": "有線：雙絞線、同軸電纜（RG-58）、光纖、電話線。無線：紅外線、無線電波、微波、雷射、衛星。",
+      "tags": ["傳輸媒介"]
+    },
+    {
+      "id": "q03", "chapter": 1, "section": "1-4",
+      "question": "依第一章 TCP/IP 大事紀，1973 年成功發展出乙太網路（Ethernet）的是？",
+      "options": ["美國國防部 ARPA", "全錄公司帕洛亞托研究中心（PARC）", "IBM", "美國國家科學基金會（NSF）"],
+      "answer": 1,
+      "explanation": "1973 年全錄 PARC 發展出乙太網路。⚠️ 第五章寫 PARC「1975 年研製成功」，兩章年份不同，作答時看題目引用哪一章。",
+      "tags": ["歷史"]
+    },
+    {
+      "id": "q04", "chapter": 1, "section": "1-4",
+      "question": "一般而言，Internet 泛指以下列哪一種通訊協定所架設的網路？",
+      "options": ["NetBIOS", "IPX/SPX", "AppleTalk", "TCP/IP"],
+      "answer": 3,
+      "explanation": "Internet 係指以 TCP/IP 為主之通訊協定所架設而成的網路；各地網路相互連接後，名稱泛指以 TCP/IP 為協定的網路。",
+      "tags": ["定義"]
+    },
+    {
+      "id": "q05", "chapter": 1, "section": "1-4",
+      "question": "1986 年 NSFNET 剛建立時，是以多少速率的數據專線連接六個超級電腦中心？",
+      "options": ["9.6 Kbps", "1.544 Mbps", "56 Kbps", "45 Mbps"],
+      "answer": 2,
+      "explanation": "1986 NSFNET：56 Kbps 連 6 個超級電腦中心 → 1988 升級 T1（1.544 Mbps）連 13 個節點 → 1992 骨幹提升至 T3（45 Mbps）。",
+      "tags": ["歷史", "數字"]
+    },
+    {
+      "id": "q06", "chapter": 1, "section": "1-4",
+      "question": "1988 年 Merit、IBM、MCI 合作，以哪一種線路連接 13 個 NSFNET 節點，成為 Internet 的骨幹？",
+      "options": ["T1（1.544 Mbps）", "T3（45 Mbps）", "E1（2.048 Mbps）", "56 Kbps 數據專線"],
+      "answer": 0,
+      "explanation": "1988 年以 T1（1.544 Mbps）連接 13 個節點；T3（45 Mbps）是 1992 年才升級的。",
+      "tags": ["歷史", "數字"]
+    },
+    {
+      "id": "q07", "chapter": 1, "section": "1-10",
+      "question": "下列何者「不是」投影片所列的網路未來四大特點？",
+      "options": ["網路寬頻化", "網路無線化", "家庭網路化", "網路集中化"],
+      "answer": 3,
+      "explanation": "四大特點：網路寬頻化（ADSL、光纖）、網路無線化（AP）、家庭網路化（遊戲機、網路冰箱）、雲端運算。",
+      "tags": ["趨勢"]
+    },
+    {
+      "id": "q08", "chapter": 1, "section": "1-4",
+      "question": "ARPANET 在哪一年正式終止運作？",
+      "options": ["1983 年", "1990 年", "1991 年", "1993 年"],
+      "answer": 1,
+      "explanation": "1990 年 6 月 ARPANET 正式終止。1983 是拆出 MILNET；1991 是 NSFNET 開放商用；1993 是 WWW 問世。",
+      "tags": ["歷史"]
+    },
+    {
+      "id": "q09", "chapter": 1, "section": "1-4",
+      "question": "美國國家科學基金會在哪一年正式宣布開放 NSFNET 於商業用途？",
+      "options": ["1988 年", "1991 年", "1992 年", "1993 年"],
+      "answer": 1,
+      "explanation": "1991 年 NSFNET 開放商業用途；1992 年骨幹提升至 T3；1993 年 WWW 問世。",
+      "tags": ["歷史"]
+    },
+    {
+      "id": "q10", "chapter": 1, "section": "1-5",
+      "question": "ADSL 的中文名稱及其使用的線路，下列何者正確？",
+      "options": ["對稱數位用戶線路／光纖", "非對稱數位用戶線路／同軸電纜", "非對稱數位用戶線路／普通電話線", "纜線數據機／有線電視線路"],
+      "answer": 2,
+      "explanation": "ADSL = Asymmetric Digital Subscriber Line（非對稱數位用戶線路），使用普通電話線，由固網業者提供。使用有線電視同軸電纜的是 Cable Modem。",
+      "tags": ["ISP", "寬頻"]
+    },
+    {
+      "id": "q11", "chapter": 1, "section": "1-5",
+      "question": "SeedNet（種子網路）是由哪個政府單位委託資策會主導成立的？",
+      "options": ["經濟部", "教育部", "交通部", "國防部"],
+      "answer": 0,
+      "explanation": "SeedNet：經濟部委託資策會成立，目的是提供產業界資訊服務，1998 年 8 月獨立為「數位聯合電信」。TANet 才是教育部。",
+      "tags": ["ISP"]
+    },
+    {
+      "id": "q12", "chapter": 1, "section": "1-5",
+      "question": "早期台灣三大網際網路服務中，屬於中華電信、被稱為台灣最大的 ISP 是？",
+      "options": ["TANet", "SeedNet", "TWGate", "HiNet"],
+      "answer": 3,
+      "explanation": "HiNet 由中華電信數據通信所發展，是台灣最大的 ISP。TANet 是學術網路、SeedNet 是資策會的種子網路。",
+      "tags": ["ISP"]
+    },
+    {
+      "id": "q13", "chapter": 1, "section": "1-5",
+      "question": "光世代網路的主要接駁技術中，「光纖到大廈」的縮寫為何？",
+      "options": ["FTTH", "FTTC", "FTTB", "FTTCab"],
+      "answer": 2,
+      "explanation": "光世代主要接駁技術：FTTH（光纖到戶，Home）與 FTTB（光纖到大廈，Building）。",
+      "tags": ["寬頻"]
+    },
+    {
+      "id": "q14", "chapter": 1, "section": "1-6",
+      "question": "博客來網路書店（企業透過網路提供消費者購物服務）屬於哪一種電子商務類型？",
+      "options": ["B2B", "B2C", "C2C", "C2B"],
+      "answer": 1,
+      "explanation": "B2B：企業對企業（中鋼）；B2C：企業對消費者（博客來）；C2C：消費者對消費者（Yahoo 拍賣）。",
+      "tags": ["電子商務"]
+    },
+    {
+      "id": "q15", "chapter": 1, "section": "1-6",
+      "question": "消費者與消費者之間透過拍賣網站交易（如 Yahoo 拍賣），屬於哪一種電子商務類型？",
+      "options": ["B2B", "B2C", "B2G", "C2C"],
+      "answer": 3,
+      "explanation": "C2C（Consumer to Consumer）：消費者之間透過拍賣網站交易，例如 Yahoo 拍賣。",
+      "tags": ["電子商務"]
+    },
+    {
+      "id": "q16", "chapter": 1, "section": "1-6",
+      "question": "將各種影音資料以數位化方式存於伺服資料庫，讓多位使用者經由網路同時即時互動使用的系統是？",
+      "options": ["隨選視訊（MOD）", "網路電話", "視訊會議", "線上地圖"],
+      "answer": 0,
+      "explanation": "隨選視訊 MOD：把 CD、VCD、錄影帶等影音數位化存在伺服器，提供多人同時使用的即時互動多媒體系統。",
+      "tags": ["網路應用"]
+    },
+    {
+      "id": "q17", "chapter": 1, "section": "1-6",
+      "question": "下列何者「不是」投影片所列 Fintech（金融科技）的應用領域？",
+      "options": ["支付", "遠距醫療", "借貸", "個人財務管理"],
+      "answer": 1,
+      "explanation": "Fintech 應用於支付、借貸、保險、個人財務管理等金融服務（例：PayPal、支付寶、LendingClub）。遠距醫療是另一項網路應用，不屬金融科技。",
+      "tags": ["網路應用"]
+    },
+    {
+      "id": "q18", "chapter": 1, "section": "1-7",
+      "question": "提供核心計算資源與網路基礎建設的雲端服務（投影片以 Microsoft Azure 為例）屬於？",
+      "options": ["SaaS", "PaaS", "IaaS", "SDN"],
+      "answer": 2,
+      "explanation": "IaaS（基礎建設即服務）：Microsoft Azure。SaaS：Google Docs。PaaS：Google App Engine。",
+      "tags": ["雲端"]
+    },
+    {
+      "id": "q19", "chapter": 1, "section": "1-8",
+      "question": "「物聯網（The Internet of Things）」最早由哪個組織在哪一年的報告中提出？",
+      "options": ["IEEE／1999 年", "ISO／1984 年", "IETF／1993 年", "ITU（國際電信聯盟）／2005 年"],
+      "answer": 3,
+      "explanation": "物聯網最早由國際電信聯盟 ITU 於 2005 年發布的報告「The Internet of Things」中提出。",
+      "tags": ["物聯網"]
+    },
+    {
+      "id": "q20", "chapter": 1, "section": "1-8",
+      "question": "物聯網的發展可分為哪三個「維度」？",
+      "options": ["Any Time、Any Place、Any Thing", "感知層、網路層、應用層", "人與人、物件與物件、人與物件", "寬頻化、無線化、家庭網路化"],
+      "answer": 0,
+      "explanation": "三個維度：時間 Any Time、地點 Any Place、物件 Any Thing。注意區分：「三大範疇」是人與人／物與物／人與物；「三層架構」是感知／網路／應用。",
+      "tags": ["物聯網"]
+    }
+  ]
+}

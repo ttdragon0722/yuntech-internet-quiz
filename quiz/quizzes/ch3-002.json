@@ -1,0 +1,428 @@
+{
+  "id": "ch3-002",
+  "title": "第三章 通訊協定和網路模型 — 第二回 30 題（弱點加強）",
+  "created": "2026-11-01",
+  "description": "依第一回錯題加重：OSI 七層 12 題、標準組織與協定 8 題、TCP/IP 層與資料單位 8 題",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "國際標準組織（ISO）制定的是下列哪一項？",
+      "options": [
+        "RFC 文件",
+        "ASCII Code",
+        "OSI 模型",
+        "IEEE 802 標準"
+      ],
+      "answer": 2,
+      "explanation": "反過來記：ISO → OSI（字母幾乎一樣，反過來就對了）；IAB → RFC；ANSI → ASCII；IEEE → 802。上回你把 OSI 的制定者選成 IEEE。"
+    },
+    {
+      "id": "q02",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "網際網路架構委員會（IAB）制定的是下列哪一項？",
+      "options": [
+        "RFC 文件",
+        "OSI 模型",
+        "X.25 與 ISDN",
+        "ASCII Code"
+      ],
+      "answer": 0,
+      "explanation": "IAB（Internet Architecture Board）管網際網路 → RFC 文件與 TCP/IP 標準。上回你把 RFC 選成 ISO。"
+    },
+    {
+      "id": "q03",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "電機電子工程師學會（IEEE）制定的是下列哪一項？",
+      "options": [
+        "ISDN",
+        "RFC 文件",
+        "ASCII Code",
+        "IEEE 802 標準（如乙太網路 802.3、無線網路 802.11）"
+      ],
+      "answer": 3,
+      "explanation": "IEEE → 802 系列標準，名稱直接帶 IEEE，最好認。"
+    },
+    {
+      "id": "q04",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "下列「組織－制定標準」的配對，何者「錯誤」？",
+      "options": [
+        "ITU－X.25 與 ISDN",
+        "ISO－RFC 文件",
+        "ANSI－ASCII Code",
+        "IEEE－IEEE 802 標準"
+      ],
+      "answer": 1,
+      "explanation": "ISO 制定的是 OSI 模型，RFC 文件由 IAB 制定。記法：ISO→OSI、ITU→X.25/ISDN（電訊）、ANSI→ASCII（都是 A 開頭）、IEEE→802、IAB→RFC。"
+    },
+    {
+      "id": "q05",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "制定 ASCII Code 的 ANSI，中文全名是什麼？",
+      "options": [
+        "美國國家標準協會",
+        "國際標準組織",
+        "國際電訊聯盟",
+        "網際網路架構委員會"
+      ],
+      "answer": 0,
+      "explanation": "ANSI = American National Standards Institute，美國國家標準協會；記法：A 開頭配 A 開頭 → ANSI 制定 ASCII。上回你選成 IEEE。"
+    },
+    {
+      "id": "q06",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "你在郵件軟體寫好信後按下「寄出」，這個動作使用的是哪一種協定？",
+      "options": [
+        "POP3",
+        "HTTP",
+        "SMTP",
+        "FTP"
+      ],
+      "answer": 2,
+      "explanation": "寄出（送信）＝ SMTP；從伺服器收信 ＝ POP3。記法：S = Send 送出。上回你把送信選成 POP3。"
+    },
+    {
+      "id": "q07",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "郵件軟體從郵件伺服器把新信件「下載」到電腦裡，使用的是哪一種協定？",
+      "options": [
+        "SMTP",
+        "POP3（郵局協定第 3 版）",
+        "HTTP",
+        "DNS"
+      ],
+      "answer": 1,
+      "explanation": "收信 POP3：想像去郵局（Post Office）取信；送信才是 SMTP。"
+    },
+    {
+      "id": "q08",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "乙太網路標準屬於哪一種標準？",
+      "options": [
+        "業界標準：由某家公司制定",
+        "私人標準：不公開規格",
+        "RFC 草案標準",
+        "正規（formal）標準：由工業組織或政府單位制定"
+      ],
+      "answer": 3,
+      "explanation": "正規標準例子：乙太網路；業界標準例子：微軟的 NetBIOS（某家公司制定、市佔高才成為標準）。上回你把 NetBIOS 選成國際電信標準。"
+    },
+    {
+      "id": "q09",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型由上而下的順序，下列何者正確？",
+      "options": [
+        "應用、會議、表現、傳輸、網路、資料鏈結、實體",
+        "實體、資料鏈結、傳輸、網路、會議、表現、應用",
+        "應用、表現、會議、網路、傳輸、資料鏈結、實體",
+        "應用、表現、會議、傳輸、網路、資料鏈結、實體"
+      ],
+      "answer": 3,
+      "explanation": "口訣（由上而下）：「應表會傳網資實」= 第 7～1 層。先把口訣背熟，各層的編號就能自己數出來。"
+    },
+    {
+      "id": "q10",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型的「第 4 層」是哪一層？",
+      "options": [
+        "網路層",
+        "傳輸層",
+        "會議層",
+        "資料鏈結層"
+      ],
+      "answer": 1,
+      "explanation": "由下往上數：1 實體、2 資料鏈結、3 網路、4 傳輸、5 會議、6 表現、7 應用。"
+    },
+    {
+      "id": "q11",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型的「第 6 層」是哪一層？",
+      "options": [
+        "表現層",
+        "會議層",
+        "應用層",
+        "傳輸層"
+      ],
+      "answer": 0,
+      "explanation": "第 6 層表現層；第 5 層會議層；第 7 層應用層。上回你把表現層的功能選成第 4 層傳輸層。"
+    },
+    {
+      "id": "q12",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "把要傳送的檔案「壓縮」、把中文字「編碼」成另一種格式，屬於 OSI 哪一層的工作？",
+      "options": [
+        "傳輸層",
+        "會議層",
+        "表現層",
+        "實體層"
+      ],
+      "answer": 2,
+      "explanation": "表現層 = 決定資料「怎麼表現」：字碼轉換、編碼解碼、格式轉換、壓縮解壓縮。"
+    },
+    {
+      "id": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "決定資料從台北的電腦要「走哪一條路徑」傳到高雄的電腦，屬於 OSI 哪一層的工作？",
+      "options": [
+        "資料鏈結層",
+        "網路層",
+        "傳輸層",
+        "實體層"
+      ],
+      "answer": 1,
+      "explanation": "網路層 = 管路徑（路由），路由器就是第 3 層設備。上回你選了資料鏈結層，資料鏈結層管的是「錯誤偵測與更正」。"
+    },
+    {
+      "id": "q14",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的「傳輸層」主要負責什麼？",
+      "options": [
+        "決定資料傳輸的路徑",
+        "字碼的編碼解碼與壓縮",
+        "電壓、接頭等電器規格",
+        "確保傳輸品質：資料正確、沒有遺失、沒有重複"
+      ],
+      "answer": 3,
+      "explanation": "傳輸層 = 品質保證（正確、不遺失、不重複）。上回你把這個功能選成資料鏈結層。"
+    },
+    {
+      "id": "q15",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的「會議層」主要負責什麼？",
+      "options": [
+        "確保資料沒有遺失",
+        "提供網頁存取與電子郵件服務",
+        "管理使用者之間資料的交換形式（單工、半雙工、全雙工）",
+        "錯誤偵測及錯誤更正"
+      ],
+      "answer": 2,
+      "explanation": "會議層 = 像開會一樣決定「誰講、輪流講還是一起講」→ 單工／半雙工／全雙工。上回你選成表現層。"
+    },
+    {
+      "id": "q16",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的「資料鏈結層」主要負責什麼？",
+      "options": [
+        "確保實體層連結的資料正確性，包含錯誤偵測及錯誤更正",
+        "管理節點間的傳輸路徑",
+        "提供使用者網路服務",
+        "管理單工、半雙工、全雙工"
+      ],
+      "answer": 0,
+      "explanation": "資料鏈結層 = 檢查錯誤（偵測與更正）。注意分清：資料鏈結層「查錯」、網路層「找路」、傳輸層「保品質」。"
+    },
+    {
+      "id": "q17",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的「應用層」主要負責什麼？",
+      "options": [
+        "提供使用者網路上的服務，如網頁存取、檔案交換、電子郵件",
+        "資料的壓縮與解壓縮",
+        "確保資料正確、不重複",
+        "定義接頭的接腳"
+      ],
+      "answer": 0,
+      "explanation": "應用層（第 7 層，最上層，最接近使用者）：網頁、檔案交換、Email、模擬終端機。上回你選成第 4 層。"
+    },
+    {
+      "id": "q18",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "「電纜線用哪種接頭、接腳怎麼定義、電壓多少」屬於 OSI 哪一層？",
+      "options": [
+        "資料鏈結層",
+        "網路層",
+        "實體層",
+        "表現層"
+      ],
+      "answer": 2,
+      "explanation": "實體層（第 1 層）：看得到、摸得到的硬體規格——電壓、電流、接頭、腳位、傳輸速度與距離。"
+    },
+    {
+      "id": "q19",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 的協定架構常被稱為「堆疊（stack）」，原因是什麼？",
+      "options": [
+        "資料都堆在記憶體裡",
+        "封包會堆積在路由器",
+        "七層全部疊成一個實體設備",
+        "協定就像堆積木一樣，層層疊上去"
+      ],
+      "answer": 3,
+      "explanation": "協定層層疊上去 → 堆疊（stack）／協定堆疊。上回你選成訊框（frame），frame 是資料單位，不是架構名稱。"
+    },
+    {
+      "id": "q20",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "兩台主機使用 OSI 模型通訊的原則，下列何者「不是」？",
+      "options": [
+        "分層負責",
+        "任意跨層直接溝通",
+        "逐層處理",
+        "對等交談"
+      ],
+      "answer": 1,
+      "explanation": "原則：分層負責、逐層處理、對等交談；每層只能跟上一層或下一層溝通，不能跨層。"
+    },
+    {
+      "id": "q21",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型又稱為「DoD 模型」，原因是什麼？",
+      "options": [
+        "由國際標準組織制定",
+        "起源於美國國防部（Department of Defense）",
+        "由 IEEE 802 委員會制定",
+        "專門用於數位電視"
+      ],
+      "answer": 1,
+      "explanation": "DoD = 美國國防部；DARPA 開發 → DARPA 模型；為 ARPANET 開發 → ARPANET 模型。只有「ISO 模型」不是它的別名。"
+    },
+    {
+      "id": "q22",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 四層模型由上而下的順序，下列何者正確？",
+      "options": [
+        "應用層、傳輸層、網際網路層、網路介面層",
+        "應用層、網際網路層、傳輸層、網路介面層",
+        "網路介面層、傳輸層、網際網路層、應用層",
+        "應用層、表現層、傳輸層、網路介面層"
+      ],
+      "answer": 0,
+      "explanation": "TCP/IP 四層：應用 → 傳輸 → 網際網路 → 網路介面。表現層是 OSI 才有的。"
+    },
+    {
+      "id": "q23",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "「主機對主機層（Host to Host）」是 TCP/IP 模型哪一層的別名？",
+      "options": [
+        "網際網路層",
+        "網路介面層",
+        "應用層",
+        "傳輸層"
+      ],
+      "answer": 3,
+      "explanation": "傳輸層又稱主機對主機層，協定是 TCP、UDP。上回你選成網際網路層。"
+    },
+    {
+      "id": "q24",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "「Packet（封包）」是 TCP/IP 模型哪一層傳送資料的名稱？",
+      "options": [
+        "傳輸層",
+        "網路介面層",
+        "網際網路層",
+        "應用層"
+      ],
+      "answer": 2,
+      "explanation": "Packet 封包 → 網際網路層（看 IP）；Frame 訊框 → 網路介面層（看 MAC）。"
+    },
+    {
+      "id": "q25",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "UDP 傳送資料的名稱是什麼？",
+      "options": [
+        "Segment",
+        "Frame",
+        "Datagram",
+        "Message"
+      ],
+      "answer": 2,
+      "explanation": "傳輸層：TCP 叫 Segment、UDP 叫 Datagram。上回你把 TCP 的 Segment 選成 Packet。"
+    },
+    {
+      "id": "q26",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "資料封裝時，由上層往下層的資料單位名稱順序，下列何者正確？",
+      "options": [
+        "Frame → Packet → Segment → Message",
+        "Message → Segment → Packet → Frame",
+        "Packet → Segment → Message → Frame",
+        "Message → Packet → Segment → Frame"
+      ],
+      "answer": 1,
+      "explanation": "應用層 Message → 傳輸層 Segment → 網際網路層 Packet → 網路介面層 Frame；每往下一層多加一個表頭。"
+    },
+    {
+      "id": "q27",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "作業系統內建的「TCP/IP 協定」，對應 TCP/IP 模型的哪幾層？",
+      "options": [
+        "傳輸層與網際網路層",
+        "應用層",
+        "網路介面層",
+        "應用層與傳輸層"
+      ],
+      "answer": 0,
+      "explanation": "應用層 → 瀏覽器 HTTP；傳輸層＋網際網路層 → 作業系統內建 TCP/IP；網路介面層 → 網卡驅動＋網卡＋網路線。上回你把網路介面層選成作業系統。"
+    },
+    {
+      "id": "q28",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "乙太網路、IEEE 802.11 無線區域網路屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "網際網路層",
+        "傳輸層",
+        "應用層",
+        "網路介面層"
+      ],
+      "answer": 3,
+      "explanation": "網路介面層（又叫資料鏈結層／鏈結層）：資料單位 Frame，協定有乙太網路、記號環、802.11。上回你把 Frame 的層選成網際網路層。"
+    },
+    {
+      "id": "q29",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "OSI 模型的第 1、2 層（實體層、資料鏈結層），對應到 TCP/IP 模型的哪一層？",
+      "options": [
+        "網際網路層",
+        "網路介面層",
+        "傳輸層",
+        "應用層"
+      ],
+      "answer": 1,
+      "explanation": "OSI 1、2 → 網路介面層；3 → 網際網路層；4 → 傳輸層；5、6、7 → 應用層。"
+    },
+    {
+      "id": "q30",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "下列何者是網路參考模型分層的「優點」？",
+      "options": [
+        "分層負責、易於理解",
+        "效率低落",
+        "過於學術化",
+        "每層都要重新封裝導致速度變快"
+      ],
+      "answer": 0,
+      "explanation": "優點：分層負責、對等交談、逐層處理、提供網路標準、易於理解；缺點：效率低落、OSI 過於學術化。"
+    }
+  ]
+}
