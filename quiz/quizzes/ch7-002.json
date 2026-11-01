@@ -1,0 +1,428 @@
+{
+  "id": "ch7-002",
+  "title": "第七章 無線傳輸媒介和設備 — 第二回 30 題（弱點加強）",
+  "created": "2026-11-01",
+  "description": "依第一回錯題加重：衛星高度與 GPS 6 題、無線設備 6 題、ISM 4 題、微波 3 題、紅外線 3 題、雷射 3 題、RFID／NFC 3 題、媒介比較 2 題",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 7,
+      "section": "7-1",
+      "question": "下列無線傳輸媒介，依「傳輸距離」由短到長排列，何者正確？",
+      "options": [
+        "雷射 < 紅外線 < 衛星",
+        "衛星 < 雷射 < 紅外線",
+        "紅外線（約 5 公尺）< 雷射（最遠約 5 公里）< 衛星（地球另一端）",
+        "紅外線 < 衛星 < 雷射"
+      ],
+      "answer": 2,
+      "explanation": "紅外線最短（約 5 m，遙控器）；雷射 20～5000 m（兩棟大樓間）；衛星可傳到地球另一端。把距離串成一條線比較好記。"
+    },
+    {
+      "id": "q02",
+      "chapter": 7,
+      "section": "7-1",
+      "question": "下列何者「不是」無線區域網路（WLAN）的缺點？",
+      "options": [
+        "需要花大筆佈線及裝潢費用",
+        "任何人都容易接收訊號、竊取資訊",
+        "容易有干擾或訊號被建物阻隔",
+        "密鑰的保管與遺失處理麻煩"
+      ],
+      "answer": 0,
+      "explanation": "WLAN 正好「省下」佈線與裝潢費用，這是優點。其他三個都是缺點。"
+    },
+    {
+      "id": "q03",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "ISM 頻段（Industrial Scientific Medical Band）是開放給哪三種用途使用？",
+      "options": [
+        "電視、廣播、電信",
+        "國防、軍事、警察",
+        "教育、研究、商業",
+        "工業、科學、醫學"
+      ],
+      "answer": 3,
+      "explanation": "ISM 三個字母就是答案：Industrial 工業、Scientific 科學、Medical 醫學。上回你選了電視、廣播、電信。"
+    },
+    {
+      "id": "q04",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "家裡的 Wi-Fi 無線區域網路，大多使用 ISM 的哪一個頻段？",
+      "options": [
+        "60 GHz",
+        "2.4 GHz",
+        "10～66 GHz",
+        "4 KHz"
+      ],
+      "answer": 1,
+      "explanation": "WLAN 大多用 ISM 2.4 GHz（藍牙也是 2.4 GHz）。10～66 GHz 是 WiMAX 802.16；4 KHz 是 ADSL 的 POTS 語音頻道。上回你選了 60 GHz。"
+    },
+    {
+      "id": "q05",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "ISM 頻段包含的三個頻帶是？",
+      "options": [
+        "902～928 MHz、2.4～2.4835 GHz、5.725～5.850 GHz",
+        "900 MHz、3 GHz、5 GHz",
+        "2.4 GHz、10 GHz、66 GHz",
+        "550～750 MHz、5～42 MHz、4 KHz"
+      ],
+      "answer": 0,
+      "explanation": "記法：ISM 三兄弟「約 0.9、2.4、5.8 GHz」。⭐ 小考考過 3 GHz 不是 ISM。550～750 MHz／5～42 MHz 是 Cable Modem 的下載／上傳。"
+    },
+    {
+      "id": "q06",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "下列哪一個頻段「不屬於」ISM 頻段？",
+      "options": [
+        "902～928 MHz",
+        "2.4～2.4835 GHz",
+        "10～66 GHz",
+        "5.725～5.850 GHz"
+      ],
+      "answer": 2,
+      "explanation": "10～66 GHz 是 802.16 WiMAX 制定的頻段，不是 ISM。上回你把它當成 ISM 頻帶選了。"
+    },
+    {
+      "id": "q07",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波的波長範圍大約是？",
+      "options": [
+        "1 m～10 m",
+        "0.1 cm～30 cm",
+        "850 nm～1580 nm",
+        "約 5 公尺"
+      ],
+      "answer": 1,
+      "explanation": "微波 = 「微」小的波：0.1～30 公分（手掌大小以內）。850～1580 nm 是雷射波長；5 公尺是紅外線傳輸距離。上回你選了 1～10 公尺。"
+    },
+    {
+      "id": "q08",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波傳輸通常需要設置「中繼站」，最主要的原因是？",
+      "options": [
+        "微波只能傳 5 公尺",
+        "微波會被光纖干擾",
+        "微波速度太慢需要加速",
+        "微波是直線波，易受地球曲面及障礙物影響而有接收死角"
+      ],
+      "answer": 3,
+      "explanation": "微波直線前進、需要無阻礙；地球是圓的又有建築物 → 中繼站接力。5 公尺是紅外線（上回你選了這個）。"
+    },
+    {
+      "id": "q09",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "衛星通訊系統是以哪一種方式傳送訊號？",
+      "options": [
+        "紅外線",
+        "雷射",
+        "可見光",
+        "微波"
+      ],
+      "answer": 3,
+      "explanation": "衛星是「以微波方式傳送的通信系統」：地面天線 → 衛星 → 另一端地面天線。"
+    },
+    {
+      "id": "q10",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "通訊用的「同步衛星」距離地球多高？",
+      "options": [
+        "約 20,200 公里",
+        "約 36,000 公里",
+        "約 500 公里",
+        "約 2,000 公里"
+      ],
+      "answer": 1,
+      "explanation": "高度三階：星鏈約 500 km（低軌）< GPS 約 20,200 km < 同步衛星約 36,000 km（最高）。上回你把同步衛星選成 GPS 的高度。"
+    },
+    {
+      "id": "q11",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 衛星運行於約多高的高空？",
+      "options": [
+        "約 20,200 公里",
+        "約 36,000 公里",
+        "約 500 公里",
+        "約 5,000 公里"
+      ],
+      "answer": 0,
+      "explanation": "GPS 約 20,200 公里，夾在星鏈（500）和同步衛星（36,000）中間。"
+    },
+    {
+      "id": "q12",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 衛星繞行地球一周約需多久？",
+      "options": [
+        "約 24 小時",
+        "約 6 小時",
+        "約 12 小時",
+        "約 1 小時"
+      ],
+      "answer": 2,
+      "explanation": "GPS 一天繞兩圈 → 12 小時。24 小時是同步衛星（跟地球自轉同步）。上回你選了 24 小時。"
+    },
+    {
+      "id": "q13",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "關於 GPS 的組成，下列何者正確？",
+      "options": [
+        "12 顆衛星、分成 24 個軌道",
+        "24 顆衛星、分成 6 個軌道",
+        "6 顆衛星、分成 12 個軌道",
+        "3 顆衛星、分成 1 個軌道"
+      ],
+      "answer": 1,
+      "explanation": "GPS 的數字：24 顆、6 軌道、20,200 公里、12 小時。⭐ 小考考過 24 顆。記法：24 顆平均分 6 軌，每軌 4 顆。"
+    },
+    {
+      "id": "q14",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "下列三種衛星依「運行高度」由低到高排列，何者正確？",
+      "options": [
+        "GPS < 星鏈 < 同步衛星",
+        "同步衛星 < GPS < 星鏈",
+        "星鏈 < 同步衛星 < GPS",
+        "星鏈 < GPS < 同步衛星"
+      ],
+      "answer": 3,
+      "explanation": "星鏈約 500 km（低軌）→ GPS 約 20,200 km → 同步衛星約 36,000 km。⭐ 小考考過 500 公里是星鏈。"
+    },
+    {
+      "id": "q15",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "SpaceX 的星鏈（Starlink）是透過什麼方式提供全球高速網際網路？",
+      "options": [
+        "同步衛星",
+        "海底電纜",
+        "低軌道衛星群",
+        "地面微波中繼站"
+      ],
+      "answer": 2,
+      "explanation": "星鏈 = 低軌道衛星群；套件包含衛星接收天線、路由器、網路線。"
+    },
+    {
+      "id": "q16",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "紅外線的傳輸距離大約是多少？",
+      "options": [
+        "約 5 公尺",
+        "約 100 公尺",
+        "約 5,000 公尺",
+        "約 50 公里"
+      ],
+      "answer": 0,
+      "explanation": "紅外線最短：約 5 公尺，像電視遙控器只能在客廳裡用。100 公尺是 Wi-Fi、5,000 公尺是雷射上限。上回你選了 100 公尺。"
+    },
+    {
+      "id": "q17",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "筆記型電腦標配的 IrDA 1.1 紅外線，速度約為多少？",
+      "options": [
+        "115.2 Kbps",
+        "11 Mbps",
+        "721 Kbps",
+        "1 Gbps"
+      ],
+      "answer": 0,
+      "explanation": "IrDA 1.1 = 115.2 Kbps（很慢，只傳少量資料）。11 Mbps 是 802.11b、721 Kbps 是藍牙。上回你選了 11 Mbps。"
+    },
+    {
+      "id": "q18",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "下列何者是紅外線的應用例子？",
+      "options": [
+        "SNG 衛星轉播",
+        "兩棟大樓間的網路連線",
+        "電視機遙控器",
+        "高速公路 ETC 收費"
+      ],
+      "answer": 2,
+      "explanation": "紅外線 → 遙控器；衛星 → SNG 轉播；雷射 → 兩棟大樓間；RFID → ETC。"
+    },
+    {
+      "id": "q19",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "雷射無線傳輸的速率與距離大約是？",
+      "options": [
+        "11 Mbps；100 公尺",
+        "115.2 Kbps；5 公尺",
+        "70 Mbps；50 公里",
+        "100 Mbps～1 Gbps；20 公尺～5,000 公尺"
+      ],
+      "answer": 3,
+      "explanation": "雷射又快又遠：100M～1G、20～5000 公尺。B 像 802.11b、C 是紅外線、D 是 WiMAX。上回你選了 11 Mbps／100 公尺。"
+    },
+    {
+      "id": "q20",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "通訊用雷射的三種波長，短程、中程、長程分別是？",
+      "options": [
+        "0.1 cm、30 cm、1 m",
+        "850 nm、1310 nm、1580 nm",
+        "2.4 GHz、5 GHz、60 GHz",
+        "115 nm、721 nm、1000 nm"
+      ],
+      "answer": 1,
+      "explanation": "雷射波長：短程 850 nm、中程 1310 nm、長程 1580 nm（乙太網路的 SX 850、LX 1300 也是這個概念）。"
+    },
+    {
+      "id": "q21",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "兩棟大樓相隔 1 公里，中間是大馬路無法拉線，下列哪一種無線方式最適合？",
+      "options": [
+        "紅外線",
+        "雷射",
+        "藍牙",
+        "NFC"
+      ],
+      "answer": 1,
+      "explanation": "1 公里在雷射 20～5000 公尺範圍內；紅外線只有 5 公尺、藍牙約 10 公尺、NFC 只有 20 公分。⭐ 小考考過相隔 300 公尺 → 雷射。"
+    },
+    {
+      "id": "q22",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "可以透過 xDSL 或 Cable Modem，以「無線」方式讓電腦連上網際網路的設備是？",
+      "options": [
+        "無線網路路由器",
+        "無線網路卡",
+        "紅外線收發器",
+        "RFID 讀取器"
+      ],
+      "answer": 0,
+      "explanation": "無線路由器 = 「路由器」連外面（xDSL／Cable）＋ 發無線訊號。無線網路卡是裝在電腦上「收」訊號的。上回你選了無線網路卡。"
+    },
+    {
+      "id": "q23",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "無線網路基地台的英文 Access Point，原則上應翻譯為？",
+      "options": [
+        "閘道器",
+        "路由點",
+        "熱點",
+        "存取點"
+      ],
+      "answer": 3,
+      "explanation": "Access = 存取、Point = 點 → 存取點；受大哥大基地台影響才俗稱無線網路基地台。⭐ 小考考過「連接有線 LAN 再發送無線電波的設備 → 無線基地台」。"
+    },
+    {
+      "id": "q24",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "手機與電腦之間不需透過任何基地台，以「軟體基地台（Soft AP）」直接連線的技術是？",
+      "options": [
+        "GPRS",
+        "Centrino",
+        "Wi-Fi Direct",
+        "WiMAX"
+      ],
+      "answer": 2,
+      "explanation": "Wi-Fi Direct：Direct = 直接，裝置用軟體當基地台直接連線。GPRS 是 2.5G 行動網路（上回你選了這個）。"
+    },
+    {
+      "id": "q25",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "由康柏、DEC、IBM、微軟等大廠制定、支援「隨插即用」的介面是？",
+      "options": [
+        "PCI",
+        "PCMCIA",
+        "USB",
+        "PCI Express"
+      ],
+      "answer": 2,
+      "explanation": "USB = 隨插即用，筆電和桌機都能外接。PCI／PCI Express 是桌機內部插槽（要拆機殼），上回你選了 PCI。"
+    },
+    {
+      "id": "q26",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "具有輕薄短小特性、「筆記型電腦專用」的介面卡是？",
+      "options": [
+        "USB",
+        "PCMCIA",
+        "PCI",
+        "PCI Express"
+      ],
+      "answer": 1,
+      "explanation": "PCMCIA：筆電專用；USB：外接、隨插即用；PCI、PCI Express：桌上型電腦插槽。"
+    },
+    {
+      "id": "q27",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "投影片提到，現在的筆記型電腦多半內建無線網卡，是搭配 Intel 的哪一項技術？",
+      "options": [
+        "Centrino",
+        "Wi-Fi Direct",
+        "Ultrabook",
+        "MIMO"
+      ],
+      "answer": 0,
+      "explanation": "Intel Centrino（迅馳）CPU 技術內建無線網路模組。Wi-Fi Direct 是裝置直連技術（上回你選了這個）；Ultrabook 是輕薄筆電。"
+    },
+    {
+      "id": "q28",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "有自主供電系統，但平時處於無電源狀態，「收到無線電信號才啟動」的 RFID 標籤是？",
+      "options": [
+        "主動標籤",
+        "被動標籤",
+        "NFC 標籤",
+        "半主動（半被動）標籤"
+      ],
+      "answer": 3,
+      "explanation": "主動：有電一直開；被動：沒電（悠遊卡）；半主動：有電但平常關著，收到信號才開。上回你選了被動標籤——被動是「沒有」自主供電。"
+    },
+    {
+      "id": "q29",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "悠遊卡、學生證、ETC 的 eTag 裡的 RFID 標籤，共同點是什麼？",
+      "options": [
+        "都是主動標籤，內建電池",
+        "都是被動標籤，沒有自主供電系統",
+        "都是半主動標籤",
+        "都使用紅外線傳輸"
+      ],
+      "answer": 1,
+      "explanation": "被動標籤沒有電池，靠讀取器的無線電波感應，常嵌在物品裡。"
+    },
+    {
+      "id": "q30",
+      "chapter": 7,
+      "section": "7-補充",
+      "question": "NFC（近場通訊）的通訊距離大約是多少？",
+      "options": [
+        "約 20 公分以內",
+        "約 5 公尺",
+        "約 10 公尺",
+        "約 100 公尺"
+      ],
+      "answer": 0,
+      "explanation": "NFC 以 RFID 為基礎，距離不超過約 20 公分（手機要貼近感應）；5 公尺是紅外線、10 公尺是藍牙。"
+    }
+  ]
+}

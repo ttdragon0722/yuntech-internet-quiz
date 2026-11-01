@@ -1,0 +1,88 @@
+{
+  "id": "mock-001",
+  "title": "模擬小考 1（test1 原題，範圍：第 4、5 章）— 10 題",
+  "created": "2026-11-01",
+  "description": "2026-10-06 第 1 次小考原題：拓樸、網路卡／路由器的 OSI 層、數據機、資料鏈結層子層、802.11、訊框 MAC、A-B-C 命名、RJ-45、VLAN",
+  "questions": [
+    {
+      "id": "q01", "chapter": 4, "section": "4-3",
+      "question": "下列哪一種網路拓樸是小型區域網路中最常見的？",
+      "options": ["匯流排", "環狀", "星狀", "網狀"],
+      "answer": 2,
+      "explanation": "星狀（又稱放射狀）：所有電腦接到集線器，佈線、檢修容易，乙太網路即採用。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q02", "chapter": 4, "section": "4-1",
+      "question": "網路介面卡支援 OSI 7 層架構的哪幾層？",
+      "options": ["第 1 層", "第 1,2 層", "第 1,2,3 層", "第 2,3 層"],
+      "answer": 1,
+      "explanation": "網路卡是第二層設備（與交換器、橋接器同級），實作第 1、2 層。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q03", "chapter": 4, "section": "4-1",
+      "question": "路由器支援 OSI 7 層架構的哪幾層？",
+      "options": ["第 1 層", "第 1,2 層", "第 1,2,3 層", "第 2,3 層"],
+      "answer": 2,
+      "explanation": "路由器是第三層設備（與 IP 分享器同級），實作第 1、2、3 層。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q04", "chapter": 4, "section": "4-4",
+      "question": "下列哪一種連線方式不需要有數據機（Modem）？",
+      "options": ["專線", "撥接", "ADSL", "Cable"],
+      "answer": 0,
+      "explanation": "撥接（電話線）、ADSL（電話線）、Cable Modem（有線電視電纜）都是類比媒介，需要數據機做調變／解調變；專線不需要。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q05", "chapter": 5, "section": "5-2",
+      "question": "下列哪一層又有分 2 個子層？",
+      "options": ["實體層", "資料連結層", "網路層", "傳輸層"],
+      "answer": 1,
+      "explanation": "資料鏈結層分為 MAC（媒介存取控制，與實體有關）與 LLC（邏輯鏈結控制，與實體無關，802.2）。（原卷選項 D 誤植為「傳輸傳輸層」）",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q06", "chapter": 5, "section": "5-2",
+      "question": "下列哪一種是無線區域網路的標準？",
+      "options": ["802.2", "802.3", "802.11", "802.15"],
+      "answer": 2,
+      "explanation": "802.2：LLC；802.3：乙太網路；802.11：無線區域網路（Wi-Fi）；802.15：無線個人網路（藍牙）。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q07", "chapter": 5, "section": "5-2",
+      "question": "乙太網路的訊框中包含哪一種位址？",
+      "options": ["MAC", "IP", "網路", "電腦"],
+      "answer": 0,
+      "explanation": "訊框的目的位址、來源位址都是 MAC 位址（第 2 層）；IP 位址在第 3 層的封包中。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q08", "chapter": 5, "section": "5-4",
+      "question": "乙太網路以 A-B-C 三個值來描述其架構，其中 C 代表？",
+      "options": ["傳輸速度", "傳輸方式", "網路種類", "傳輸媒介類型"],
+      "answer": 3,
+      "explanation": "A：傳輸速度；B：訊號傳輸方式（Base 基頻／Broad 寬頻）；C：傳輸媒介類型（數字 = 同軸 ×100 公尺、T = 雙絞線、F = 光纖）。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q09", "chapter": 4, "section": "4-2",
+      "question": "雙絞線使用下列哪一種接頭串接網路？",
+      "options": ["SC", "DB9", "RJ-45", "GG45"],
+      "answer": 2,
+      "explanation": "雙絞線用 RJ-45；SC 是 Gigabit 光纖接頭；DB9 是 1000BaseCX；GG45 是 10GBase-T。",
+      "tags": ["test1"]
+    },
+    {
+      "id": "q10", "chapter": 5, "section": "5-補充",
+      "question": "下列哪一項不是 VLAN 具有 3 個主要的功能之一？",
+      "options": ["隔離廣播封包", "突破實體位置限制", "限制存取提高安全性", "增加網路位址設定彈性"],
+      "answer": 3,
+      "explanation": "VLAN 三大功能：隔離廣播封包、突破實體位置限制、限制存取提高安全性。",
+      "tags": ["test1"]
+    }
+  ]
+}

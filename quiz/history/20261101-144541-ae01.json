@@ -1,0 +1,524 @@
+{
+  "id": "20261101-144541-ae01",
+  "title": "第五章 區域網路的主流 — 乙太網路 — 30 題",
+  "quizIds": [
+    "ch5-001"
+  ],
+  "finishedAt": "2026-11-01T14:45:41",
+  "durationSec": 1636,
+  "total": 30,
+  "correct": 17,
+  "score": 57,
+  "items": [
+    {
+      "quizId": "ch5-001",
+      "qid": "q09",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "CSMA/CD 的中文全名是？",
+      "options": [
+        "載波感應多重存取／碰撞避免",
+        "分碼多重存取／碰撞偵測",
+        "分時多工存取／碰撞處理",
+        "載波感應多重存取／碰撞偵測"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "CSMA/CD = Carrier Sense Multiple Access with Collision Detection，乙太網路使用。無線網路用的是 CSMA/CA（碰撞避免）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q17",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "被稱為「標準乙太網路」或「粗乙太網路（Thick Ethernet）」的是？",
+      "options": [
+        "10Base5",
+        "10Base2",
+        "10BaseT",
+        "10BaseF"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "10Base5：RG-11 粗同軸電纜、區段 500 公尺、最多 100 部電腦、AUI 接頭、已淘汰。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q19",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10BaseT 乙太網路的網路卡接頭與電腦到集線器的最大長度是？",
+      "options": [
+        "BNC、185 公尺",
+        "AUI、500 公尺",
+        "ST、2 公里",
+        "RJ-45、100 公尺"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "10BaseT：UTP 雙絞線、RJ-45、100 公尺、星狀拓樸，至今尚存。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q12",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框中，負責「錯誤偵測」的欄位是？",
+      "options": [
+        "前導碼（Preamble）",
+        "Type（協定型態）",
+        "檢查碼（CRC-FCS）",
+        "來源位址（Source Address）"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "前導碼：同步；目的／來源位址：MAC 位址；Type：協定型態；CRC-FCS：錯誤偵測。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q30",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "把交換器連接埠賦予不同 VLAN ID，讓廣播封包只在該連接埠所屬群組內傳送，這是 VLAN 的哪一項功能？",
+      "options": [
+        "隔離廣播封包",
+        "突破實體位置限制",
+        "限制存取、提高安全性",
+        "增加傳輸速率"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "VLAN 三大功能：隔離廣播封包、突破實體位置限制、限制存取提高安全性。⭐「增加網路位址設定彈性」不是其中之一。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q05",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.5 是哪一種網路的標準？",
+      "options": [
+        "記號環（Token-Ring）網路",
+        "記號匯流排（Token-Bus）網路",
+        "乙太網路",
+        "大都會區網路"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "802.4：記號匯流排 Token-Bus；802.5：記號環 Token-Ring；802.6：大都會區網路（DQDB）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q08",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路最早由哪個單位研製成功？",
+      "options": [
+        "IBM 公司",
+        "美國國防部 ARPA",
+        "Intel 公司",
+        "美國全錄（Xerox）公司的 PARC 研究中心"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "Xerox PARC 於 1975 年研製成功，之後 Xerox、Digital、Intel 共同提出規範，成為 IEEE 802.3 的基礎。⚠️ 第一章寫 1973 年。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q29",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "早期不同廠商 VLAN 功能無法相容，後來 IEEE 提出哪個標準解決？",
+      "options": [
+        "IEEE 802.1x",
+        "IEEE 802.1Q",
+        "IEEE 802.3u",
+        "IEEE 802.11"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "VLAN 是交換式技術的進階應用，相容標準是 802.1Q。802.1x 是認證標準（第八章）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q13",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路實體上採用星狀拓樸（以 Hub 為中心），但在「邏輯設計」上採用哪一種拓樸？",
+      "options": [
+        "環狀拓樸",
+        "匯流排拓樸，以廣播方式傳遞訊息",
+        "網狀拓樸",
+        "樹狀拓樸"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "乙太網路實體是星狀，邏輯設計上（設計原理）仍是匯流排，以廣播方式傳遞訊息。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q20",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10BaseF 乙太網路使用的接頭稱為什麼？",
+      "options": [
+        "RJ-45",
+        "ST（Straight Tip）",
+        "BNC",
+        "GG45"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "10BaseF：光纖、ST 接頭、傳輸距離約 2 公里、星狀拓樸。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q25",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "使用特殊同軸電纜、DB9 接頭、最遠 25 公尺，很少被使用的 Gigabit 規格是？",
+      "options": [
+        "1000BaseSX",
+        "1000BaseLX",
+        "1000BaseCX",
+        "1000BaseT"
+      ],
+      "answer": 2,
+      "choice": 3,
+      "correct": false,
+      "explanation": "1000BaseCX：同軸電纜、DB9、25 公尺，適用交換器之間或交換器與主伺服器間的短距離連接。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q28",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10GBase-ER 使用 1550 nm 超長距離雷射模組，在單模光纖上最長可傳輸多遠？",
+      "options": [
+        "10 公里",
+        "300 公尺",
+        "85 公尺",
+        "40 公里"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "10GBase-SR：850 nm 短距離；LR：1310 nm，單模 10 公里；ER：1550 nm，單模 40 公里。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q27",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10GBase-T（IEEE 802.3an）捨棄了 RJ-45，改用哪一種接頭？",
+      "options": [
+        "GG45",
+        "SC",
+        "ST",
+        "DB9"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "10GBase-T 需 Cat 6a（500 MHz）以上，可傳 100 公尺，接頭改用 GG45（Giga Gate 45）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q11",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路傳送的訊框（Frame），總資料量最小要有多少位元組？",
+      "options": [
+        "64 Bytes",
+        "53 Bytes",
+        "128 Bytes",
+        "1500 Bytes"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "乙太網路訊框最小 64 Bytes。53 Bytes 是 ATM Cell 的長度，不要搞混。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q22",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "使用 4 對第 3 類雙絞線、採用半雙工傳輸、不是主流產品的是？",
+      "options": [
+        "100BaseT4",
+        "100BaseTX",
+        "100BaseFX",
+        "1000BaseT"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "100BaseT4：Cat 3 UTP（4 對）、半雙工、已淘汰。100BaseTX：Cat 5、曾是主流。100BaseFX：光纖 2 公里。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q18",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10Base2（細乙太網路）的網路區段最大長度與每區段最多可連接的電腦數是？",
+      "options": [
+        "500 公尺、100 部電腦",
+        "100 公尺、1 部電腦",
+        "185 公尺、30 部電腦",
+        "2 公里、30 部電腦"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "10Base2：RG-58 A/U 細同軸電纜、185 公尺（接近 200 所以叫 2）、30 部電腦、BNC 接頭。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q16",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "乙太網路命名中，C 為「T」代表哪一種傳輸媒介？",
+      "options": [
+        "雙絞線（Twisted-Pair），最長 100 公尺",
+        "光纖（Fiber）",
+        "同軸電纜",
+        "長波長雷射"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "T = 雙絞線（100 公尺）；F = 光纖；LX = 長波長雷射；SX = 短波長雷射。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q01",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802 標準只涉及 OSI 參考模型的哪幾層？",
+      "options": [
+        "網路層及傳輸層",
+        "應用層及表現層",
+        "實體層及資料鏈結層",
+        "只有實體層"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "IEEE 802 標準僅涉及 OSI 的實體層（Physical）與資料鏈結層（Data Link）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q02",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層的兩個子層中，與網路實體「無關」的部分是？",
+      "options": [
+        "LLC 邏輯鏈結控制子層",
+        "MAC 媒介存取控制子層",
+        "PHY 實體子層",
+        "ATM 調適層"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "與實體有關 → MAC 子層；與實體無關 → LLC 子層。LLC 的標準是 IEEE 802.2。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q03",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "負責 LLC 層共通規範的是哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.1",
+        "IEEE 802.3",
+        "IEEE 802.5",
+        "IEEE 802.2"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "802.1：橋接共通規範；802.2：LLC；802.3：CSMA/CD 乙太網路；802.5：記號環。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q26",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "支援第 5 類加強型（Cat 5e）雙絞線的 Gigabit 標準 1000BaseT，是哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.3z",
+        "IEEE 802.3ab",
+        "IEEE 802.3u",
+        "IEEE 802.3an"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "802.3z：光纖與同軸（1998）；802.3ab：雙絞線 1000BaseT（1999）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q15",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "乙太網路命名中，C 若是「數字」，代表什麼？",
+      "options": [
+        "使用雙絞線的類別",
+        "傳輸速率的倍數",
+        "使用同軸電纜，數字乘以 100 公尺是最長區段距離",
+        "可連接的電腦數量"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "C 是數字 → 同軸電纜，×100 公尺（2 → 200 公尺、5 → 500 公尺）；C 是英文 → T 雙絞線、F 光纖。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q07",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802 標準中，「什麼都沒有定義」的是哪一個編號？",
+      "options": [
+        "IEEE 802.12",
+        "IEEE 802.13",
+        "IEEE 802.14",
+        "IEEE 802.10"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "IEEE 802.13 沒有定義，可能是考慮到西方對 13 的忌諱。802.10 是網路安全、802.12 是需求優先權網路。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q21",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "100 Mbps 高速（Fast）乙太網路是在哪一年以哪個標準公布？",
+      "options": [
+        "1998 年，IEEE 802.3z",
+        "1995 年，IEEE 802.3u",
+        "1999 年，IEEE 802.3ab",
+        "2002 年，IEEE 802.3ae"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "演進：1975 802.3（10M）→ 1995 802.3u（100M）→ 1998 802.3z / 1999 802.3ab（1000M）→ 2002 802.3ae（10G）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q10",
+      "chapter": 5,
+      "section": "5-3",
+      "question": "下列何者是 CSMA/CD 的「缺點」？",
+      "options": [
+        "原理複雜、技術上不易實現",
+        "使用者增加時，資料碰撞的機率大大增加",
+        "需要集中控制",
+        "各工作站地位不平等"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "CSMA/CD 優點：原理簡單、易實現、各站平等、不需集中控制。缺點：電纜長度受限、使用者越多碰撞越多。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q24",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "1000BaseLX 在單模光纖上的最遠傳輸距離約為？",
+      "options": [
+        "550 公尺",
+        "275 公尺",
+        "5 公里",
+        "100 公尺"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "1000BaseLX：單模 5 公里、多模 550 公尺；1000BaseSX：275/550 公尺。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q06",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "無線個人區域網路（PAN）的標準是？",
+      "options": [
+        "IEEE 802.11",
+        "IEEE 802.16",
+        "IEEE 802.15",
+        "IEEE 802.14"
+      ],
+      "answer": 2,
+      "choice": 3,
+      "correct": false,
+      "explanation": "802.11：無線區域網路；802.14：有線電視（Cable Modem）；802.15：無線 PAN（藍牙）；802.16：無線都會網路。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q04",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.3 定義的是什麼？",
+      "options": [
+        "記號環（Token-Ring）網路",
+        "CSMA/CD 乙太（Ethernet）網路",
+        "無線區域網路",
+        "無線個人區域網路"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "802.3：乙太網路的實體層和資料鏈結層 MAC 部分；802.5：記號環；802.11：WLAN；802.15：PAN。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q14",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "10Base5 中的「Base」代表什麼意思？",
+      "options": [
+        "以寬頻方式傳輸",
+        "傳輸媒介是雙絞線",
+        "最長傳輸 500 公尺",
+        "以基頻方式傳輸"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "A-B-C：A = 速度（10 Mbps）、B = Base 基頻／Broad 寬頻、C = 媒介（5 → 同軸電纜 500 公尺）。"
+    },
+    {
+      "quizId": "ch5-001",
+      "qid": "q23",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "使用短波長雷射（850 nm）、「只能」驅動多模光纖的是？",
+      "options": [
+        "1000BaseLX",
+        "1000BaseCX",
+        "1000BaseT",
+        "1000BaseSX"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "SX = 短波（850 nm），只能多模；LX = 長波（1300 nm），單模或多模皆可。"
+    }
+  ]
+}

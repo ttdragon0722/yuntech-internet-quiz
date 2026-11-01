@@ -1,0 +1,524 @@
+{
+  "id": "20261101-155635-91d8",
+  "title": "第七章 無線傳輸媒介和設備 — 30 題",
+  "quizIds": [
+    "ch7-001"
+  ],
+  "finishedAt": "2026-11-01T15:56:35",
+  "durationSec": 257,
+  "total": 30,
+  "correct": 15,
+  "score": 50,
+  "items": [
+    {
+      "quizId": "ch7-001",
+      "qid": "q30",
+      "chapter": 7,
+      "section": "7-補充",
+      "question": "比較 NFC 與 RFID 的適用場景，下列何者正確？",
+      "options": [
+        "NFC 適合電子支付等需較高安全性的應用；RFID 適合庫存管理、物品追蹤",
+        "NFC 適合物品追蹤；RFID 適合電子支付",
+        "兩者都只能用於門禁",
+        "RFID 的安全性一定比 NFC 高"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "NFC：電子支付、個人資料交換（需高安全性）；RFID：庫存管理、物品追蹤（風險較低）。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q24",
+      "chapter": 7,
+      "section": "7-9",
+      "question": "筆電先以 Wi-Fi 連到智慧型手機，再透過手機的 4G/5G 行動網路上網，這種方式稱為？",
+      "options": [
+        "Ad Hoc 模式",
+        "WLAN Gateway 認證",
+        "手機 Wi-Fi 熱點分享",
+        "撥接上網"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "手機 Wi-Fi 熱點分享：筆電 → Wi-Fi → 手機 → 3G/4G/5G 行動網路。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q20",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "可以透過 xDSL 或 Cable Modem，以無線方式讓電腦連上網際網路的設備是？",
+      "options": [
+        "無線網路卡",
+        "無線網路路由器",
+        "紅外線收發器",
+        "RFID 讀取器"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "無線網路路由器：透過 xDSL 或 Cable Modem 無線上網。AP 則是與現有有線網路連結。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q18",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "隔著一條大馬路的兩棟大樓無法拉實體網路線，用哪一種無線方式連接較佳？",
+      "options": [
+        "紅外線",
+        "藍牙",
+        "雷射",
+        "NFC"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "兩大樓之間（20～5000 公尺）適合雷射；紅外線只有約 5 公尺。⭐ 小考考過類似題（相隔 300 公尺）。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q15",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "筆記型電腦標配的 IrDA 1.1 紅外線規格，速度大約是多少？",
+      "options": [
+        "11 Mbps",
+        "721 Kbps",
+        "115.2 Kbps",
+        "1 Gbps"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "IrDA 1.1 約 115.2 Kbps，用在少量資料傳輸。721 Kbps 是藍牙的有效速率。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q19",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "無線網路基地台的正確英文是 Access Point，原則上應翻譯成什麼？",
+      "options": [
+        "路由點",
+        "交換點",
+        "閘道點",
+        "存取點"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "AP 原意是「存取點」，受大哥大基地台影響，一般人稱為無線網路基地台。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q14",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "紅外線的傳輸距離大約可達多遠？",
+      "options": [
+        "約 100 公尺",
+        "約 5 公里",
+        "約 50 公里",
+        "約 5 公尺"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "紅外線約 5 公尺，例如電視遙控器。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q04",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "下列哪一個頻帶屬於 ISM 頻段？",
+      "options": [
+        "3.0～3.1 GHz",
+        "5.725～5.850 GHz",
+        "10～66 GHz",
+        "550～750 MHz"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "ISM 三個頻帶：902～928 MHz、2.4～2.4835 GHz、5.725～5.850 GHz。⭐ 小考考過 3 GHz 不是 ISM。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q29",
+      "chapter": 7,
+      "section": "7-補充",
+      "question": "關於 NFC（近場通訊），下列敘述何者正確？",
+      "options": [
+        "通訊距離可達 100 公尺",
+        "以 RFID 為基礎衍生，通訊距離不超過約 20 公分",
+        "是一種衛星通訊技術",
+        "只能單向傳輸、不能做點對點"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "NFC：以 RFID 標準為基礎的短距離通訊，約 20 公分內；可當讀卡機、模擬 RFID 標籤、與另一 NFC 裝置點對點傳輸。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q26",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "悠遊卡、員工（學生）證中嵌入的 RFID 標籤屬於哪一種？",
+      "options": [
+        "主動標籤（具自主供電）",
+        "被動標籤（無自主供電）",
+        "半主動標籤",
+        "NFC 讀卡機"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "被動標籤沒有自主供電，常嵌入物品中，例如悠遊卡、學生證、ETC 的 eTag。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q13",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "星鏈（Starlink）是哪一家公司、以什麼方式提供全球高速網際網路？",
+      "options": [
+        "Google，透過同步衛星",
+        "SpaceX，透過低軌道衛星群",
+        "中華電信，透過海底電纜",
+        "Apple，透過 GPS 衛星"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "星鏈：SpaceX 的低軌道衛星群服務，套件包含衛星接收天線、路由器、網路線。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q21",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "裝置以軟體方式實作一個基地台（Soft AP），讓裝置間不透過基地台就能連線的技術是？",
+      "options": [
+        "WiMAX",
+        "Wi-Fi Direct",
+        "IrDA",
+        "GPRS"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "Wi-Fi Direct：手機、電腦內建「軟體基地台」，裝置之間可直接建立連線。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q11",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 接收裝置是利用什麼原理來定位？",
+      "options": [
+        "三角定位，以測量無線電信號的傳輸時間來量測距離",
+        "測量紅外線反射角度",
+        "以 RFID 標籤感應",
+        "以 Wi-Fi 基地台名稱判斷"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "GPS 利用衛星的三角定位原理，接收裝置測量無線電信號的傳輸時間來量測距離。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q22",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "由康柏、DEC、IBM、微軟等大廠制定、支援「隨插即用」的無線網卡介面是？",
+      "options": [
+        "USB",
+        "PCMCIA",
+        "PCI",
+        "PCI Express"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "USB 支援隨插即用，筆電與桌機都可用。PCMCIA 是筆電專用；PCI、PCI Express 是桌機插槽。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q23",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "現在的筆記型電腦通常內建無線網卡，投影片提到的是搭配 Intel 的哪一項技術？",
+      "options": [
+        "Ultrabook",
+        "Wi-Fi Direct",
+        "MIMO",
+        "Centrino"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "筆電搭配 Intel Centrino CPU 技術內建無線網路模組，使用者不必再另外安裝無線網卡。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q02",
+      "chapter": 7,
+      "section": "7-1",
+      "question": "下列何者是無線區域網路的缺點？",
+      "options": [
+        "任何人都容易接收訊號、竊取資訊，必須注重使用者認證",
+        "佈線費用很高",
+        "無法在不易佈線的區域建置",
+        "線路容易損毀"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "WLAN 缺點：容易被竊取資訊、任何人可侵入、易干擾或訊號被建物阻隔、密鑰保管麻煩。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q06",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波是波長範圍約在多少的電磁波？",
+      "options": [
+        "1 m～10 m",
+        "850 nm～1580 nm",
+        "0.1 cm～30 cm",
+        "1 km 以上"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "微波波長約 0.1～30 公分，是直線波。850～1580 nm 是雷射的波長。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q01",
+      "chapter": 7,
+      "section": "7-1",
+      "question": "下列何者是無線區域網路（WLAN）的優點？",
+      "options": [
+        "完全不會被竊取資訊",
+        "不會受到干擾",
+        "省下可觀的佈線費用及裝潢重新修改費用",
+        "不需要做使用者認證"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "WLAN 優點：機動性、便利性、省佈線與裝潢費、空間彈性大、沒有線路損毀問題。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q03",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "ISM 頻段主要開放給哪三種用途使用？",
+      "options": [
+        "國防、軍事、警察",
+        "電視、廣播、電信",
+        "教育、研究、商業",
+        "工業、科學、醫學"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "ISM = Industrial Scientific Medical Band。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q25",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "RFID 系統一般至少包括哪兩個部分？",
+      "options": [
+        "基地台與無線網卡",
+        "發射天線與衛星",
+        "電子標籤（Tag）與讀取器（Reader）",
+        "數據機與分歧器"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "RFID（無線射頻識別）利用無線電波傳送識別資料，至少包含 Tag 與 Reader。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q27",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "具有自主供電系統，但平時處於無電源狀態，直到收到無線電信號才啟動電源的 RFID 標籤是？",
+      "options": [
+        "半主動（半被動）標籤",
+        "主動標籤",
+        "被動標籤",
+        "條碼標籤"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "主動：有自主供電；被動：無自主供電；半主動：有電源但平時不啟動，收到信號才啟動。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q10",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 衛星繞行地球一周大約需要多久？",
+      "options": [
+        "約 24 小時",
+        "約 12 小時",
+        "約 1 小時",
+        "約 30 天"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "GPS 衛星約 12 小時繞地球一周；同步衛星則是 24 小時（與地球自轉同步）。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q16",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "下列何者「不是」紅外線傳輸的模式？",
+      "options": [
+        "跳頻式紅外線",
+        "直接式紅外線（DB/IR）",
+        "散射式紅外線（DF/IR）",
+        "全向性紅外線（Omni/IR）"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "紅外線三種模式：直接式、散射式、全向性。「跳頻」是藍牙的展頻技術。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q07",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波傳輸一般需要透過「中繼站」，原因是什麼？",
+      "options": [
+        "微波只能在光纖內傳輸",
+        "微波是直線波，易受地球曲面及障礙物影響",
+        "微波速度太慢",
+        "微波只能傳 5 公尺"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "微波以直線方式從發送端傳到接收端，需要無阻礙；地球曲面與障礙物造成死角，所以需要中繼站。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q17",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "雷射無線傳輸的速率與距離範圍大約是？",
+      "options": [
+        "100 Mbps～1 Gbps，20 公尺～5000 公尺",
+        "115.2 Kbps，5 公尺",
+        "11 Mbps，100 公尺",
+        "70 Mbps，50 公里"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "雷射：速率 100 Mbps～1 Gbps、距離 20～5000 公尺，常用於兩棟大樓間。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q05",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "無線區域網路所使用的頻段，大多是 ISM 的哪一個頻率範圍？",
+      "options": [
+        "2.4 GHz",
+        "900 MHz",
+        "60 GHz",
+        "4 KHz"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "WLAN 大多使用 ISM 2.4 GHz；無線電波訊號會受障礙物阻擋而衰減。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q09",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 衛星運行於多高的高空？",
+      "options": [
+        "約 36,000 公里",
+        "約 500 公里",
+        "約 100 公里",
+        "約 20,200 公里"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "GPS：24 顆衛星、6 個軌道、約 20,200 公里高空、繞地球一周約 12 小時。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q28",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "高速公路電子道路收費系統（ETC）的 eTag 使用的是什麼技術？",
+      "options": [
+        "GPS 定位",
+        "紅外線",
+        "藍牙",
+        "RFID 被動標籤"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "ETC（Electronic Toll Collection）的 eTag 是 RFID 被動標籤。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q12",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "新聞 SNG 車進行現場直播時，是透過什麼傳送畫面？",
+      "options": [
+        "紅外線",
+        "藍牙",
+        "衛星轉播",
+        "雙絞線"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "SNG 車透過衛星轉播：地面發射天線 → 衛星 → 另一端地面接收天線。"
+    },
+    {
+      "quizId": "ch7-001",
+      "qid": "q08",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "通訊用的同步衛星位於距離地球多高的高空？",
+      "options": [
+        "約 20,200 公里",
+        "約 500 公里",
+        "約 2,000 公里",
+        "約 36,000 公里"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "同步衛星約 36,000 公里；GPS 約 20,200 公里；星鏈（低軌）約 500 公里。"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "mock-002",
+  "title": "模擬小考 2（test2 原題，範圍：第 6、7 章）— 10 題",
+  "created": "2026-11-01",
+  "description": "2026-10-13 第 2 次小考原題：電路交換、ATM Cell、FTTH、T/E-Carrier、VPN、ISM、GPS、雷射、無線基地台、星鏈",
+  "questions": [
+    {
+      "id": "q01", "chapter": 6, "section": "6-1",
+      "question": "下列哪一種是傳統公眾電信網路的交換方式？",
+      "options": ["電路交換", "細胞交換", "分封交換", "固定交換"],
+      "answer": 0,
+      "explanation": "傳統公眾交換電話網路（PSTN）以電路交換傳輸：64 Kbps 傳語音，頻寬完全佔線直到通話結束，全雙工、連接導向。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q02", "chapter": 6, "section": "6-6",
+      "question": "ATM 是一種以幾位元組固定大小細胞（Cell）為基礎的傳輸方式？",
+      "options": ["43", "48", "53", "58"],
+      "answer": 2,
+      "explanation": "ATM Cell 固定 53 Bytes＝表頭 5 Bytes（地址）＋資訊欄 48 Bytes（真正資料）。48 是資料欄長度，是常見陷阱。（原卷寫「幾位元」，實為位元組）",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q03", "chapter": 6, "section": "6-4",
+      "question": "下列哪一項是直接把光纖接到用戶的家中之網路技術？",
+      "options": ["Smart Home", "FTTH", "Cable Modem", "ADSL"],
+      "answer": 1,
+      "explanation": "FTTH = Fiber To The Home 光纖到府（中華電信稱光世代）；FTTB 到建築、FTTC 到路邊、FTTCab 到交換箱。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q04", "chapter": 6, "section": "6-5",
+      "question": "下列哪一種傳輸速率最快？",
+      "options": ["E1", "E3", "T1", "T3"],
+      "answer": 3,
+      "explanation": "T1 1.544 < E1 2.048 < E3 34.368 < T3 44.736（Mbps）。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q05", "chapter": 6, "section": "6-補充",
+      "question": "下列哪一項是利用通道技術透過網際網路建立一個安全的傳輸管道？",
+      "options": ["虛擬區域網路", "虛擬私人網路", "虛擬公眾網路", "虛擬廣播網路"],
+      "answer": 1,
+      "explanation": "虛擬私人網路（VPN）：通道技術把封包封裝在另一個封包內，透過網際網路建立安全管道。虛擬區域網路是 VLAN（第 5 章，隔離廣播封包）。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q06", "chapter": 7, "section": "7-2",
+      "question": "下列哪一項不是 ISM 頻段？",
+      "options": ["900MHz", "2.4GHz", "3GHz", "5GHz"],
+      "answer": 2,
+      "explanation": "ISM 三頻帶：902～928 MHz、2.4～2.4835 GHz、5.725～5.850 GHz，開放給工業、科學、醫學使用。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q07", "chapter": 7, "section": "7-4",
+      "question": "GPS（Global Positioning System，全球衛星定位系統）的定位，由幾顆繞地球衛星所組成？",
+      "options": ["24 顆", "12 顆", "6 顆", "3 顆"],
+      "answer": 0,
+      "explanation": "GPS：24 顆衛星、6 個軌道、約 20,200 公里高空、繞地球一周約 12 小時（12 和 6 都是干擾選項）。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q08", "chapter": 7, "section": "7-6",
+      "question": "相隔 300 公尺的兩大樓間無法架設實體網路，此時用什麼樣的無線方式進行網路連接較佳？",
+      "options": ["紅外線", "無線電波", "雷射", "衛星"],
+      "answer": 2,
+      "explanation": "雷射：100 Mbps～1 Gbps、20～5000 公尺，適合兩大樓之間；紅外線只有約 5 公尺。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q09", "chapter": 7, "section": "7-7",
+      "question": "通常連接有線的區域網路，再發送無線電波，供筆記型電腦存取網路的設備是下列哪一項？",
+      "options": ["無線網卡", "無線基地台", "無線路由器", "無線集線器"],
+      "answer": 1,
+      "explanation": "無線網路基地台（Access Point, AP，原意「存取點」）：與現有有線網路連結。無線路由器則是透過 xDSL／Cable Modem 連上網際網路。",
+      "tags": ["test2"]
+    },
+    {
+      "id": "q10", "chapter": 7, "section": "7-4",
+      "question": "下列哪一種衛星是運行於約 500 公里的高空？",
+      "options": ["轉播衛星", "GPS 衛星", "通訊衛星", "星鏈衛星"],
+      "answer": 3,
+      "explanation": "星鏈（Starlink，SpaceX）是低軌道衛星群（約 500 公里）；GPS 約 20,200 公里；通訊用的同步衛星約 36,000 公里。⚠️ 投影片只寫「低軌道」，沒寫 500 公里。",
+      "tags": ["test2"]
+    }
+  ]
+}

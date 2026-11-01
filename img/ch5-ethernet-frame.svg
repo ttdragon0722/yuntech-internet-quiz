@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<title>乙太網路訊框格式</title>
+<style>
+ .bg{fill:#fff} .t{fill:#1d232b} .m{fill:#5f6873} .sync{fill:#d9efdc;stroke:#23774a} .addr{fill:#e3eef6;stroke:#1f5f8b} .data{fill:#fbe7ef;stroke:#a0365f}
+ .use{fill:#1f5f8b;font-weight:700} .brace{stroke:#5f6873;fill:none;stroke-width:1.5} .hl{fill:#b3372f;font-weight:700}
+ @media (prefers-color-scheme: dark) {
+  .bg{fill:#15181c} .t{fill:#e8e6e1} .m{fill:#9aa3ad} .sync{fill:#1b3326;stroke:#5cc48a} .addr{fill:#1f3343;stroke:#6fb0de}
+  .data{fill:#3a2030;stroke:#e27aa3} .use{fill:#6fb0de} .brace{stroke:#9aa3ad} .hl{fill:#ec7d74}
+ }
+</style>
+<rect class="bg" width="960" height="300"/>
+<text class="t" x="480.0" y="34" text-anchor="middle" font-size="20" font-weight="700">乙太網路訊框（Frame）格式</text>
+<rect class="sync" x="52" y="70" width="120" height="66" stroke-width="1.5"/>
+<text class="t" x="112.0" y="98" text-anchor="middle" font-size="16" font-weight="700">前導碼</text>
+<text class="m" x="112.0" y="120" text-anchor="middle" font-size="13">Preamble+SOF</text>
+<text class="t" x="112.0" y="160" text-anchor="middle" font-size="14">8 Bytes</text>
+<text class="use" x="112.0" y="184" text-anchor="middle" font-size="14">同步</text>
+<rect class="addr" x="172" y="70" width="120" height="66" stroke-width="1.5"/>
+<text class="t" x="232.0" y="98" text-anchor="middle" font-size="16" font-weight="700">目的位址</text>
+<text class="m" x="232.0" y="120" text-anchor="middle" font-size="13">Destination</text>
+<text class="t" x="232.0" y="160" text-anchor="middle" font-size="14">6 Bytes</text>
+<text class="use" x="232.0" y="184" text-anchor="middle" font-size="14">MAC 位址</text>
+<rect class="addr" x="292" y="70" width="120" height="66" stroke-width="1.5"/>
+<text class="t" x="352.0" y="98" text-anchor="middle" font-size="16" font-weight="700">來源位址</text>
+<text class="m" x="352.0" y="120" text-anchor="middle" font-size="13">Source</text>
+<text class="t" x="352.0" y="160" text-anchor="middle" font-size="14">6 Bytes</text>
+<text class="use" x="352.0" y="184" text-anchor="middle" font-size="14">MAC 位址</text>
+<rect class="addr" x="412" y="70" width="84" height="66" stroke-width="1.5"/>
+<text class="t" x="454.0" y="98" text-anchor="middle" font-size="16" font-weight="700">型態</text>
+<text class="m" x="454.0" y="120" text-anchor="middle" font-size="13">Type</text>
+<text class="t" x="454.0" y="160" text-anchor="middle" font-size="14">2 Bytes</text>
+<text class="use" x="454.0" y="184" text-anchor="middle" font-size="14">協定型態</text>
+<rect class="data" x="496" y="70" width="300" height="66" stroke-width="1.5"/>
+<text class="t" x="646.0" y="98" text-anchor="middle" font-size="16" font-weight="700">主要資料</text>
+<text class="m" x="646.0" y="120" text-anchor="middle" font-size="13">Data</text>
+<text class="t" x="646.0" y="160" text-anchor="middle" font-size="14">46～1500 Bytes</text>
+<text class="use" x="646.0" y="184" text-anchor="middle" font-size="14">上層封包</text>
+<rect class="sync" x="796" y="70" width="112" height="66" stroke-width="1.5"/>
+<text class="t" x="852.0" y="98" text-anchor="middle" font-size="16" font-weight="700">檢查碼</text>
+<text class="m" x="852.0" y="120" text-anchor="middle" font-size="13">CRC-FCS</text>
+<text class="t" x="852.0" y="160" text-anchor="middle" font-size="14">4 Bytes</text>
+<text class="use" x="852.0" y="184" text-anchor="middle" font-size="14">錯誤偵測</text>
+<path class="brace" d="M172 202 v10 H908 v-10"/>
+<text class="hl" x="540.0" y="234" text-anchor="middle" font-size="15">訊框長度：最小 64 Bytes（6+6+2+46+4）～ 最大 1518 Bytes（6+6+2+1500+4）</text>
+<text class="m" x="112.0" y="234" text-anchor="middle" font-size="12">不計入長度</text>
+</svg>

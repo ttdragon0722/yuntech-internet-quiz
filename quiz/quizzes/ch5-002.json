@@ -1,0 +1,428 @@
+{
+  "id": "ch5-002",
+  "title": "第五章 乙太網路 — 第二回 30 題（弱點加強）",
+  "created": "2026-11-01",
+  "description": "依第一回錯題加重：IEEE 802 編號與子層、CSMA/CD、訊框欄位、各規格接頭、802.3 字母標準、VLAN 情境題",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.4 與 802.5 分別是哪兩種網路？",
+      "options": [
+        "802.4 記號環；802.5 記號匯流排",
+        "802.4 乙太網路；802.5 無線網路",
+        "802.4 記號匯流排（Token-Bus）；802.5 記號環（Token-Ring）",
+        "802.4 都會網路；802.5 光纖技術"
+      ],
+      "answer": 2,
+      "explanation": "用拓樸記：4 = Bus 匯流排、5 = Ring 環狀。上回你把 802.5 選成乙太網路（乙太網路是 802.3）。"
+    },
+    {
+      "id": "q02",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "某公司使用 IBM 的記號環網路，電腦拿到記號才能傳送、不會發生碰撞。這種網路對應哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.5",
+        "IEEE 802.3",
+        "IEEE 802.4",
+        "IEEE 802.11"
+      ],
+      "answer": 0,
+      "explanation": "Token-Ring → 802.5（環狀拓樸，不會碰撞）。802.3 是 CSMA/CD 乙太網路，會碰撞。"
+    },
+    {
+      "id": "q03",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "藍牙耳機、手機等「無線個人區域網路（PAN）」對應哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.14",
+        "IEEE 802.11",
+        "IEEE 802.16",
+        "IEEE 802.15"
+      ],
+      "answer": 3,
+      "explanation": "無線三兄弟由小到大：802.15 PAN（藍牙）< 802.11 LAN（Wi-Fi）< 802.16 MAN（WiMAX）。上回你選了 802.14，那是有線電視 Cable Modem。"
+    },
+    {
+      "id": "q04",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.14 定義的是什麼？",
+      "options": [
+        "無線個人區域網路",
+        "有線電視網路標準（Cable Modem）",
+        "網路安全",
+        "什麼都沒有定義"
+      ],
+      "answer": 1,
+      "explanation": "802.14 = Cable Modem；802.13 才是什麼都沒定義；802.10 是網路安全；802.15 是 PAN。"
+    },
+    {
+      "id": "q05",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "下列 IEEE 802 標準與內容的配對，何者「錯誤」？",
+      "options": [
+        "802.16－無線區域網路",
+        "802.3－CSMA/CD 乙太網路",
+        "802.11－無線區域網路",
+        "802.2－LLC 層共通規範"
+      ],
+      "answer": 0,
+      "explanation": "802.16 是「無線都會網路」（WiMAX）；無線區域網路是 802.11。"
+    },
+    {
+      "id": "q06",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802 標準涵蓋 OSI 模型的範圍是？",
+      "options": [
+        "第 3 層網路層與第 4 層傳輸層",
+        "第 1 層到第 7 層全部",
+        "只有第 1 層實體層與第 2 層資料鏈結層",
+        "只有第 7 層應用層"
+      ],
+      "answer": 2,
+      "explanation": "IEEE 802 只管 LAN 的實體接線部分：實體層＋資料鏈結層。上回你選成網路層及傳輸層。"
+    },
+    {
+      "id": "q07",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層中，與網路實體「有關」、依媒介不同而不同的子層是？",
+      "options": [
+        "LLC 邏輯鏈結控制子層",
+        "MAC 媒介存取控制子層",
+        "PHY 實體層",
+        "ATM 調適層"
+      ],
+      "answer": 1,
+      "explanation": "MAC 的 M = Media 媒介 → 跟實體有關（有線用 CSMA/CD、無線用 CSMA/CA）；LLC 跟實體無關。"
+    },
+    {
+      "id": "q08",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "有線的乙太網路與無線的 Wi-Fi，在資料鏈結層「共用同一套」標準的是哪一個子層？",
+      "options": [
+        "MAC 子層（IEEE 802.3）",
+        "實體層（PHY）",
+        "以上都不共用",
+        "LLC 子層（IEEE 802.2）"
+      ],
+      "answer": 3,
+      "explanation": "LLC 與實體無關，有線無線都用 802.2；MAC 則各自不同（802.3／802.11）。上回你把「與實體無關」選成 PHY，PHY 是第 1 層實體層，不是子層。"
+    },
+    {
+      "id": "q09",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "CSMA/CD 中的「CSMA」代表什麼？",
+      "options": [
+        "分碼多重存取（Code Division Multiple Access）",
+        "分時多重存取（Time Division Multiple Access）",
+        "循環冗餘檢查（Cyclic Redundancy Check）",
+        "載波感應多重存取（Carrier Sense Multiple Access）"
+      ],
+      "answer": 3,
+      "explanation": "CSMA = Carrier Sense Multiple Access：先「感應載波」（聽線上有沒有人在傳）再傳。上回你選了「分碼」，那是 CDMA（3G）。"
+    },
+    {
+      "id": "q10",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路的 CSMA/CD 與無線網路的 CSMA/CA，最後兩個字母的差別是？",
+      "options": [
+        "CD 是碰撞避免；CA 是碰撞偵測",
+        "CD 是碰撞偵測（Detection）；CA 是碰撞避免（Avoidance）",
+        "CD 是有線光碟；CA 是無線認證",
+        "兩者意思完全相同"
+      ],
+      "answer": 1,
+      "explanation": "乙太網路（有線）能偵測碰撞 → CD；無線訊號難以偵測碰撞 → 改成事先避免 → CA。"
+    },
+    {
+      "id": "q11",
+      "chapter": 5,
+      "section": "5-3",
+      "question": "下列何者是 CSMA/CD 的「優點」？",
+      "options": [
+        "原理簡單、容易實現，各工作站地位平等、不需集中控制",
+        "提供優先順序控制",
+        "電纜長度不受限制",
+        "使用者越多效能越好"
+      ],
+      "answer": 0,
+      "explanation": "缺點才是：電纜長度受限（太長感測不到碰撞）、使用者越多碰撞機率越高。CSMA/CD 不提供優先順序控制。"
+    },
+    {
+      "id": "q12",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框的「前導碼（Preamble）」用途是什麼？",
+      "options": [
+        "錯誤偵測",
+        "標示 MAC 位址",
+        "同步",
+        "標示協定型態"
+      ],
+      "answer": 2,
+      "explanation": "前導碼 → 同步；目的／來源位址 → MAC；Type → 協定型態；CRC-FCS → 錯誤偵測。上回你把錯誤偵測選成前導碼。"
+    },
+    {
+      "id": "q13",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框最後的「CRC-FCS」欄位用途是什麼？",
+      "options": [
+        "同步",
+        "錯誤偵測（Frame Check Sequence）",
+        "存放來源 MAC 位址",
+        "存放主要資料"
+      ],
+      "answer": 1,
+      "explanation": "FCS = Frame Check Sequence 訊框「檢查」序列 → 名字就有 Check 檢查 → 錯誤偵測。"
+    },
+    {
+      "id": "q14",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "關於乙太網路的訊框，下列何者正確？",
+      "options": [
+        "訊框固定為 53 Bytes",
+        "訊框中的位址是 IP 位址",
+        "訊框最小 48 Bytes",
+        "訊框總資料量最小要有 64 Bytes，目的與來源位址為 MAC 位址"
+      ],
+      "answer": 3,
+      "explanation": "乙太網路訊框最小 64 Bytes、位址是 MAC（⭐ 小考考過）。53 Bytes 是 ATM Cell、48 Bytes 是 ATM 資料欄。"
+    },
+    {
+      "id": "q15",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "使用 Hub 的乙太網路，實體上是星狀，邏輯上卻是匯流排。這表示資料是怎麼傳遞的？",
+      "options": [
+        "沿著環狀依序傳遞記號",
+        "每台電腦都有專屬線路互連成網狀",
+        "以廣播方式傳給所有電腦，像接在同一條匯流排上",
+        "只傳給路由器"
+      ],
+      "answer": 2,
+      "explanation": "實體接線是星狀（接 Hub），但設計原理仍是匯流排：一台送出、全部都收到（廣播）。上回你選成網狀。"
+    },
+    {
+      "id": "q16",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "「100BaseFX」這個名稱代表什麼？",
+      "options": [
+        "100 Mbps、基頻傳輸、使用光纖",
+        "100 公尺、寬頻傳輸、使用雙絞線",
+        "100 Mbps、寬頻傳輸、使用同軸電纜",
+        "100 台電腦、基頻傳輸、使用光纖"
+      ],
+      "answer": 0,
+      "explanation": "A = 100 Mbps；B = Base 基頻；C = F → Fiber 光纖。⭐ 小考考過 C 代表傳輸媒介類型。"
+    },
+    {
+      "id": "q17",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "乙太網路名稱中的「LX」與「SX」分別代表什麼？",
+      "options": [
+        "LX 長波長雷射、SX 短波長雷射",
+        "LX 低速、SX 高速",
+        "LX 區域網路、SX 交換器",
+        "LX 雙絞線、SX 同軸電纜"
+      ],
+      "answer": 0,
+      "explanation": "L = Long 長波（1300 nm）、S = Short 短波（850 nm）。"
+    },
+    {
+      "id": "q18",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10BaseF（光纖）乙太網路使用哪一種接頭？",
+      "options": [
+        "RJ-45",
+        "BNC",
+        "ST（Straight Tip）",
+        "AUI"
+      ],
+      "answer": 2,
+      "explanation": "10BaseF：光纖、ST 接頭、2 公里。RJ-45 是雙絞線用的（上回你選了這個）。記法：F 光纖 → ST。"
+    },
+    {
+      "id": "q19",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10Base2（細乙太網路）的網路卡使用哪一種接頭？",
+      "options": [
+        "AUI",
+        "RJ-45",
+        "ST",
+        "BNC"
+      ],
+      "answer": 3,
+      "explanation": "10Base5 → AUI；10Base2 → BNC；10BaseT → RJ-45；10BaseF → ST。"
+    },
+    {
+      "id": "q20",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10Base5（粗乙太網路）的網路卡使用哪一種接頭？",
+      "options": [
+        "BNC",
+        "AUI",
+        "RJ-45",
+        "SC"
+      ],
+      "answer": 1,
+      "explanation": "10Base5：RG-11 粗同軸、AUI、500 公尺、最多 100 部電腦。"
+    },
+    {
+      "id": "q21",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "1000BaseCX 使用哪一種接頭？最遠傳輸距離是多少？",
+      "options": [
+        "RJ-45，100 公尺",
+        "DB9，25 公尺",
+        "SC，5 公里",
+        "GG45，100 公尺"
+      ],
+      "answer": 1,
+      "explanation": "1000BaseCX：特殊同軸電纜、DB9、25 公尺，適合交換器之間短距離連接、很少使用。上回你選成 1000BaseT。記法：C = Coaxial 同軸、距離最短。"
+    },
+    {
+      "id": "q22",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "1000BaseLX 與 1000BaseSX 光纖網路卡使用的接頭是？",
+      "options": [
+        "SC",
+        "ST",
+        "DB9",
+        "BNC"
+      ],
+      "answer": 0,
+      "explanation": "Gigabit 光纖（LX、SX）→ SC 接頭；10 Mbps／100 Mbps 光纖（10BaseF、100BaseFX）→ ST 接頭。"
+    },
+    {
+      "id": "q23",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10GBase-T 使用 Cat 6a 雙絞線傳輸 100 公尺，但捨棄了 RJ-45，改用？",
+      "options": [
+        "SC",
+        "ST",
+        "DB9",
+        "GG45（Giga Gate 45）"
+      ],
+      "answer": 3,
+      "explanation": "記法：GG45 = Giga Gate 45，名字就像「進階版 45」→ 取代 RJ-45。上回你選了 SC（那是 Gigabit 光纖接頭）。"
+    },
+    {
+      "id": "q24",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "下列「乙太網路規格－接頭」配對，何者「錯誤」？",
+      "options": [
+        "10BaseT－RJ-45",
+        "10Base2－BNC",
+        "10BaseF－RJ-45",
+        "1000BaseCX－DB9"
+      ],
+      "answer": 2,
+      "explanation": "10BaseF 是光纖，用 ST 接頭；RJ-45 是雙絞線（10BaseT、100BaseTX、1000BaseT）用的。"
+    },
+    {
+      "id": "q25",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "使用 Cat 5e 雙絞線的 1000BaseT，是哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.3u（1995 年）",
+        "IEEE 802.3z（1998 年）",
+        "IEEE 802.3ab（1999 年）",
+        "IEEE 802.3ae（2002 年）"
+      ],
+      "answer": 2,
+      "explanation": "同速率先出光纖、後出雙絞線：1000 Mbps 光纖／同軸 = 802.3z，雙絞線 = 802.3ab。上回你選成 802.3u（那是 100 Mbps）。"
+    },
+    {
+      "id": "q26",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "100 Mbps 高速（Fast）乙太網路的 IEEE 標準是？",
+      "options": [
+        "IEEE 802.3ab",
+        "IEEE 802.3u",
+        "IEEE 802.3z",
+        "IEEE 802.3an"
+      ],
+      "answer": 1,
+      "explanation": "802.3（10M）→ 802.3u（100M，1995）→ 802.3z／ab（1000M）→ 802.3ae／an（10G）。"
+    },
+    {
+      "id": "q27",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10 Gigabit 乙太網路中，「光纖」與「雙絞線」的標準分別是？",
+      "options": [
+        "光纖 802.3ae；雙絞線 802.3an",
+        "光纖 802.3an；雙絞線 802.3ae",
+        "光纖 802.3z；雙絞線 802.3ab",
+        "光纖 802.3u；雙絞線 802.3ba"
+      ],
+      "answer": 0,
+      "explanation": "10G：802.3ae（光纖，2002）、802.3an（雙絞線 10GBase-T，2006）。1000M 才是 z／ab。"
+    },
+    {
+      "id": "q28",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "不同廠牌交換器的 VLAN 功能要能互相相容，必須支援哪一個 IEEE 標準？",
+      "options": [
+        "IEEE 802.11",
+        "IEEE 802.1x",
+        "IEEE 802.3",
+        "IEEE 802.1Q"
+      ],
+      "answer": 3,
+      "explanation": "VLAN 相容標準 = 802.1Q；802.1x 是無線網路認證；802.11 是 Wi-Fi（上回你選了這個）。"
+    },
+    {
+      "id": "q29",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "公司把交換器分成「業務部」「研發部」兩個 VLAN，業務部電腦送出的廣播封包不會傳到研發部。這是 VLAN 的哪一項功能？",
+      "options": [
+        "突破實體位置限制",
+        "隔離廣播封包",
+        "增加網路位址設定彈性",
+        "提高傳輸速率"
+      ],
+      "answer": 1,
+      "explanation": "廣播只在同一個 VLAN ID 群組內傳送 → 隔離廣播封包。上回你選了「突破實體位置限制」。"
+    },
+    {
+      "id": "q30",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "研發部員工即使坐在不同樓層，只要電腦設定相同 VLAN ID 就屬於同一群組、方便管理。這是 VLAN 的哪一項功能？",
+      "options": [
+        "突破實體位置限制",
+        "隔離廣播封包",
+        "限制存取、提高安全性",
+        "增加網路位址設定彈性"
+      ],
+      "answer": 0,
+      "explanation": "人在哪裡不重要，VLAN ID 相同就是同一群 → 突破實體位置限制。⭐「增加網路位址設定彈性」不是 VLAN 三大功能。"
+    }
+  ]
+}

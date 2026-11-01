@@ -1,0 +1,524 @@
+{
+  "id": "20261101-163944-c5da",
+  "title": "第八章 無線網路 — 第二回 30 題（弱點加強）",
+  "quizIds": [
+    "ch8-002"
+  ],
+  "finishedAt": "2026-11-01T16:39:44",
+  "durationSec": 909,
+  "total": 30,
+  "correct": 17,
+  "score": 57,
+  "items": [
+    {
+      "quizId": "ch8-002",
+      "qid": "q18",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11n 使用多個發射與接收天線來提高傳輸率，這項技術稱為？",
+      "options": [
+        "跳頻展頻",
+        "OFDM",
+        "MIMO（多進多出）",
+        "CSMA/CD"
+      ],
+      "answer": 2,
+      "choice": 1,
+      "correct": false,
+      "explanation": "n = new，多天線 MIMO（Multiple Input Multiple Output）。跳頻展頻是藍牙的技術（上回你選了這個）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q21",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列無線網路加密方式，由舊到新排列何者正確？",
+      "options": [
+        "WPA → WEP → WPA2 → WPA3",
+        "WEP → WPA → WPA2 → WPA3",
+        "WPA3 → WPA2 → WPA → WEP",
+        "WEP → WEP2 → WPA → WPA3"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "WEP 最舊（已被破解）；WPA 數字越大越新，最新是 WPA3。「WEP2」不存在（上回你選了 WEP2）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q04",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "藍牙的實際有效速率最大約為多少？",
+      "options": [
+        "11 Mbps",
+        "721 Kbps",
+        "54 Mbps",
+        "115.2 Kbps"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "藍牙 721 Kbps；11 Mbps 是 802.11b（上回你選了這個）；115.2 Kbps 是紅外線 IrDA。記：七九、七二一、一十（79 頻道、721 K、10 公尺）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q19",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11a、b、g 三者中，速率最慢的是？",
+      "options": [
+        "802.11a（54 Mbps）",
+        "802.11g（54 Mbps）",
+        "三者速度相同",
+        "802.11b（11 Mbps）"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "b 只有 11 Mbps；a、g 都是 54 Mbps；n 約 300 Mbps。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q10",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11 使用 CSMA/CA，其中「CA」的意思以及採用原因是？",
+      "options": [
+        "Collision Analysis 碰撞分析，因為無線速度太快",
+        "Collision Avoidance 碰撞避免，因為無線訊號難以偵測碰撞",
+        "Carrier Access 載波存取，因為沒有實體線路",
+        "Collision Detection 碰撞偵測，與乙太網路相同"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "乙太網路 CSMA/CD = 碰撞偵測；無線偵測碰撞困難 → CSMA/CA 改成事先避免碰撞。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q15",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "工作在 5 GHz、最高 54 Mbps、採用 OFDM 調變的是哪一個規格？",
+      "options": [
+        "802.11b",
+        "802.11g",
+        "802.11a",
+        "802.11n"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "5 GHz ＋ OFDM → 802.11a（為了避開 2.4 GHz 干擾而提出）。上回你選了 802.11b。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q08",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "「Wi-Fi」這個名稱代表什麼？",
+      "options": [
+        "無線都會網路標準",
+        "一種無線加密技術",
+        "第四代行動電話系統",
+        "無線網路相容認證（Wireless Fidelity），解決 802.11 產品的相容性問題"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "Wi-Fi 是 IEEE 802.11 產品的相容「認證」，買產品時要認明 Wi-Fi 標章。上回你選了「無線都會網路標準」（那是 WiMAX）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q14",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11b 的工作頻段與最高傳輸速率是？",
+      "options": [
+        "5 GHz、54 Mbps",
+        "2.4 GHz、54 Mbps",
+        "5 GHz、11 Mbps",
+        "2.4 GHz、11 Mbps"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "b = basic：2.4 GHz、11 Mbps（跟 802.11 的 11 同數字）。上回你選了 5 GHz、54 Mbps，那是 802.11a。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q01",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "無線網路依傳輸範圍由小到大排列，下列何者正確？",
+      "options": [
+        "WPAN < WMAN < WLAN < WWAN",
+        "WLAN < WPAN < WMAN < WWAN",
+        "WPAN < WLAN < WMAN < WWAN",
+        "WMAN < WLAN < WPAN < WWAN"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "個人 < 區域 < 都會 < 廣域，跟有線的 PAN < LAN < MAN < WAN 完全一樣。上回你把 WLAN 和 WMAN 對調了。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q25",
+      "chapter": 8,
+      "section": "8-4",
+      "question": "WiMAX 的兩條發展路徑中，「行動式」與「固定式」分別是？",
+      "options": [
+        "行動式 802.16d、固定式 802.16e",
+        "行動式 802.16a、固定式 802.16b",
+        "行動式 802.16e、固定式 802.16d",
+        "行動式 802.11e、固定式 802.11d"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "e = 行動（everywhere 到處走）、d = 固定（desk 桌上不動）；2006 年合併為 802.16e-2005。上回你選了 802.16a。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q22",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "校園無線網路以 WLAN Gateway 要求輸入帳號密碼，其採用的認證標準是？",
+      "options": [
+        "IEEE 802.1x",
+        "IEEE 802.11b",
+        "IEEE 802.1Q",
+        "IEEE 802.16"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "認證 → 802.1x（x 像打勾 ✓）；802.1Q 是 VLAN；802.11b 是 11 Mbps 的傳輸規格（上回你選了這個）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q29",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "台灣的 3G 服務中，「唯一」採用 CDMA2000 系統的業者是？",
+      "options": [
+        "中華電信",
+        "亞太電信",
+        "台灣大哥大",
+        "遠傳電信"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "亞太電信用 CDMA2000（美國高通主導）；中華、台灣大、遠傳都用 WCDMA。上回你選了中華電信。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q13",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11 a／b／g／n 中，「唯一只在 5 GHz」運作的是？",
+      "options": [
+        "802.11b",
+        "802.11a",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "只有 a 在 5 GHz；b、g 在 2.4 GHz；n 是 2.4 或 5 GHz 都可以。記法：a 是異類（apart）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q06",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "藍牙的總頻道數有多少個？採用什麼技術？",
+      "options": [
+        "24 個頻道，分時多工",
+        "30 個頻道，OFDM",
+        "79 個頻道，跳頻式展頻",
+        "11 個頻道，MIMO"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "藍牙：ISM 2.4 GHz、跳頻式展頻、頻道間隔 1 MHz、共 79 頻道。24 是 T1、30 是 E1。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q11",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "兩台筆電在沒有任何基地台的情況下，直接以無線網路互傳檔案，屬於哪一種模式？",
+      "options": [
+        "隨意網路模式（Ad Hoc Mode）",
+        "基地台模式（Infrastructure Mode）",
+        "WLAN Gateway 模式",
+        "WiMAX 模式"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "Ad Hoc = 臨時的，工作站之間直接連；Infrastructure = 基礎建設，要先有 AP。上回你選成基地台模式。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q12",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "每台電腦都連到中心的存取點（AP），形成擁有唯一 BSSID 的基本服務區，這是哪一種模式？",
+      "options": [
+        "隨意網路模式（Ad Hoc Mode）",
+        "點對點模式",
+        "基地台模式（Infrastructure Mode）",
+        "Wi-Fi Direct 模式"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "基地台模式：透過 AP、有 BSSID（Basic Service Set ID）；AP 涵蓋範圍會限制移動性。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q17",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列哪一個規格「不相容」於 802.11b？",
+      "options": [
+        "802.11a",
+        "802.11g",
+        "802.11n",
+        "以上都相容"
+      ],
+      "answer": 0,
+      "choice": 3,
+      "correct": false,
+      "explanation": "a 在 5 GHz，跟 2.4 GHz 的 b 不相容；g、n 都向下相容 b。上回你選了「以上都不相容」。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q30",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "下列何者是投影片所列 5G 的三大優點之一？",
+      "options": [
+        "低延遲",
+        "資費便宜",
+        "不需要增建基地台",
+        "只能在室內使用"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "5G 優點：超大頻寬（高網速）、低延遲、巨量連線；難題：資費昂貴、需更新與增建基地台。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q28",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "關於 GSM，下列何者正確？",
+      "options": [
+        "由美國高通制定，屬 CDMA 系統",
+        "完全使用 IP 封包傳輸",
+        "資料傳輸速率可達 100 Mbps",
+        "由歐洲電信標準協會（ETSI）制定，屬分時多工存取 TDMA 系統"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "GSM：ETSI 制定、TDMA、電路交換、資料只有 9.6 Kbps；台灣用 GSM900、GSM1800。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q26",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "GSM、GPRS、3G、4G、5G 等行動網路，系統原理都屬於？",
+      "options": [
+        "衛星網路",
+        "蜂巢式網路（Cellular Networks）",
+        "對等式網路",
+        "匯流排網路"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "基地台佈建採「蜂巢式細胞」概念，一格一格像蜂巢。上回你選了衛星網路。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q23",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "無線基地台的訊號超出房屋範圍，被他人惡意利用，這種情況稱為？",
+      "options": [
+        "碰撞攻擊",
+        "廣播風暴",
+        "跳頻攻擊",
+        "溢波攻擊"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "AP 訊號約 100 公尺，超出房屋的部分叫溢波；惡意利用就是溢波攻擊 → 設定加密（WEP／WPA）防止。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q07",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "關於藍牙，下列敘述何者「錯誤」？",
+      "options": [
+        "使用 ISM 2.4 GHz 頻段",
+        "只能一對一通訊，不能一對多",
+        "特性是短距離、低功率、低成本",
+        "1998 年由 Ericsson、IBM、Nokia 等廠商制定"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "藍牙可以「一對一或一對多」設備間的雙向通訊。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q05",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "藍牙以 0 dBm 功率傳輸時，距離大約是多少？",
+      "options": [
+        "約 10 公尺",
+        "約 5 公尺",
+        "約 100 公尺",
+        "約 50 公里"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "藍牙 0 dBm 約 10 公尺（20 dBm 可達 50～100 公尺）；5 公尺是紅外線（上回你選了這個）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q27",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "在 GSM 電路交換的基礎上，提供「高速分封數據服務」的第二‧五代（2.5G）技術是？",
+      "options": [
+        "GPRS",
+        "LTE",
+        "HSDPA",
+        "WCDMA"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "2G GSM → 2.5G GPRS → 3G WCDMA／CDMA2000 → 3.5G HSDPA → 4G LTE。上回你選了 LTE（4G）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q02",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "傳輸範圍可以跨越國家或不同城市之間的無線網路是？",
+      "options": [
+        "WWAN 無線廣域網路",
+        "WMAN 無線都會網路",
+        "WLAN 無線區域網路",
+        "WPAN 無線個人網路"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "WWAN：跨國、跨城市（GSM～5G 手機網路）；WMAN：一個都市內（WiMAX）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q16",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "在 2.4 GHz 運作、最高 54 Mbps，且能自動向下相容 802.11b 的是？",
+      "options": [
+        "802.11g",
+        "802.11a",
+        "802.11n",
+        "802.11b"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "g = good：b 的升級版，同在 2.4 GHz 所以能相容 b，速度追上 54 Mbps。a 雖然也是 54 Mbps 但在 5 GHz、不相容 b（上回你選了 a）。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q03",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "無線個人網路（WPAN）的 IEEE 802.15 標準，是以哪一種技術為基礎？",
+      "options": [
+        "Wi-Fi",
+        "WiMAX",
+        "GSM",
+        "藍牙"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "802.15 = 藍牙 = WPAN；802.11 = Wi-Fi = WLAN；802.16 = WiMAX = WMAN。上回你選了 WiMAX。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q24",
+      "chapter": 8,
+      "section": "8-4",
+      "question": "WiMAX 是根據哪一個 IEEE 標準發展？基地台發射範圍約多遠？",
+      "options": [
+        "802.11，約 100 公尺",
+        "802.15，約 10 公尺",
+        "802.16，約 50 公里",
+        "802.3，約 2 公里"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "WiMAX = 802.16 = 無線都會網路，約 50 公里（31 英里）、最高約 70 Mbps。上回你選了 802.3、2 公里。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q09",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "IEEE 802.11 規範的是 OSI 的哪些部分？",
+      "options": [
+        "網路層與傳輸層",
+        "應用層與表現層",
+        "只有 LLC 子層",
+        "實體層（PHY）與媒介存取控制層（MAC）"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "802.11 規範 PHY 與 MAC；IEEE 802 系列都只涉及第 1、2 層。"
+    },
+    {
+      "quizId": "ch8-002",
+      "qid": "q20",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "WEP 加密已被證實可以破解，因此發展出哪一種較先進的加密驗證？",
+      "options": [
+        "DHCP",
+        "WPA（Wi-Fi Protected Access）",
+        "PPPoE",
+        "VLAN"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "WEP → WPA → WPA2 → WPA3。DHCP 是發 IP 位址用的，不是加密（上回你選了這個）。"
+    }
+  ]
+}

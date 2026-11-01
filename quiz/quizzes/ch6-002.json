@@ -1,0 +1,428 @@
+{
+  "id": "ch6-002",
+  "title": "第六章 廣域網路 — 第二回 30 題（弱點加強）",
+  "created": "2026-11-01",
+  "description": "依第一回錯題加重：ADSL／xDSL 9 題、Cable Modem 5 題、T/E-Carrier 5 題、交換方式 4 題、ATM 3 題、FTTx 2 題、專線與 VPN 2 題",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "家裡用 ADSL 上網，業者是利用家中原本的哪一種線路？",
+      "options": [
+        "有線電視同軸電纜",
+        "光纖",
+        "電話線（雙絞線）",
+        "電力線"
+      ],
+      "answer": 2,
+      "explanation": "ADSL = 電話線；Cable Modem = 有線電視同軸電纜；FTTH = 光纖。上回你把 ADSL 選成同軸電纜。記法：ADSL 的業者是「固網／電信公司」→ 電話線。"
+    },
+    {
+      "id": "q02",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 的「下載」速度範圍大約是？",
+      "options": [
+        "512 Kbps～8 Mbps",
+        "64 Kbps～640 Kbps",
+        "10 Mbps～100 Mbps",
+        "1 Mbps～60 Mbps"
+      ],
+      "answer": 0,
+      "explanation": "ADSL 下載 512K～8M、上傳 64K～640K（下載快、上傳慢 → 非對稱）。1M～60M 是 Cable Modem 下載。"
+    },
+    {
+      "id": "q03",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 的上傳速度 64 Kbps～640 Kbps、下載 512 Kbps～8 Mbps，兩者不同。「非對稱（Asymmetric）」指的就是？",
+      "options": [
+        "電話與網路不能同時使用",
+        "兩端使用不同的接頭",
+        "白天和晚上速度不同",
+        "上傳與下載的速度不一樣"
+      ],
+      "answer": 3,
+      "explanation": "非對稱 = 上下行速度不同（下載快、上傳慢）。上回你把上傳速度選成 10M～100M，記住：上傳最慢，只有 64K～640K。"
+    },
+    {
+      "id": "q04",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "使用 ADSL 上網時還能同時講電話，是因為保留了哪一個頻道？",
+      "options": [
+        "下載頻道",
+        "POTS 頻道（4 KHz，原語音電信服務）",
+        "上傳頻道",
+        "QAM 頻道"
+      ],
+      "answer": 1,
+      "explanation": "ADSL 三種通道：上傳、下載、POTS。POTS = Plain Old Telephone Service，就是「老式電話」，不是有線電視（上回你選了有線電視訊號）。"
+    },
+    {
+      "id": "q05",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "下列何者是 ADSL 特有的缺點？",
+      "options": [
+        "距離電信局機房愈遠，傳輸效率愈差",
+        "頻寬與鄰居共享，人越多越慢",
+        "單點故障導致整個節點中斷",
+        "網路安全性差"
+      ],
+      "answer": 0,
+      "explanation": "B、C、D 是 Cable Modem 的缺點。ADSL 是線路獨享、品質穩定，唯一缺點是「離機房越遠越慢」。上回你選了 Cable Modem 的缺點。"
+    },
+    {
+      "id": "q06",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 使用者以 ISP 提供的帳號密碼撥接取得浮動 IP，使用的是哪一個協定？",
+      "options": [
+        "HTTP",
+        "FTP",
+        "PPPoE（PPP over Ethernet）",
+        "DHCP"
+      ],
+      "answer": 2,
+      "explanation": "PPPoE = 點對點協定 PPP ＋ 乙太網路 Ethernet。名字拆開：PPP + o(ver) + E(thernet)。上回你選成 HTTP 與 FTP。"
+    },
+    {
+      "id": "q07",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "下列哪一種用戶比較適合 ADSL 的「浮動 IP（非固定制）」？",
+      "options": [
+        "需要架設網站的中小企業",
+        "單機上網、不需架網站、每天上網 1.5 小時以下的家庭用戶",
+        "SOHO 族",
+        "需多人同時上網的公司"
+      ],
+      "answer": 1,
+      "explanation": "浮動 IP：不架網站、家庭、上網時數不高。固定 IP：架網站、中小企業、SOHO、多人上網、下載量大。"
+    },
+    {
+      "id": "q08",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中，上傳與下載速度相同的「對稱式」數位用戶迴路是？",
+      "options": [
+        "ADSL",
+        "VDSL",
+        "HDSL",
+        "SDSL"
+      ],
+      "answer": 3,
+      "explanation": "S = Symmetric 對稱；A = Asymmetric 非對稱；H = High 高速；V = Very High 超高速。上回你選成 ADSL（剛好相反）。"
+    },
+    {
+      "id": "q09",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中，下列名稱與中文的配對何者「錯誤」？",
+      "options": [
+        "ADSL－非對稱數位用戶迴路",
+        "HDSL－高速數位用戶迴路",
+        "SDSL－對稱式數位用戶迴路",
+        "VDSL－對稱式數位用戶迴路"
+      ],
+      "answer": 3,
+      "explanation": "VDSL 是「超高速」（Very High Data Rate，下行 13～52 Mbps）；對稱式是 SDSL。"
+    },
+    {
+      "id": "q10",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "Cable Modem 的上傳頻道與下載頻道分別使用哪一種調變技術？",
+      "options": [
+        "上傳 QAM、下載 QPSK",
+        "上傳 QPSK、下載 QAM",
+        "上傳 OFDM、下載 QAM",
+        "上傳 PCM、下載 OFDM"
+      ],
+      "answer": 1,
+      "explanation": "下載 550～750 MHz、QAM；上傳 5～42 MHz、QPSK。上回你把下載選成 OFDM（那是 802.11a 的技術）。記法：下載要大量 → QAM（A = Amount 量多）。"
+    },
+    {
+      "id": "q11",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "早期 Cable Modem 的「單向傳輸」方式是什麼？",
+      "options": [
+        "下載用有線電視同軸電纜，上傳仍需用電話數據機撥接",
+        "只能上傳不能下載",
+        "只能看一個電視頻道",
+        "上下載都只用電話線"
+      ],
+      "answer": 0,
+      "explanation": "單向：只有「下載」走同軸，上傳靠電話撥接（已淘汰）；雙向：上下載都走同軸電纜。上回你選成「只能看單一頻道」。"
+    },
+    {
+      "id": "q12",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "下列何者是 Cable Modem 的缺點？",
+      "options": [
+        "距離電信局機房愈遠速度愈慢",
+        "必須另外申請電話線",
+        "頻寬共享，同時連線人數愈多品質愈差",
+        "只能使用浮動 IP"
+      ],
+      "answer": 2,
+      "explanation": "Cable Modem：共用頻寬、單點故障影響整個節點、安全性差。「離機房越遠越慢」是 ADSL 的缺點。上回你選了「必須申請電話線」。"
+    },
+    {
+      "id": "q13",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "比較 ADSL 與 Cable Modem，下列何者正確？",
+      "options": [
+        "ADSL 共用頻寬；Cable Modem 獨享頻寬",
+        "ADSL 每戶獨享頻寬；Cable Modem 多人共用頻寬",
+        "兩者都使用光纖",
+        "Cable Modem 的網路安全性比 ADSL 好"
+      ],
+      "answer": 1,
+      "explanation": "ADSL：星形、獨享、安全性佳；Cable Modem：串接形、共用、安全性差。"
+    },
+    {
+      "id": "q14",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "有看第四台需求、同時想上網的家庭，最適合申請哪一種服務？",
+      "options": [
+        "ADSL",
+        "T1 專線",
+        "ATM",
+        "Cable Modem"
+      ],
+      "answer": 3,
+      "explanation": "比較表：ADSL 適合「同時有電話和上網需求」；Cable Modem 適合「同時有看第四台和上網需求」。"
+    },
+    {
+      "id": "q15",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "北美規格的 T1 專線，速率與傳輸通道數分別是？",
+      "options": [
+        "2.048 Mbps、30 個通道",
+        "44.736 Mbps、672 個通道",
+        "1.544 Mbps、24 個通道",
+        "34.368 Mbps、480 個通道"
+      ],
+      "answer": 2,
+      "explanation": "T1 = 1.544 Mbps／24 通道；E1 = 2.048 Mbps／30 通道。上回你把 T1、E1 對調了。記法：T1 的數字都比較小（1.5、24），E1 都比較大（2.0、30）。"
+    },
+    {
+      "id": "q16",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "歐洲規格的 E1，速率與可同時傳送的電話數分別是？",
+      "options": [
+        "2.048 Mbps、30 條",
+        "1.544 Mbps、24 條",
+        "44.736 Mbps、672 條",
+        "64 Kbps、1 條"
+      ],
+      "answer": 0,
+      "explanation": "E1 = 2.048 Mbps、30 條電話（Europe 歐洲 → 比北美 T1 快一點）。"
+    },
+    {
+      "id": "q17",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "下列專線中，傳輸速率「最慢」的是？",
+      "options": [
+        "T1",
+        "E1",
+        "E3",
+        "T3"
+      ],
+      "answer": 0,
+      "explanation": "T1 1.544 < E1 2.048 < E3 34.368 < T3 44.736（Mbps）。最慢 T1、最快 T3，E 夾在中間。"
+    },
+    {
+      "id": "q18",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "北美 T3 專線的速率與通道數是？",
+      "options": [
+        "34.368 Mbps、480 個通道",
+        "6.312 Mbps、96 個通道",
+        "44.736 Mbps、672 個通道",
+        "274.760 Mbps、4032 個通道"
+      ],
+      "answer": 2,
+      "explanation": "T1 1.544／24 → T2 6.312／96 → T3 44.736／672 → T4 274.760／4032。E3 才是 34.368／480。"
+    },
+    {
+      "id": "q19",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "T-Carrier 傳輸系統以什麼技術為基礎？",
+      "options": [
+        "分頻多工（FDM）",
+        "跳頻展頻",
+        "CSMA/CD",
+        "分時多工（TDM），設備稱為多工器（MUX）"
+      ],
+      "answer": 3,
+      "explanation": "T-Carrier：貝爾實驗室 1960 年代研發，使用脈衝碼調變（PCM），以分時多工為基礎，設備是 MUX。"
+    },
+    {
+      "id": "q20",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM Cell 固定 53 Bytes，其組成為何？",
+      "options": [
+        "標頭 8 Bytes＋資料 45 Bytes",
+        "標頭 5 Bytes（地址）＋ 資訊欄 48 Bytes（真正資料）",
+        "標頭 48 Bytes＋資料 5 Bytes",
+        "標頭 3 Bytes＋資料 50 Bytes"
+      ],
+      "answer": 1,
+      "explanation": "53 = 5 + 48。標頭存地址資料，不是錯誤檢查碼（上回你選了 8 Bytes 錯誤檢查碼）。"
+    },
+    {
+      "id": "q21",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM 同時具備哪兩種交換方式的優點？",
+      "options": [
+        "訊息交換及細胞交換",
+        "電路交換及分封交換",
+        "訊息交換及電路交換",
+        "細胞交換及訊息交換"
+      ],
+      "answer": 1,
+      "explanation": "ATM 本身就是細胞交換（快速分封交換），兼具「電路交換」與「分封交換」的優點。上回你選了訊息交換＋細胞交換。"
+    },
+    {
+      "id": "q22",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM 的架構分為哪三層？",
+      "options": [
+        "ATM 調適層、ATM 層、ATM 實體層",
+        "感知層、網路層、應用層",
+        "應用層、傳輸層、網路層",
+        "LLC、MAC、PHY"
+      ],
+      "answer": 0,
+      "explanation": "ATM 三層：調適層（AAL）、ATM 層、ATM 實體層。感知／網路／應用是物聯網三層。"
+    },
+    {
+      "id": "q23",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "公司申請一條專線（固接式）上網，最主要的好處是？",
+      "options": [
+        "硬體成本便宜",
+        "安裝簡單、不需網路設備",
+        "只需要一台數據機",
+        "專用線路速度快、品質穩定，24 小時都在網路上"
+      ],
+      "answer": 3,
+      "explanation": "固接式優點：速度快、品質好、24 小時在線；缺點：硬體貴、架設複雜。「便宜、簡單」是撥接式的優點（上回你選了硬體便宜）。"
+    },
+    {
+      "id": "q24",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "下列何者是「撥接式」連線的優點？",
+      "options": [
+        "傳輸速度快",
+        "24 小時都在網路上",
+        "所需費用低、安裝容易、幾乎不需人工維護",
+        "傳輸品質非常穩定"
+      ],
+      "answer": 2,
+      "explanation": "撥接：便宜簡單，但要先撥號、速度慢、品質不穩定。B、C、D 是固接式的優點。"
+    },
+    {
+      "id": "q25",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "資料切成「大小不等」的區塊加上表頭成為封包，經不特定路徑傳送後再重組，屬於？",
+      "options": [
+        "細胞交換",
+        "電路交換",
+        "分封交換",
+        "訊息交換"
+      ],
+      "answer": 2,
+      "explanation": "大小「不等」→ 分封交換；大小「相等」→ 細胞交換（ATM）。上回你把細胞交換選成分封交換，關鍵就是「等不等」。"
+    },
+    {
+      "id": "q26",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "將資料切割成「相等大小」的 cell 依序傳到網路上，屬於哪一種交換方式？",
+      "options": [
+        "分封交換",
+        "細胞交換",
+        "訊息交換",
+        "電路交換"
+      ],
+      "answer": 1,
+      "explanation": "細胞交換：固定長度（ATM 每個 cell 53 Bytes）。記法：細胞都長一樣大。"
+    },
+    {
+      "id": "q27",
+      "chapter": 6,
+      "section": "6-4",
+      "question": "光纖到府分類中，FTTC 的「C」代表什麼？",
+      "options": [
+        "Curb 路邊",
+        "Cabinet 交換箱",
+        "Customer 客戶",
+        "Cable 電纜"
+      ],
+      "answer": 0,
+      "explanation": "FTTH Home 到府、FTTB Building 到建築、FTTC Curb 到路邊、FTTCab Cabinet 到交換箱。上回你把 C 選成 Cabinet（交換箱是 Cab）。"
+    },
+    {
+      "id": "q28",
+      "chapter": 6,
+      "section": "6-4",
+      "question": "光纖直接拉到「大樓」，再用大樓內原有線路接到各戶，屬於哪一種？",
+      "options": [
+        "FTTH（光纖到府）",
+        "FTTC（光纖到路邊）",
+        "FTTCab（光纖到交換箱）",
+        "FTTB（光纖到建築）"
+      ],
+      "answer": 3,
+      "explanation": "B = Building。FTTx 的最後一段仍靠雙絞線或同軸電纜。"
+    },
+    {
+      "id": "q29",
+      "chapter": 6,
+      "section": "6-7",
+      "question": "大型企業要讓各地分公司之間以「固接」方式、1.544 Mbps 以上連線，應選擇？",
+      "options": [
+        "FTTH",
+        "專線（Leased Line）",
+        "ADSL",
+        "Cable Modem"
+      ],
+      "answer": 1,
+      "explanation": "比較表中只有 Leased Line 是固接，適合公司或大型企業各分公司之間；ADSL、Cable、FTTH 都屬撥接。上回你選了 FTTH。"
+    },
+    {
+      "id": "q30",
+      "chapter": 6,
+      "section": "6-補充",
+      "question": "台北公司要透過網際網路與美國分公司建立安全的連線，「將封包封裝在另一個封包內」的技術稱為？",
+      "options": [
+        "通道技術（建立 VPN 虛擬私人網路）",
+        "VLAN 技術",
+        "CSMA/CD 技術",
+        "細胞交換技術"
+      ],
+      "answer": 0,
+      "explanation": "通道技術 → 虛擬私人網路 VPN（⭐ 小考考過）。VLAN 是虛擬區域網路，用來隔離廣播封包，兩者不要搞混。"
+    }
+  ]
+}
