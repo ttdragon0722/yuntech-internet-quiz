@@ -1,0 +1,864 @@
+{
+  "id": "20261101-180229-8bd0",
+  "title": "模擬小考 3（仿 test1、test2 格式，範圍：第 1～8 章）— 50 題",
+  "quizIds": [
+    "mock-003"
+  ],
+  "finishedAt": "2026-11-01T18:02:29",
+  "durationSec": 496,
+  "total": 50,
+  "correct": 32,
+  "score": 64,
+  "items": [
+    {
+      "quizId": "mock-003",
+      "qid": "q07",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "範圍約在 2 公里以內的網路是下列哪一種？",
+      "options": [
+        "PAN",
+        "LAN",
+        "MAN",
+        "WAN"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "LAN 約 2 公里以內；MAN 約 2～10 公里；WAN 10 公里以上；PAN 是人身周邊裝置。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q05",
+      "chapter": 1,
+      "section": "1-6",
+      "question": "下列哪一項屬於 C2C 電子商務？",
+      "options": [
+        "博客來",
+        "中鋼",
+        "網路銀行",
+        "Yahoo 拍賣"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "C2C 是消費者對消費者（Yahoo 拍賣）；博客來是 B2C；中鋼是 B2B。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q50",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "在 GSM 上提供高速分封數據服務的 2.5G 技術是？",
+      "options": [
+        "GPRS",
+        "HSDPA",
+        "LTE",
+        "WCDMA"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "2.5G = GPRS；3G = WCDMA；3.5G = HSDPA；4G = LTE。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q03",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "下列哪一項屬於 PaaS（平台即服務）？",
+      "options": [
+        "Google Docs",
+        "Google App Engine",
+        "Microsoft Azure",
+        "Dropbox"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "Google App Engine 是 PaaS；Google Docs 是 SaaS；Microsoft Azure 是 IaaS；Dropbox 是網路硬碟。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q22",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "兩台電腦（PC 對 PC）直接連接，要使用哪一種網路線？",
+      "options": [
+        "跳接線",
+        "直通線",
+        "同軸線",
+        "電話線"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "同類設備互接（PC ↔ PC、Hub ↔ Hub）用跳接線（一端 568A、一端 568B）；PC 接 Hub／Switch 用直通線。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q29",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框的總資料量最小要有多少位元組？",
+      "options": [
+        "46",
+        "53",
+        "64",
+        "1518"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "乙太網路訊框最小 64 Bytes、最大 1518 Bytes；46 是資料欄位最小值；53 是 ATM Cell。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q15",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "負責資料錯誤偵測與更正的是 OSI 哪一層？",
+      "options": [
+        "實體層",
+        "資料鏈結層",
+        "網路層",
+        "傳輸層"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "資料鏈結層負責錯誤偵測與更正；網路層管路徑；傳輸層管不遺失、不重複。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q26",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路（CSMA/CD）的 IEEE 標準是？",
+      "options": [
+        "802.2",
+        "802.3",
+        "802.5",
+        "802.11"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "802.3 乙太網路；802.2 LLC；802.5 Token Ring；802.11 無線區域網路。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q18",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "IEEE 802 標準是由下列哪一個組織制定？",
+      "options": [
+        "ISO",
+        "ITU",
+        "ANSI",
+        "IEEE"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "IEEE（電機電子工程師學會）制定 802；ISO 制定 OSI；ITU 制定 X.25、ISDN；ANSI 制定 ASCII。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q36",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "Cable Modem 是利用下列哪一種線路上網？",
+      "options": [
+        "電話線",
+        "有線電視同軸電纜",
+        "光纖",
+        "電力線"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "Cable Modem 利用有線電視的同軸電纜上網，缺點是頻寬共享。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q04",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網三層架構中，最下層是哪一層？",
+      "options": [
+        "應用層",
+        "網路層",
+        "感知層",
+        "實體層"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "由下而上：感知層（RFID、Sensor）→ 網路層 → 應用層。實體層是 OSI 的名詞。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q38",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 用戶以帳號密碼撥接取得浮動 IP，使用的協定是？",
+      "options": [
+        "DHCP",
+        "HTTP",
+        "PPPoE",
+        "FTP"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "PPPoE（PPP over Ethernet）合併乙太網路與 PPP，用 ISP 的帳號密碼撥接取得浮動 IP。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q48",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "802.11n 使用多根天線提高傳輸率的技術是？",
+      "options": [
+        "OFDM",
+        "MIMO",
+        "CSMA/CD",
+        "跳頻展頻"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "802.11n 加入 MIMO（多進多出）；OFDM 是 802.11a；跳頻展頻是藍牙。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q23",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "下列哪一種網路拓樸不會發生封包碰撞？",
+      "options": [
+        "匯流排",
+        "星狀",
+        "環狀",
+        "樹狀"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "環狀拓樸（如 Token Ring）拿到記號才能傳送，所以不會碰撞。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q01",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "下列哪一項是網路最大的應用？",
+      "options": [
+        "檔案分享",
+        "應用程式分享",
+        "週邊設備分享",
+        "訊息分享"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "四種資源分享中，最大的應用是檔案的分享與管理（網路芳鄰、網路磁碟機、FTP 站）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q11",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "寬頻傳輸（Broadband）使用哪一種訊號？",
+      "options": [
+        "數位訊號",
+        "類比訊號",
+        "方波訊號",
+        "基頻訊號"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "寬頻用類比訊號（正弦波），需要調變器；基頻才是數位訊號（方波）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q47",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列哪一個規格只在 5 GHz 運作？",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "a 全都是 5（5 GHz、54 Mbps）；b、g 在 2.4 GHz；n 是 2.4 或 5 GHz 雙頻。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q37",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM Cell 的表頭（Header）佔幾個位元組？",
+      "options": [
+        "5",
+        "8",
+        "48",
+        "53"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "ATM Cell 固定 53 Bytes = 表頭 5 Bytes（存地址資料）＋ 資料 48 Bytes。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q35",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 是利用下列哪一種線路上網？",
+      "options": [
+        "電話線",
+        "同軸電纜",
+        "光纖",
+        "電力線"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "ADSL 用傳統電話線（雙絞線）；Cable Modem 用有線電視同軸電纜；FTTH 用光纖。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q45",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "藍牙使用的是哪一個頻段？",
+      "options": [
+        "900 MHz",
+        "2.4 GHz",
+        "5 GHz",
+        "10～66 GHz"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "藍牙用 ISM 2.4 GHz、跳頻式展頻、79 個頻道。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q31",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10GBase-T 使用下列哪一種接頭？",
+      "options": [
+        "RJ-45",
+        "SC",
+        "ST",
+        "GG45"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "10GBase-T 捨棄 RJ-45，改用 GG45；SC 用於 1000BaseSX／LX；ST 用於 10BaseF。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q16",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "IP 協定屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "應用層",
+        "傳輸層",
+        "網際網路層",
+        "網路介面層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "IP（Internet Protocol）在網際網路層；TCP、UDP 在傳輸層。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q42",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "衛星通訊是以下列哪一種方式傳送訊號？",
+      "options": [
+        "紅外線",
+        "雷射",
+        "微波",
+        "光纖"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "衛星以微波方式傳送：地面天線 → 衛星 → 另一端地面天線。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q27",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層中，與網路實體無關、有線與無線共用的子層是？",
+      "options": [
+        "LLC",
+        "MAC",
+        "PHY",
+        "IP"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "LLC（802.2）與實體無關，有線和無線共用；MAC 與實體有關；PHY 是實體層。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q19",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "交換器支援 OSI 7 層架構的哪幾層？",
+      "options": [
+        "第 1 層",
+        "第 1,2 層",
+        "第 1,2,3 層",
+        "第 2,3 層"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "交換器看得懂 MAC 位址，是第 2 層設備，支援第 1、2 層。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q10",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "一個節點對網路上「其他全部」節點的傳輸稱為？",
+      "options": [
+        "廣播",
+        "群播",
+        "點對點",
+        "輪播"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "一對全部是廣播（Broadcast）；一對一群是群播；一對一是點對點。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q34",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "北美規格 T3 專線的傳輸速率是？",
+      "options": [
+        "64 Kbps",
+        "1.544 Mbps",
+        "2.048 Mbps",
+        "44.736 Mbps"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "T3 44.736 Mbps；T1 1.544 Mbps；E1 2.048 Mbps；64 Kbps 是一路電話。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q25",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "讓多台電腦分享一個 IP 上網的設備是？",
+      "options": [
+        "集線器",
+        "橋接器",
+        "中繼器",
+        "IP 分享器"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "IP 分享器具備 DHCP 伺服器功能，讓多台 PC 分享一個 IP；它屬於第 3 層設備。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q08",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "BT 下載屬於哪一種網路架構？",
+      "options": [
+        "主從式",
+        "混合式",
+        "雲端式",
+        "對等式"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "BT 沒有專門的伺服器，每個人一邊下載一邊分享 → 對等式（P2P）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q39",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "無線區域網路大多使用 ISM 的哪一個頻段？",
+      "options": [
+        "900 MHz",
+        "2.4 GHz",
+        "5.8 GHz",
+        "10～66 GHz"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "WLAN 大多使用 ISM 2.4 GHz；10～66 GHz 是 WiMAX，不是 ISM。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q41",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "紅外線的傳輸距離大約是多少？",
+      "options": [
+        "5 公尺",
+        "10 公尺",
+        "100 公尺",
+        "5 公里"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "紅外線約 5 公尺（電視遙控器）；藍牙約 10 公尺；雷射最遠約 5 公里。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q14",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型的第 5 層是哪一層？",
+      "options": [
+        "網路層",
+        "傳輸層",
+        "會議層",
+        "表現層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "由下而上：1 實體、2 資料鏈結、3 網路、4 傳輸、5 會議、6 表現、7 應用。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q46",
+      "chapter": 8,
+      "section": "8-4",
+      "question": "下列哪一種是無線都會網路（WMAN）的標準？",
+      "options": [
+        "802.11",
+        "802.14",
+        "802.15",
+        "802.16"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "802.16 WiMAX（WMAN）；802.11 Wi-Fi（WLAN）；802.15 藍牙（WPAN）；802.14 有線電視。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q24",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "數據機的「調變」是指下列哪一種轉換？",
+      "options": [
+        "數位轉類比",
+        "類比轉數位",
+        "類比轉光",
+        "數位轉光"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "調變：數位 → 類比（送上電話線）；解調變：類比 → 數位。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q40",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "通訊用的同步衛星距離地球大約多高？",
+      "options": [
+        "50 公里",
+        "500 公里",
+        "20,200 公里",
+        "36,000 公里"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "星鏈約 500 km < GPS 約 20,200 km < 同步衛星約 36,000 km。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q20",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "下列哪一種設備屬於第 3 層（網路層）設備？",
+      "options": [
+        "集線器",
+        "交換器",
+        "路由器",
+        "中繼器"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "路由器看得懂 IP、會選路 → 第 3 層；交換器第 2 層；集線器、中繼器第 1 層。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q43",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "透過 xDSL 或 Cable Modem，以無線方式讓電腦連上網際網路的設備是？",
+      "options": [
+        "無線網卡",
+        "無線基地台",
+        "無線路由器",
+        "無線集線器"
+      ],
+      "answer": 2,
+      "choice": 1,
+      "correct": false,
+      "explanation": "無線路由器透過 xDSL 或 Cable Modem 讓電腦無線上網；無線基地台是連接有線 LAN 再發送無線電波。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q28",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路使用下列哪一種媒介存取方式？",
+      "options": [
+        "CSMA/CA",
+        "CSMA/CD",
+        "Token Passing",
+        "TDMA"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "乙太網路用 CSMA/CD（碰撞偵測）；無線 802.11 用 CSMA/CA（碰撞避免）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q09",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "電話屬於哪一種傳輸模式？",
+      "options": [
+        "單工",
+        "半雙工",
+        "全雙工",
+        "多工"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "電話雙方可以同時說、同時聽 → 全雙工；對講機是半雙工；廣播電台是單工。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 參考模型共分為幾層？",
+      "options": [
+        "4 層",
+        "5 層",
+        "6 層",
+        "7 層"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "OSI 有 7 層（應表會傳網資實）；TCP/IP 有 4 層。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q12",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "1 Byte 等於幾個 bit？",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "1 Byte = 8 bits，所以網速（bit）換算檔案大小（Byte）要 ÷ 8。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q30",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "10BaseT 名稱中的「T」代表哪一種傳輸媒介？",
+      "options": [
+        "雙絞線",
+        "光纖",
+        "同軸電纜",
+        "無線電波"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "T = 雙絞線（Twisted Pair）；F = 光纖；C 是數字時代表同軸電纜的長度（× 100 公尺）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q44",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "悠遊卡、高速公路 eTag 使用的是哪一種技術？",
+      "options": [
+        "藍牙",
+        "RFID",
+        "紅外線",
+        "Wi-Fi"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "悠遊卡、一卡通、ETC 的 eTag 都是 RFID（無線射頻識別），而且是被動標籤。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q02",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "Internet 泛指以哪一種通訊協定所架設的網路？",
+      "options": [
+        "IPX/SPX",
+        "NetBEUI",
+        "TCP/IP",
+        "AppleTalk"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "Internet 泛指以 TCP/IP 為通訊協定架設的網路。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q49",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列哪一種是最新版的無線網路加密方式？",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "WPA3"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "WEP（已被破解）→ WPA → WPA2 → WPA3（最新）。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q17",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "電子郵件「收信」使用的是哪一種協定？",
+      "options": [
+        "SMTP",
+        "POP3",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "收信 POP3、寄信 SMTP、網頁 HTTP、檔案傳輸 FTP。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q32",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "不同廠牌交換器的 VLAN 功能要相容，必須支援哪一個標準？",
+      "options": [
+        "802.1Q",
+        "802.1x",
+        "802.3",
+        "802.11"
+      ],
+      "answer": 0,
+      "choice": 3,
+      "correct": false,
+      "explanation": "VLAN 相容標準是 802.1Q；802.1x 是認證；802.3 是乙太網路；802.11 是 Wi-Fi。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q06",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "台灣最大的 ISP 是下列哪一個？",
+      "options": [
+        "TANet",
+        "SeedNet",
+        "HiNet",
+        "TWGate"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "HiNet 屬於中華電信，是台灣最大的 ISP；TANet 是學術網路；SeedNet 由資策會成立。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q33",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "將資料切成相等大小的細胞依序傳送，是哪一種交換方式？",
+      "options": [
+        "電路交換",
+        "訊息交換",
+        "分封交換",
+        "細胞交換"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "切成相等大小 → 細胞交換（ATM）；切成大小不等 → 分封交換；傳統電話 → 電路交換。"
+    },
+    {
+      "quizId": "mock-003",
+      "qid": "q21",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "目前最常使用的網路線材是下列哪一種？",
+      "options": [
+        "光纖",
+        "同軸電纜",
+        "STP",
+        "UTP"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "UTP（無遮蔽式雙絞線）便宜、好佈線，是目前最常用的線材。"
+    }
+  ]
+}

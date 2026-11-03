@@ -1,0 +1,860 @@
+{
+  "id": "weak-002",
+  "title": "弱點加強（考前衝刺）— 50 題",
+  "created": "2026-11-03",
+  "description": "針對錯題本中反覆錯的觀念換個問法：基頻寬頻、OSI/TCP-IP 分層、568 接線與拓樸、802 標準、接頭、T/E 專線、ISM、衛星、802.11 與 WiMAX",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "某網路把方波（數位訊號）直接送上線路、不經調變，並以分時多工讓多組資料輪流使用同一條線。這是哪一種傳輸方式、常用在哪？",
+      "options": [
+        "基頻傳輸，常用於區域網路 LAN",
+        "寬頻傳輸，常用於區域網路 LAN",
+        "基頻傳輸，常用於廣域網路 WAN",
+        "寬頻傳輸，常用於廣域網路 WAN"
+      ],
+      "answer": 0,
+      "explanation": "方波＝數位、不需調變、TDM → 基頻 Baseband，距離短，用在 LAN。寬頻 Broadband 才是正弦波（類比）、要調變器、FDM、遠距 WAN。",
+      "tags": [
+        "基頻",
+        "寬頻"
+      ]
+    },
+    {
+      "id": "q02",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "關於投影片中的「寬頻傳輸（Broadband）」，下列哪一組特性「全部正確」？",
+      "options": [
+        "數位訊號、不需調變、雙向、分時多工 TDM",
+        "類比訊號、需調變器、單向、分頻多工 FDM",
+        "類比訊號、需調變器、雙向、分時多工 TDM",
+        "數位訊號、需調變器、單向、分頻多工 FDM"
+      ],
+      "answer": 1,
+      "explanation": "寬頻＝類比（正弦波）＋調變器＋單向＋FDM＋WAN；基頻＝數位（方波）＋不調變＋雙向＋TDM＋LAN。記法：基頻 B-A-S-E 都是「基本、短、雙向」。",
+      "tags": [
+        "寬頻"
+      ]
+    },
+    {
+      "id": "q03",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "下列「傳輸方式 — 多頻道技術」的配對，何者正確？",
+      "options": [
+        "基頻 — 分頻多工 FDM；寬頻 — 分時多工 TDM",
+        "基頻與寬頻都用分時多工 TDM",
+        "基頻與寬頻都用分頻多工 FDM",
+        "基頻 — 分時多工 TDM；寬頻 — 分頻多工 FDM"
+      ],
+      "answer": 3,
+      "explanation": "寬頻是類比訊號，可以把頻率切成多段（分頻 FDM）；基頻是數位方波，只能讓大家輪流用時間（分時 TDM）。",
+      "tags": [
+        "多工"
+      ]
+    },
+    {
+      "id": "q04",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "投影片中「用於廣域網路、需要調變器」的那種寬頻傳輸，英文是哪一個？",
+      "options": [
+        "Wideband",
+        "Baseband",
+        "Broadband",
+        "Narrowband"
+      ],
+      "answer": 2,
+      "explanation": "本章對照表的寬頻＝Broadband。廣告說的「寬頻上網」才是 Wideband（中文剛好同名）。Baseband 是基頻。三個詞：Base＝基頻、Broad＝本章寬頻、Wide＝廣告寬頻。",
+      "tags": [
+        "寬頻",
+        "英文"
+      ]
+    },
+    {
+      "id": "q05",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "某光世代方案下載速度 8 Mbps，理論上每秒可下載多少 Byte？",
+      "options": [
+        "1 MByte",
+        "8 MByte",
+        "64 MByte",
+        "0.8 MByte"
+      ],
+      "answer": 0,
+      "explanation": "bps 是 bit，1 Byte = 8 bit，所以 8 Mbps ÷ 8 = 1 MByte/s。看到 b（小寫）就要除以 8。",
+      "tags": [
+        "換算"
+      ]
+    },
+    {
+      "id": "q06",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "用 1 Gbps（1000 Mbps）的網路傳一個 250 MByte 的檔案，理論上需要幾秒？",
+      "options": [
+        "0.25 秒",
+        "2 秒",
+        "4 秒",
+        "8 秒"
+      ],
+      "answer": 1,
+      "explanation": "250 MByte × 8 = 2000 Mbit；2000 ÷ 1000 Mbps = 2 秒。先把 Byte 乘 8 換成 bit 再除速率。",
+      "tags": [
+        "換算"
+      ]
+    },
+    {
+      "id": "q07",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "下列哪一個名詞的單位是「赫茲 Hz」？",
+      "options": [
+        "位元率（傳輸速率）",
+        "頻寬（資料傳輸量）",
+        "頻率（單位時間內事件重複的次數）",
+        "位元組（資料大小）"
+      ],
+      "answer": 2,
+      "explanation": "頻率＝單位時間重複次數，單位 Hz；傳輸速率叫位元率，單位 bps；Byte 是資料大小單位。",
+      "tags": [
+        "名詞"
+      ]
+    },
+    {
+      "id": "q08",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "下列「組織 — 制定的標準」配對，何者「錯誤」？",
+      "options": [
+        "ANSI — ASCII Code",
+        "ITU — X.25、ISDN",
+        "IEEE — OSI 參考模型",
+        "IAB — RFC 文件"
+      ],
+      "answer": 2,
+      "explanation": "OSI 模型是 ISO 制定的；IEEE 制定的是 IEEE 802 系列。口訣：ISO→OSI（字母倒過來）、ANSI→ASCII（都是 A 開頭）、ITU→電信（X.25/ISDN）、IAB→RFC（網際網路）。",
+      "tags": [
+        "標準組織"
+      ]
+    },
+    {
+      "id": "q09",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "你打開郵件軟體，把郵件伺服器上的新信「下載到自己電腦」來看，使用的是哪一個協定？",
+      "options": [
+        "SMTP",
+        "FTP",
+        "POP3",
+        "DNS"
+      ],
+      "answer": 2,
+      "explanation": "收信＝POP3（郵局協定，去郵局領信）；寄信＝SMTP。FTP 是檔案傳輸、DNS 是名稱解析。",
+      "tags": [
+        "Email"
+      ]
+    },
+    {
+      "id": "q10",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "下列哪一項屬於「業界標準」（由某家公司制定）？",
+      "options": [
+        "乙太網路（IEEE 802.3）",
+        "微軟的 NetBIOS",
+        "OSI 參考模型",
+        "ASCII Code"
+      ],
+      "answer": 1,
+      "explanation": "業界標準＝某公司自己定、夠普及（如微軟 NetBIOS）。乙太網路、OSI、ASCII 都由工業組織或政府單位制定，屬正規（formal）標準。",
+      "tags": [
+        "標準"
+      ]
+    },
+    {
+      "id": "q11",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "瀏覽器把網頁的 Big5 編碼轉成 UTF-8、並把壓縮過的資料解壓縮，這些工作屬於 OSI 哪一層？",
+      "options": [
+        "第 5 層 會議層",
+        "第 4 層 傳輸層",
+        "第 7 層 應用層",
+        "第 6 層 表現層"
+      ],
+      "answer": 3,
+      "explanation": "表現層＝資料的「長相」：字碼轉換、編解碼、格式轉換、壓縮解壓縮。會議層管交換形式（單工/半雙工/全雙工），傳輸層管正確不遺失。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q12",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "兩端協調「這次通訊用半雙工還是全雙工」，屬於 OSI 哪一層的工作？",
+      "options": [
+        "第 6 層 表現層",
+        "第 5 層 會議層",
+        "第 2 層 資料鏈結層",
+        "第 1 層 實體層"
+      ],
+      "answer": 1,
+      "explanation": "會議層（Session）管理使用者之間資料的交換形式：單工、半雙工、全雙工。表現層是格式轉換，不要混。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型中，「傳輸層」與「網路層」分別是第幾層？",
+      "options": [
+        "傳輸層第 3 層、網路層第 4 層",
+        "傳輸層第 4 層、網路層第 3 層",
+        "傳輸層第 4 層、網路層第 2 層",
+        "傳輸層第 5 層、網路層第 3 層"
+      ],
+      "answer": 1,
+      "explanation": "由下而上：1 實體、2 資料鏈結、3 網路、4 傳輸、5 會議、6 表現、7 應用。口訣「實資網傳會表應」，網路在傳輸下面（先找路，再管品質）。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q14",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型中，「網際網路層（IP）」傳送的資料單位稱為什麼？",
+      "options": [
+        "Segment",
+        "Packet（封包）",
+        "Frame（訊框）",
+        "Message"
+      ],
+      "answer": 1,
+      "explanation": "由上而下：應用層 Message → 傳輸層 TCP Segment／UDP Datagram → 網際網路層 Packet → 網路介面層 Frame。",
+      "tags": [
+        "資料單位"
+      ]
+    },
+    {
+      "id": "q15",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "UDP 與 IPv6 分別屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "兩者都在網際網路層",
+        "UDP 在傳輸層，IPv6 在網際網路層",
+        "兩者都在傳輸層",
+        "UDP 在應用層，IPv6 在網路介面層"
+      ],
+      "answer": 1,
+      "explanation": "TCP、UDP＝傳輸層（主機對主機層）；IPv4、IPv6＝網際網路層。名字裡有 IP 的才在網際網路層。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q16",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "傳送端資料由上往下傳時（封裝），每經過一層會怎麼處理？",
+      "options": [
+        "拿掉上一層的表頭再往下傳",
+        "把資料切成固定 53 Bytes 再往下傳",
+        "直接原封不動傳給下一層",
+        "加上該層的表頭（Header），必要時加表尾，再往下傳"
+      ],
+      "answer": 3,
+      "explanation": "封裝＝往下一層包一層（加 Header/Trailer）；解封裝＝接收端往上一層拆一層。53 Bytes 是 ATM 細胞，跟這無關。",
+      "tags": [
+        "封裝"
+      ]
+    },
+    {
+      "id": "q17",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "TCP/IP 模型的「網路介面層」對應到 OSI 模型的哪幾層？",
+      "options": [
+        "只有第 1 層",
+        "第 2、3 層",
+        "第 3 層",
+        "第 1、2 層（實體層、資料鏈結層）"
+      ],
+      "answer": 3,
+      "explanation": "網路介面層＝網路卡驅動＋網路卡＋網路線，對應 OSI 實體層＋資料鏈結層；所以五層說法就是把它拆成這兩層。",
+      "tags": [
+        "對應"
+      ]
+    },
+    {
+      "id": "q18",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "下列設備中，能實作 OSI 第 1、2、3 層（具有路由功能）的是？",
+      "options": [
+        "IP 分享器",
+        "交換器",
+        "集線器",
+        "中繼器"
+      ],
+      "answer": 0,
+      "explanation": "第 3 層設備：路由器、IP 分享器、無線基地台；第 2 層：網路卡、交換器、橋接器（支援 1、2 層）；第 1 層：數據機、中繼器、集線器。",
+      "tags": [
+        "設備層級"
+      ]
+    },
+    {
+      "id": "q19",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "「Any Time、Any Place、Any Thing」是物聯網的什麼？",
+      "options": [
+        "三大範疇",
+        "三層架構",
+        "三個維度",
+        "三種標準"
+      ],
+      "answer": 2,
+      "explanation": "三維度＝Any Time/Place/Thing；三大範疇＝人與人、物與物、人與物；三層架構＝感知層→網路層→應用層（由下而上）。",
+      "tags": [
+        "IoT"
+      ]
+    },
+    {
+      "id": "q20",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "下列「雲端服務 — 例子」的配對，何者正確？",
+      "options": [
+        "IaaS — Microsoft Azure",
+        "PaaS — Microsoft Azure",
+        "SaaS — Google App Engine",
+        "IaaS — Google Docs"
+      ],
+      "answer": 0,
+      "explanation": "依投影片：SaaS＝Google Docs（直接用軟體）、PaaS＝Google App Engine（給開發者的平台）、IaaS＝Microsoft Azure（運算資源＋網路基礎建設）。",
+      "tags": [
+        "雲端"
+      ]
+    },
+    {
+      "id": "q21",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "下列哪一組連接，要使用「跳接線（一端 568A、一端 568B）」？",
+      "options": [
+        "電腦 ↔ 交換器",
+        "集線器 ↔ 集線器",
+        "電腦 ↔ 集線器",
+        "IP 分享器 LAN 埠 ↔ 電腦"
+      ],
+      "answer": 1,
+      "explanation": "同類設備相接（PC↔PC、Hub↔Hub）用跳接線；不同類（PC↔Hub/Switch）用直通線，兩端都是 568B。",
+      "tags": [
+        "568"
+      ]
+    },
+    {
+      "id": "q22",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "TIA/EIA-568B 的第 1、2 腳位分別是什麼顏色？",
+      "options": [
+        "白綠、綠",
+        "白藍、藍",
+        "白棕、棕",
+        "白橙、橙"
+      ],
+      "answer": 3,
+      "explanation": "568B：白橙、橙、白綠、藍、白藍、綠、白棕、棕；568A 把 1↔3、2↔6 對調，所以第 1、2 腳變白綠、綠。",
+      "tags": [
+        "568"
+      ]
+    },
+    {
+      "id": "q23",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "記號環網路「拿到記號（Token）才能傳送」，因此在三種基本拓樸中有什麼特點？",
+      "options": [
+        "環狀拓樸不會發生碰撞",
+        "環狀拓樸不需要任何集線設備",
+        "環狀拓樸電纜斷裂也不影響網路",
+        "環狀拓樸佈線與檢修最容易"
+      ],
+      "answer": 0,
+      "explanation": "環狀：不會碰撞（輪流拿 Token），但要 MAU、佈線檢修困難、斷線會毀損。匯流排與星狀都會碰撞。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q24",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "辦公室所有電腦都接到中間一台 Hub，某天這台 Hub 故障，結果會怎樣？這是哪一種拓樸？",
+      "options": [
+        "只有一台電腦斷線；星狀拓樸",
+        "全部網路癱瘓；匯流排拓樸",
+        "全部網路癱瘓；星狀拓樸",
+        "不受影響；環狀拓樸"
+      ],
+      "answer": 2,
+      "explanation": "星狀的弱點在中心：集線器故障全網癱瘓、也可能壅塞成瓶頸。但單一條線斷只影響那台電腦。匯流排根本沒有集線器，它的弱點是那條纜線。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q25",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "某網路中一台電腦的網路線被拔掉，其他電腦仍正常通訊，而且佈線、檢修都容易。最可能是哪一種拓樸？",
+      "options": [
+        "匯流排",
+        "環狀",
+        "星狀"
+      ],
+      "answer": 2,
+      "explanation": "三種比較表中，斷線不會毀損、佈線容易、檢修容易的只有星狀。匯流排、環狀斷線都會讓網路毀損。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q26",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "依投影片，實務上「多台集線器／交換器一層層往下串接」形成的是哪一種拓樸？",
+      "options": [
+        "網狀（Mesh）",
+        "樹狀（Tree）",
+        "環狀（Ring）",
+        "匯流排（Bus）"
+      ],
+      "answer": 1,
+      "explanation": "樹狀又稱階層式＝集線器、交換器串接；網狀＝路由器互相串接。混合式實務上＝樹狀＋網狀。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q27",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "接收端的數據機把電話線上的「類比訊號還原成數位訊號」交給電腦，這個動作稱為？",
+      "options": [
+        "調變（Modulation）",
+        "多工（Multiplexing）",
+        "解調變（Demodulation）",
+        "封裝（Encapsulation）"
+      ],
+      "answer": 2,
+      "explanation": "MOdem＝MOdulator/DEModulator。調變＝數位→類比（送出去）；解調變＝類比→數位（收進來）。",
+      "tags": [
+        "數據機"
+      ]
+    },
+    {
+      "id": "q28",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "要把一段 Token Ring 網路和一段乙太網路連起來（不同網路區段），投影片列出的第 2 層設備是？",
+      "options": [
+        "閘道器（Gateway）",
+        "中繼器（Repeater）",
+        "CSU/DSU",
+        "橋接器（Bridge）"
+      ],
+      "answer": 3,
+      "explanation": "橋接器連接不同網路區段：兩個乙太區段、Token Ring↔乙太、無線↔有線。閘道器是「完全不同的網路結構」（TCP/IP↔AppleTalk、PC↔IBM SNA）要轉換封包格式。",
+      "tags": [
+        "設備"
+      ]
+    },
+    {
+      "id": "q29",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "下列哪一種上網方式「不需要」數據機？",
+      "options": [
+        "ADSL",
+        "Cable Modem",
+        "專線",
+        "電話撥接"
+      ],
+      "answer": 2,
+      "explanation": "ADSL（電話線）、Cable Modem（有線電視電纜）都是類比媒介，一樣要數據機；只有專線不需要。",
+      "tags": [
+        "數據機"
+      ]
+    },
+    {
+      "id": "q30",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "有線的 802.3 乙太網路和無線的 802.11，在資料鏈結層中「不一樣」的是哪一個子層？",
+      "options": [
+        "LLC 邏輯鏈結控制子層（802.2）",
+        "兩個子層都一樣",
+        "MAC 媒介存取控制子層",
+        "兩個子層都不一樣"
+      ],
+      "answer": 2,
+      "explanation": "MAC 跟實體有關，所以有線無線不同（802.3 vs 802.11）；LLC（802.2）與實體無關，大家共用。",
+      "tags": [
+        "LLC",
+        "MAC"
+      ]
+    },
+    {
+      "id": "q31",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "下列「IEEE 標準 — 用途」的配對，何者正確？",
+      "options": [
+        "802.16 — 有線電視網路（Cable Modem）",
+        "802.14 — 無線都會網路（WiMAX）",
+        "802.15 — 無線個人網路（藍牙）",
+        "802.5 — 無線區域網路"
+      ],
+      "answer": 2,
+      "explanation": "802.5 記號環、802.11 WLAN、802.14 有線電視、802.15 WPAN（藍牙）、802.16 WMAN（WiMAX）。14 有線、15 個人、16 都會，數字越大範圍越大（14 除外）。",
+      "tags": [
+        "IEEE 802"
+      ]
+    },
+    {
+      "id": "q32",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "接收端收到乙太網路訊框後，要判斷「傳輸過程中有沒有出錯」，看的是哪一個欄位？",
+      "options": [
+        "前導碼 Preamble",
+        "來源位址（6 Bytes MAC）",
+        "長度／類型欄位",
+        "檢查碼 CRC-FCS（4 Bytes）"
+      ],
+      "answer": 3,
+      "explanation": "FCS（Frame Check Sequence）＝錯誤偵測，4 Bytes，在訊框最後。前導碼是同步用，位址欄放 MAC 位址。",
+      "tags": [
+        "訊框"
+      ]
+    },
+    {
+      "id": "q33",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "下列「乙太網路規格 — 接頭」的配對，何者「錯誤」？",
+      "options": [
+        "1000BaseSX — ST",
+        "1000BaseT — RJ-45",
+        "1000BaseCX — DB9",
+        "10GBase-T — GG45"
+      ],
+      "answer": 0,
+      "explanation": "1000BaseLX/SX 用 SC 接頭；ST 是 10BaseF 用的。1000BaseT 用 RJ-45、1000BaseCX 用 DB9（特殊同軸，25 m）、10GBase-T 捨棄 RJ-45 改 GG45。",
+      "tags": [
+        "接頭"
+      ]
+    },
+    {
+      "id": "q34",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "使用「雙絞線」的 Gigabit 與 10 Gigabit 乙太網路標準，分別是？",
+      "options": [
+        "802.3z、802.3ae",
+        "802.3ab、802.3an",
+        "802.3u、802.3ab",
+        "802.3ae、802.3ba"
+      ],
+      "answer": 1,
+      "explanation": "Gigabit：光纖 802.3z、雙絞線 802.3ab；10G：光纖 802.3ae、雙絞線 802.3an。802.3u 是 100 Mbps Fast Ethernet。記法：雙絞線都帶 a+b/n（ab、an）。",
+      "tags": [
+        "IEEE 802.3"
+      ]
+    },
+    {
+      "id": "q35",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "關於 1000BaseSX 與 1000BaseLX，下列何者正確？",
+      "options": [
+        "SX 用短波長雷射、只能多模光纖；LX 用長波長、可單模或多模",
+        "SX 用長波長、可單模；LX 用短波長、只能多模",
+        "兩者都使用 Cat 5e 雙絞線",
+        "兩者都使用 DB9 接頭"
+      ],
+      "answer": 0,
+      "explanation": "S＝Short（850 nm，只能多模）、L＝Long（1300 nm，單模可達 5 km 或多模）。兩者都是 SC 接頭。",
+      "tags": [
+        "Gigabit"
+      ]
+    },
+    {
+      "id": "q36",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "公司買了不同廠牌的交換器要設定 VLAN，必須支援哪一個標準才能互通？",
+      "options": [
+        "IEEE 802.1x",
+        "IEEE 802.11",
+        "IEEE 802.3",
+        "IEEE 802.1Q"
+      ],
+      "answer": 3,
+      "explanation": "802.1Q＝VLAN；802.1x＝帳號密碼認證（WLAN Gateway）；802.11＝WLAN；802.3＝乙太網路。記法：Q 像 VLAN 的「群組 Queue」，x 是認證。",
+      "tags": [
+        "VLAN"
+      ]
+    },
+    {
+      "id": "q37",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "下列何者「是」VLAN 的三大功能之一？",
+      "options": [
+        "增加網路位址設定彈性",
+        "提升實體線路的傳輸速率",
+        "取代路由器的路由功能",
+        "限制存取，提高安全性"
+      ],
+      "answer": 3,
+      "explanation": "VLAN 三大功能：隔離廣播封包、突破實體位置限制、限制存取提高安全性。「增加網路位址設定彈性」是常見陷阱，不是。",
+      "tags": [
+        "VLAN"
+      ]
+    },
+    {
+      "id": "q38",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "關於 T 與 E 專線的速率，下列敘述何者正確？",
+      "options": [
+        "E1 比 T1 快，但 E3 比 T3 慢",
+        "T1 比 E1 快，T3 也比 E3 快",
+        "E1 比 T1 快，E3 也比 T3 快",
+        "T1 與 E1 速率相同"
+      ],
+      "answer": 0,
+      "explanation": "T1 1.544 < E1 2.048；但 E3 34.368 < T3 44.736。所以排序 T1 < E1 < E3 < T3，四個中最快是 T3。",
+      "tags": [
+        "T1",
+        "E1"
+      ]
+    },
+    {
+      "id": "q39",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "某專線可同時傳送 30 路電話訊號，它是哪一種規格、速率多少？",
+      "options": [
+        "E1，2.048 Mbps",
+        "T1，1.544 Mbps",
+        "E1，1.544 Mbps",
+        "T3，44.736 Mbps"
+      ],
+      "answer": 0,
+      "explanation": "T1＝1.544 Mbps、24 路（北美）；E1＝2.048 Mbps、30 路（歐洲）；T3＝44.736 Mbps、672 路。一路電話 64 Kbps。",
+      "tags": [
+        "E1"
+      ]
+    },
+    {
+      "id": "q40",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "資料被切成「大小不等」的區塊加上表頭，各自走不特定路徑，到達後再重組。這是哪一種交換方式？",
+      "options": [
+        "分封交換（Packet Switching）",
+        "細胞交換（Cell Switching）",
+        "電路交換（Circuit Switching）",
+        "訊息交換（Message Switching）"
+      ],
+      "answer": 0,
+      "explanation": "分封交換＝大小不等的封包；細胞交換＝切成相等大小的細胞（ATM 53 Bytes）；電路交換＝傳統電話網路，頻寬完全佔線到通話結束。",
+      "tags": [
+        "交換"
+      ]
+    },
+    {
+      "id": "q41",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 的「A（Asymmetric，非對稱）」指的是什麼？",
+      "options": [
+        "可以同時打電話與上網",
+        "上傳與下載速度不同（上傳約 64～640 Kbps，下載較快）",
+        "使用有線電視同軸電纜",
+        "要用 PPPoE 撥接取得浮動 IP"
+      ],
+      "answer": 1,
+      "explanation": "非對稱＝上下行速度不一樣，下載快、上傳慢。能同時講電話是因為保留 4 KHz 的 POTS 頻道；PPPoE 是取得浮動 IP 的方式，都不是 A 的意思。SDSL 才是對稱式。",
+      "tags": [
+        "ADSL"
+      ]
+    },
+    {
+      "id": "q42",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "Cable Modem 在晚上大家都上網時速度明顯變慢，主要原因是？",
+      "options": [
+        "距離電信機房愈遠效率愈差",
+        "POTS 頻道佔用了頻寬",
+        "PPPoE 認證太慢",
+        "頻寬共享，連線人數愈多品質愈差"
+      ],
+      "answer": 3,
+      "explanation": "Cable Modem 缺點：頻寬共享＋單點故障影響整個節點。「距離機房愈遠愈差」是 ADSL 的缺點，不要搞混。",
+      "tags": [
+        "Cable Modem"
+      ]
+    },
+    {
+      "id": "q43",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "下列哪一個頻率落在 ISM 頻段內？",
+      "options": [
+        "5.8 GHz",
+        "3 GHz",
+        "10～66 GHz",
+        "60 GHz"
+      ],
+      "answer": 0,
+      "explanation": "ISM 三頻帶：902～928 MHz、2.4～2.4835 GHz、5.725～5.850 GHz。3 GHz 不是（常考陷阱）；10～66 GHz 是 802.16 WiMAX 針對的高頻段。",
+      "tags": [
+        "ISM"
+      ]
+    },
+    {
+      "id": "q44",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "下列衛星依運行高度「由低到高」排列，何者正確？",
+      "options": [
+        "星鏈 → GPS → 同步衛星",
+        "GPS → 星鏈 → 同步衛星",
+        "同步衛星 → GPS → 星鏈",
+        "星鏈 → 同步衛星 → GPS"
+      ],
+      "answer": 0,
+      "explanation": "星鏈約 500 km（低軌）＜ GPS 約 20,200 km ＜ 同步衛星約 36,000 km。",
+      "tags": [
+        "衛星"
+      ]
+    },
+    {
+      "id": "q45",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "關於 GPS，下列敘述何者正確？",
+      "options": [
+        "24 顆衛星、12 個軌道，繞地球一周約 24 小時",
+        "6 顆衛星、24 個軌道，繞地球一周約 12 小時",
+        "12 顆衛星、6 個軌道，位於 36,000 公里高空",
+        "24 顆衛星、6 個軌道，繞地球一周約 12 小時"
+      ],
+      "answer": 3,
+      "explanation": "GPS：24 顆、6 軌道、高度約 20,200 km、約 12 小時一圈；36,000 km 是同步衛星。記法：24÷6＝每軌 4 顆，一天繞 2 圈。",
+      "tags": [
+        "GPS"
+      ]
+    },
+    {
+      "id": "q46",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "家裡的舊筆電網卡「只支援 802.11b」，它「無法」連上只開下列哪一種規格的無線基地台？",
+      "options": [
+        "802.11a",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": 0,
+      "explanation": "802.11a 只在 5 GHz、用 OFDM，不相容 b/g；802.11b 在 2.4 GHz。802.11g（2.4 GHz、54 Mbps）向下相容 b，802.11n 向下相容 a/b/g。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q47",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列「名詞 — 說明」的配對，何者正確？",
+      "options": [
+        "OFDM — 802.11n 用多根天線提高傳輸率",
+        "802.1Q — 校園 WLAN Gateway 帳密認證",
+        "802.1x — 虛擬區域網路 VLAN",
+        "MIMO — 802.11n 用多根天線提高傳輸率"
+      ],
+      "answer": 3,
+      "explanation": "MIMO（多進多出）＝802.11n 多天線；OFDM（正交分頻多工）＝802.11a 的調變技術；802.1x＝帳密認證；802.1Q＝VLAN。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q48",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "關於藍牙，下列敘述何者「錯誤」？",
+      "options": [
+        "使用 ISM 2.4 GHz、跳頻式展頻",
+        "0 dBm 時距離約 10 公尺",
+        "只能一對一通訊，無法一對多",
+        "實際有效速率約 721 Kbps"
+      ],
+      "answer": 2,
+      "explanation": "藍牙可以一對一或一對多的雙向通訊。其餘都對：2.4 GHz 跳頻展頻、0 dBm 約 10 m（20 dBm 50～100 m）、約 721 Kbps。",
+      "tags": [
+        "藍牙"
+      ]
+    },
+    {
+      "id": "q49",
+      "chapter": 8,
+      "section": "8-4",
+      "question": "WiMAX 的固定式與行動式規格分別是？",
+      "options": [
+        "固定式 802.16e、行動式 802.16d",
+        "固定式 802.16d、行動式 802.16e",
+        "固定式 802.11a、行動式 802.11n",
+        "固定式 802.16a、行動式 802.16b"
+      ],
+      "answer": 1,
+      "explanation": "WiMAX 依 802.16，基地台範圍約 50 km。固定式 802.16d、行動式 802.16e（e 想成 everywhere 到處移動），後來合併成 802.16e-2005。",
+      "tags": [
+        "WiMAX"
+      ]
+    },
+    {
+      "id": "q50",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "台灣 3G 業者中，採用美國高通主導的 CDMA2000 的是？其他業者用什麼？",
+      "options": [
+        "中華電信；其他業者用 TD-SCDMA",
+        "亞太電信；中華、台灣大、遠傳用 WCDMA",
+        "遠傳電信；其他業者用 GSM",
+        "台灣大哥大；其他業者用 CDMA2000"
+      ],
+      "answer": 1,
+      "explanation": "CDMA2000（高通）在台灣只有亞太電信；WCDMA 是中華、台灣大、遠傳；TD-SCDMA 是中國大陸提出的。",
+      "tags": [
+        "3G"
+      ]
+    }
+  ]
+}

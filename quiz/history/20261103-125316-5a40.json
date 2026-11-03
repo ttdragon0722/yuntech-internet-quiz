@@ -1,0 +1,865 @@
+{
+  "id": "20261103-125316-5a40",
+  "title": "弱點加強 第三回（剛討論＋仍答錯）— 50 題",
+  "finished": true,
+  "quizIds": [
+    "weak-003"
+  ],
+  "finishedAt": "2026-11-03T12:53:16",
+  "durationSec": 591,
+  "total": 50,
+  "correct": 33,
+  "score": 66,
+  "items": [
+    {
+      "quizId": "weak-003",
+      "qid": "q40",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "依 5-4-3 規則，10 Mbps 乙太網路最多能串接幾個集線器（中繼器）？",
+      "options": [
+        "3 個",
+        "5 個",
+        "4 個",
+        "沒有限制"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "5 個區段、4 個集線器、3 個區段可接電腦。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q11",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "SDSL 與 HDSL 的速率 1.544／2.048 Mbps，剛好等於哪兩種專線？",
+      "options": [
+        "T3 與 E3",
+        "E1 與 E3",
+        "T1 與 T3",
+        "T1 與 E1"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "1.544 = T1、2.048 = E1。SDSL／HDSL 等於把電話線當 T1／E1 專線用。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q01",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "描述網路「傳輸速率」的名詞與單位是？",
+      "options": [
+        "位元率，bps",
+        "鮑率，baud",
+        "頻率，Hz",
+        "頻寬，Byte"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "位元率＝傳輸速率（bps）；鮑率＝每秒訊號單元數；頻率＝單位時間重複次數（Hz）；頻寬＝最高位元率（單位也是 bps，不是 Byte）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q41",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中，上傳與下載速度「相同」的「對稱式」數位用戶迴路是？",
+      "options": [
+        "SDSL",
+        "ADSL",
+        "VDSL",
+        "DSL"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "S＝Symmetric 對稱；A＝Asymmetric 非對稱；VDSL＝超高速（也是非對稱）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q04",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中速度最快、下行可達 13～52 Mbps 的是？",
+      "options": [
+        "ADSL",
+        "HDSL",
+        "VDSL",
+        "SDSL"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "VDSL＝Very-high-bit-rate 超高速，下 13～52 Mbps／上 1.5～6 Mbps；ADSL 下行最高約 8 Mbps。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q46",
+      "chapter": 5,
+      "section": "5-3",
+      "question": "5-4-3 規則限制網路長度，背後原因和 CSMA/CD 的哪一個缺點相同？",
+      "options": [
+        "需要集中控制",
+        "電纜太長時感測不到碰撞",
+        "各站地位不平等",
+        "無法廣播"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "CSMA/CD 缺點：電纜長度受限（太長感測不到碰撞）、使用者越多碰撞越多。串太多 Hub 會讓訊號傳太久，來不及偵測碰撞。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q24",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "TIA/EIA-568A 的第 1、2 腳位是什麼顏色？",
+      "options": [
+        "白橙、橙",
+        "白綠、綠",
+        "白藍、藍",
+        "白棕、棕"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "568A：白綠、綠、白橙、藍、白藍、橙、白棕、棕；568B 把 1↔3、2↔6 對調，第 1、2 腳變白橙、橙。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q07",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "把訊息當成一整塊、大小不限，需要用磁碟做儲存緩衝、佔線很久的是哪一種交換方式？",
+      "options": [
+        "分封交換",
+        "細胞交換",
+        "訊息交換",
+        "電路交換"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "訊息交換：整塊訊息、大小不限、要磁碟緩衝。分封＝大小不等的封包；細胞＝大小相等。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q27",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "關於雙絞線等級的狀態，下列何者正確？",
+      "options": [
+        "Cat 5 是目前主流；Cat 5e 已淘汰",
+        "Cat 3 仍是主流",
+        "Cat 6a 已淘汰",
+        "Cat 5e 與 Cat 6 是目前主流；Cat 5 已淘汰"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "Cat 2～5 已淘汰；Cat 5e、Cat 6 是主流；Cat 6a、Cat 7 是未來。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q29",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 中保留 4 KHz、讓使用者上網時還能講電話的是哪一個通道？",
+      "options": [
+        "POTS",
+        "上傳 Upstream",
+        "下載 Downstream",
+        "PPPoE"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "POTS＝Plain Old Telephone Service，原本的語音電話服務；PPPoE 是撥接取得浮動 IP 的協定，不是通道。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q48",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "GSM 採用 TDMA，它的意思是？",
+      "options": [
+        "分頻多工存取",
+        "分時多工存取",
+        "分碼多工存取",
+        "載波感應多重存取"
+      ],
+      "answer": 1,
+      "choice": 3,
+      "correct": false,
+      "explanation": "TDMA＝Time Division Multiple Access 分時多工存取。有 T 的找 TDM 家族；載波感應多重存取是 CSMA。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q21",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "打電話時，從接通到掛斷，這條線路的頻寬「完全被佔住」，這是哪一種交換方式？",
+      "options": [
+        "分封交換",
+        "細胞交換",
+        "訊息交換",
+        "電路交換"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "電路交換＝傳統公眾電信網路 PSTN，以 64 Kbps 傳語音，頻寬完全佔線直到通話結束，全雙工、連接導向。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q42",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "IP 分享器能讓多台電腦共用一個 IP，主要靠它內建的什麼功能？",
+      "options": [
+        "VLAN",
+        "DHCP 伺服器",
+        "CSMA/CD",
+        "PPPoE"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "IP 分享器（L3）主要具 DHCP 伺服器，動態指派 IP。VLAN 是交換器的功能；PPPoE 是 ADSL 撥接取得 IP 的協定。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q14",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM 細胞固定 53 Bytes，表頭 5 Bytes，那麼真正存放資料的「資訊欄」是幾 Bytes？",
+      "options": [
+        "53 Bytes",
+        "48 Bytes",
+        "5 Bytes",
+        "64 Bytes"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "53 − 5 = 48 Bytes 資訊欄；所以傳輸效率是 48/53 ≈ 90.5%。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q45",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "通訊用長波長雷射的短程、中程、長程波長分別是？",
+      "options": [
+        "2.4 GHz、5 GHz、60 GHz",
+        "900 MHz、2.4 GHz、5.8 GHz",
+        "850 nm、1310 nm、1580 nm",
+        "0.1 cm、10 cm、30 cm"
+      ],
+      "answer": 2,
+      "choice": 1,
+      "correct": false,
+      "explanation": "雷射用 nm（奈米）表示波長：850／1310／1580 nm。GHz 是無線電頻率；900 MHz／2.4／5.8 GHz 是 ISM；0.1～30 cm 是微波波長。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q35",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "某 10 Mbps 乙太網路有 5 個區段，依 5-4-3 規則，最多有幾個區段可以接電腦？",
+      "options": [
+        "5 個",
+        "4 個",
+        "3 個",
+        "2 個"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "5 個區段中只有 3 個可以掛電腦，另外 2 個只能用來串接集線器。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q23",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "把一條線的頻率切成好幾段、每段各傳一組資料，而且要靠調變器轉成類比訊號，這是？",
+      "options": [
+        "基頻傳輸，使用分頻多工 FDM",
+        "寬頻傳輸，使用分時多工 TDM",
+        "寬頻傳輸，使用分頻多工 FDM",
+        "基頻傳輸，使用分時多工 TDM"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "切頻率＝FDM，只有類比訊號（寬頻 Broadband）才能切頻率，所以要調變器；基頻是數位方波，只能 TDM 輪流用。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q12",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "T1 專線的 1.544 Mbps 是由幾路 64 Kbps 的電話組成（再加上訊框同步位元）？",
+      "options": [
+        "30 路",
+        "32 路",
+        "24 路",
+        "672 路"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "T1＝24 × 64K = 1536K，再加 8K 同步 = 1.544 Mbps。E1 是 32 時槽（30 路講話）= 2.048 Mbps。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q05",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "OSI 參考模型是由哪一個組織制定？",
+      "options": [
+        "IEEE 電機電子工程師學會",
+        "ITU 國際電訊聯盟",
+        "IAB 網際網路架構委員會",
+        "ISO 國際標準組織"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "ISO→OSI（字母倒過來）；IEEE→802；ITU→X.25／ISDN；IAB→RFC。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q02",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "關於 GSM，下列何者正確？",
+      "options": [
+        "由 IEEE 制定，資料速率可達 100 Mbps",
+        "由高通主導，採 CDMA2000",
+        "完全使用 IP 封包，是 4G 標準",
+        "由 ETSI 制定，資料速率只有約 9.6 Kbps"
+      ],
+      "answer": 3,
+      "choice": 1,
+      "correct": false,
+      "explanation": "GSM（2G）：ETSI 制定、TDMA、電路交換、9.6 Kbps、蜂巢式。CDMA2000 是 3G（高通）；完全 IP 封包是 4G。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q08",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "紅外線傳輸模式「Omni/IR」指的是哪一種？",
+      "options": [
+        "直接式",
+        "散射式",
+        "全向性",
+        "點對點式"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "DB/IR＝直接式（Direct-Beam）、DF/IR＝散射式（Diffuse）、Omni/IR＝全向性（Omnidirectional）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q06",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "「人與人、物與物、人與物」是物聯網的什麼？",
+      "options": [
+        "三個維度",
+        "三大範疇",
+        "三層架構",
+        "三種標籤"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "三大範疇＝人與人、物與物、人與物；三維度＝Any Time/Place/Thing；三層架構＝感知→網路→應用。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q49",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "橋接器（Bridge）屬於第幾層設備、支援 OSI 哪幾層？",
+      "options": [
+        "第 1 層設備，只支援第 1 層",
+        "第 2 層設備，支援第 1、2 層",
+        "第 3 層設備，支援第 1、2、3 層",
+        "第 2 層設備，只支援第 2 層"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "第 2 層設備（網路卡、交換器、橋接器）都支援第 1、2 層；高層設備一定包含下面各層。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q37",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "100BaseT4 的特點是？",
+      "options": [
+        "用 Cat 5，曾是主流，可由 10BaseT 直接升級",
+        "用 Cat 3 的 4 對線，半雙工，已淘汰",
+        "用多模光纖，最遠 2 公里",
+        "用同軸電纜與 BNC 接頭"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "100BaseT4：Cat 3（4 對）、半雙工、非主流已淘汰；100BaseTX：Cat 5、曾是主流；100BaseFX：多模光纖 2 km。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q25",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "4G 的 LTE 與 LTE+（4.5G）差別在於 LTE+ 具備什麼技術？",
+      "options": [
+        "載波聚合 CA，合併不同頻段使用",
+        "MIMO 多天線",
+        "HSDPA 高速下行",
+        "跳頻式展頻"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "LTE+（LTE-Advanced）＝具載波聚合的 4G，3CA 最高 450 Mbps。MIMO 是 802.11n；HSDPA 是 3.5G；跳頻展頻是藍牙。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q31",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "校園 WLAN Gateway 要求輸入帳號密碼，以及交換器設定 VLAN，分別用哪兩個標準？",
+      "options": [
+        "802.1Q；802.1x",
+        "802.1x；802.1Q",
+        "802.11n；802.1Q",
+        "802.1x；802.11"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "802.1x＝認證（帳密）；802.1Q＝VLAN。記法：Q 想成 group 的「群」、x 想成驗證打勾。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q32",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層的兩個子層中，「有線與無線共用」、與實體無關的是？",
+      "options": [
+        "MAC",
+        "PHY",
+        "兩個都不共用",
+        "LLC（802.2）"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "LLC 與實體無關，有線無線共用 802.2；MAC 與實體有關，所以 802.3 和 802.11 不同。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q26",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "802.11a 採用的 OFDM，屬於哪一類多工技術？",
+      "options": [
+        "分頻多工（Orthogonal Frequency Division Multiplexing）",
+        "分時多工",
+        "載波聚合",
+        "多進多出 MIMO"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "OFDM＝正交「分頻」多工，名字有 F（Frequency）。MIMO 是 802.11n 的多天線技術。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q28",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "IPv4、IPv6 屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "傳輸層",
+        "網路介面層",
+        "網際網路層",
+        "應用層"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "名字有 IP 的在網際網路層（傳 Packet）；TCP、UDP 在傳輸層。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q15",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "ADSL、Cable Modem、電話撥接、專線中，「不需要」數據機的是？",
+      "options": [
+        "專線",
+        "ADSL",
+        "Cable Modem",
+        "電話撥接"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "ADSL（電話線）、Cable Modem（同軸電纜）、撥接都走類比媒介，都要數據機；只有專線不用。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q43",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "歐洲規格 E3 的傳輸速率是多少？",
+      "options": [
+        "44.736 Mbps",
+        "34.368 Mbps",
+        "2.048 Mbps",
+        "139.264 Mbps"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "E3 = 34.368 Mbps（480 路）；44.736 是 T3；2.048 是 E1；139.264 是 E4。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q17",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "TCP/IP 模型的「傳輸層」與「網路介面層」分別對應 OSI 的哪幾層？",
+      "options": [
+        "第 3 層；第 1 層",
+        "第 4 層；第 2、3 層",
+        "第 5、6、7 層；第 1、2 層",
+        "第 4 層；第 1、2 層"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "應用層↔5、6、7；傳輸層↔4；網際網路層↔3；網路介面層↔1、2。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q19",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "10BaseT 使用的是哪一個等級的雙絞線？",
+      "options": [
+        "Cat 3",
+        "Cat 1",
+        "Cat 5",
+        "Cat 5e"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "口訣「3 十、5 百、5e 千、6a 萬」：Cat 3→10BaseT、Cat 5→100BaseTX、Cat 5e→1000BaseT、Cat 6a→10GBaseT。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q16",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "頻寬 500 MHz、可達 10 Gbps、用於 10GBaseT 的雙絞線等級是？",
+      "options": [
+        "Cat 6",
+        "Cat 6a",
+        "Cat 5e",
+        "Cat 7"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "Cat 6 是 250 MHz（2.4 Gbps）、Cat 6a 是 500 MHz（10 Gbps）、Cat 7 是 600 MHz。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q10",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "下列關於基頻與寬頻的敘述，何者「錯誤」？",
+      "options": [
+        "基頻傳送數位訊號，不需調變",
+        "寬頻需要調變器",
+        "寬頻使用分頻多工 FDM",
+        "基頻傳輸距離遠，適合廣域網路"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "基頻距離短、用在 LAN；寬頻距離遠、用在 WAN。其他三項都正確。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q09",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "下列何者是 Cable Modem（相對於 ADSL）的特性？",
+      "options": [
+        "星形架構、頻寬獨享",
+        "可隨線路品質調整速率（Rate Adaptive）",
+        "離電信機房越遠效率越差",
+        "串接形架構、頻寬共用、網路安全性較差"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "Cable：串接形、障礙互相影響、共用頻寬、安全差、不能速率調整。星形／獨享／Rate Adaptive／離機房遠變差都是 ADSL。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q13",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "「64 Kbps」是指下列哪一項的速率？",
+      "options": [
+        "T1 專線",
+        "E1 專線",
+        "ISDN 骨幹",
+        "一路電話語音"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "一路電話＝64 Kbps，是 T／E 專線的基本單位；T1 = 1.544 Mbps、E1 = 2.048 Mbps。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q44",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10 Gigabit 乙太網路使用「光纖」的 IEEE 標準是？",
+      "options": [
+        "802.3an",
+        "802.3ab",
+        "802.3z",
+        "802.3ae"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "10G：光纖 802.3ae、雙絞線 802.3an；1G：光纖 802.3z、雙絞線 802.3ab。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q50",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "北美 T3 可同時傳送幾路電話？",
+      "options": [
+        "672 路",
+        "480 路",
+        "96 路",
+        "30 路"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "T3 = 28 個 T1 = 24 × 28 = 672 路（44.736 Mbps）；E3 是 480 路；T2 是 96 路；E1 是 30 路。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q39",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "GSM 與 GPRS 的交換方式，下列何者正確？",
+      "options": [
+        "GSM 用電路交換；GPRS 補上分封（封包）數據服務",
+        "GSM 用分封交換；GPRS 改回電路交換",
+        "兩者都只用細胞交換",
+        "GSM 用訊息交換；GPRS 用電路交換"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "GSM 是電路交換（適合講電話），Internet 用封包交換，所以 2.5G 的 GPRS 補上「高速分封數據服務」。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q34",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中，需要用「2～3 對」電話線的是？",
+      "options": [
+        "ADSL（非對稱）",
+        "HDSL（高速）",
+        "SDSL（對稱式）",
+        "VDSL（超高速）"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "只有 HDSL 要 2／3 對線，其他都 1 對。記法：H＝High，線也要多。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q18",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "下列何者是「星狀拓樸」的缺點？",
+      "options": [
+        "中心集線器故障全網癱瘓，且可能壅塞成瓶頸",
+        "電纜斷一處整個網路中斷",
+        "佈線困難、檢修困難",
+        "每台都要和其他每台互連，線材很多"
+      ],
+      "answer": 0,
+      "choice": 3,
+      "correct": false,
+      "explanation": "星狀優點：佈線、檢修容易，單條線斷不影響其他；缺點在中心的集線器。纜線斷全斷是匯流排；每台互連是網狀。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q30",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "T1 專線把 24 路電話依序放進不同「時槽」輪流傳送，這是哪一種多工技術？",
+      "options": [
+        "分頻多工 FDM",
+        "正交分頻多工 OFDM",
+        "分時多工 TDM",
+        "分碼多工 CDM"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "T-Carrier 以脈衝碼調變 PCM、分時多工 TDM 為基礎，設備叫多工器 MUX。「輪流用時間」＝分時。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q38",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "數據機的「調變」與「解調變」分別是？",
+      "options": [
+        "調變：數位→類比；解調變：類比→數位",
+        "調變：類比→數位；解調變：數位→類比",
+        "兩者都是數位→類比",
+        "兩者都是類比→數位"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "送出去時把電腦的數位訊號「調變」成類比放上電話線；收進來時「解調變」還原成數位。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q20",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "xDSL 家族中，屬於「非對稱」（下載快、上傳慢）的是哪兩種？",
+      "options": [
+        "SDSL 與 HDSL",
+        "ADSL 與 SDSL",
+        "ADSL 與 VDSL",
+        "HDSL 與 VDSL"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "A 和 V 是非對稱（家用為主）；S 和 H 是全雙工對稱。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q47",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "現在要自己壓一條支援 1000BaseT 的網路線，最低需要哪一個等級？",
+      "options": [
+        "Cat 5",
+        "Cat 3",
+        "Cat 5e",
+        "Cat 4"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "1000BaseT（802.3ab）支援 Cat 5e；Cat 5 只到 100 Mbps（100BaseTX）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q22",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "電腦用 TCP/IP、另一個網路用 AppleTalk，兩邊結構完全不同，要轉換封包格式才能互通，需要哪一種設備？",
+      "options": [
+        "橋接器（Bridge）",
+        "交換器（Switch）",
+        "中繼器（Repeater）",
+        "閘道器（Gateway）"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "閘道器＝連接兩個完全不同的網路結構並轉換封包格式；橋接器只連接不同區段（Token Ring↔乙太）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q36",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "關於「分封交換」與「細胞交換」，下列何者正確？",
+      "options": [
+        "分封交換切成大小不等的封包；細胞交換切成大小相等的細胞",
+        "分封交換切成大小相等；細胞交換切成大小不等",
+        "兩者都會佔住整條線路直到傳完",
+        "細胞交換就是傳統電話網路"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "兩者差別只看大小：分封＝大小不等、走不特定路徑後重組；細胞＝大小相等、依序傳送（ATM）。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q03",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "IrDA 是什麼？其 1.1 版速度約多少？",
+      "options": [
+        "藍牙的傳輸標準，約 721 Kbps",
+        "紅外線資料協會的紅外線傳輸標準，約 115.2 Kbps",
+        "無線區域網路標準，約 11 Mbps",
+        "雷射傳輸標準，約 1 Gbps"
+      ],
+      "answer": 1,
+      "choice": 2,
+      "correct": false,
+      "explanation": "IrDA＝Infrared Data Association 紅外線資料協會；筆電標配，IrDA 1.1 約 115.2 Kbps，只適合少量資料。721 Kbps 是藍牙、11 Mbps 是 802.11b。"
+    },
+    {
+      "quizId": "weak-003",
+      "qid": "q33",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "WLAN 中，工作站之間「不需 AP」直接互傳的是哪一種模式？基地台模式則以什麼識別服務區？",
+      "options": [
+        "隨意網路模式（Ad Hoc）；BSSID",
+        "基地台模式（Infrastructure）；VLAN ID",
+        "隨意網路模式（Ad Hoc）；MAC 位址表",
+        "Wi-Fi Direct；SSID 密碼"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "Ad Hoc＝工作站直接透過無線媒介收送，不需 AP；基地台模式＝各電腦連 AP，形成基本服務區，擁有唯一 BSSID。"
+    }
+  ]
+}

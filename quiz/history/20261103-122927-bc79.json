@@ -1,0 +1,168 @@
+{
+  "id": "20261103-122927-bc79",
+  "title": "錯題重練：模擬考 第六回 — 50 題",
+  "finished": true,
+  "quizIds": [
+    "mock-006"
+  ],
+  "finishedAt": "2026-11-03T12:29:27",
+  "durationSec": 63,
+  "total": 9,
+  "correct": 4,
+  "score": 44,
+  "items": [
+    {
+      "quizId": "mock-006",
+      "qid": "q11",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 在一條電話線上分出哪三種通道？",
+      "options": [
+        "上傳、下載、有線電視",
+        "語音、傳真、視訊",
+        "上傳、下載、POTS（語音電話）",
+        "TDM、FDM、CDM"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "ADSL 三通道：上傳（64～640 Kbps）、下載（512 Kbps～8 Mbps）、POTS（4 KHz 原本的電話）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q19",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "GSM、3G、4G、5G 屬於哪一種無線網路類型？",
+      "options": [
+        "WWAN 無線廣域網路",
+        "WMAN 無線都會網路",
+        "WLAN 無線區域網路",
+        "WPAN 無線個人網路"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "WPAN＝藍牙 802.15、WLAN＝Wi-Fi 802.11、WMAN＝WiMAX 802.16、WWAN＝GSM、GPRS、3G、4G、5G。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q46",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "4.5G（LTE-Advanced）合併不同頻段一起使用的技術稱為什麼？",
+      "options": [
+        "MIMO 多進多出",
+        "CA 載波聚合",
+        "HSDPA 高速下載封包存取",
+        "OFDM 正交分頻多工"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "LTE+（LTE-Advanced）具載波聚合 CA：2 個頻段＝2CA、3 個＝3CA（最高 450 Mbps）。HSDPA 是 3.5G。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q15",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "10 Mbps 乙太網路的「5-4-3 規則」中，「3」代表什麼？",
+      "options": [
+        "只有 3 個區段可以接電腦",
+        "最多 3 個集線器",
+        "最多 3 個區段",
+        "每個區段最多 3 台電腦"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "5-4-3：最多 5 個區段、4 個集線器，其中只有 3 個區段可以接電腦。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q08",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "比較 ADSL 與 Cable Modem，下列何者正確？",
+      "options": [
+        "ADSL 頻寬共用；Cable Modem 頻寬獨享",
+        "Cable Modem 網路安全性比 ADSL 佳",
+        "Cable Modem 可隨線路品質調整速率",
+        "ADSL 為星形架構、頻寬獨享；Cable Modem 為串接形、頻寬共用"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "ADSL：星形、維修容易、頻寬獨享、可速率調整（Rate Adaptive）、安全性佳；Cable Modem：串接形、障礙互相影響、頻寬共用、安全性差。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q06",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "曾是家庭與企業主流、使用 Cat 5 UTP、可由 10BaseT 直接升級的 100 Mbps 規格是？",
+      "options": [
+        "100BaseTX",
+        "100BaseT4",
+        "100BaseFX",
+        "1000BaseT"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "100BaseTX 用 Cat 5；100BaseT4 用 Cat 3 的 4 對線、半雙工、已淘汰；100BaseFX 是多模光纖、2 km。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q22",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "WLAN 的基地台模式（Infrastructure）中，AP 涵蓋範圍形成的基本服務區擁有唯一的什麼？",
+      "options": [
+        "MAC 位址表",
+        "BSSID",
+        "VLAN ID",
+        "SSID 密碼"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "基地台模式：各電腦與 AP 連結，形成基本服務區（BSS），擁有唯一 BSSID。隨意網路模式（Ad Hoc）則不需 AP。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q01",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "目前主流、最高 1000 Mbps、用於 1000BaseT 的雙絞線等級是？",
+      "options": [
+        "Cat 3",
+        "Cat 5",
+        "Cat 6a",
+        "Cat 5e"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "Cat 3 16 Mbps（10BaseT）、Cat 5 100 Mbps（100BaseTX）、Cat 5e 1000 Mbps（1000BaseT，主流）、Cat 6a 10 Gbps（10GBaseT）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q48",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "IP 分享器讓家中多台電腦共用一個 IP 上網，主要是因為它具備哪一種功能？",
+      "options": [
+        "CSMA/CD 碰撞偵測",
+        "調變與解調變",
+        "VLAN 隔離廣播",
+        "DHCP 伺服器，動態指派 IP"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "IP 分享器（L3）功能類似 Hub，主要具 DHCP 伺服器，讓多台 PC 分享一個 IP。"
+    }
+  ]
+}

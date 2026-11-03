@@ -1,0 +1,858 @@
+{
+  "id": "mock-005",
+  "title": "模擬小考 5（仿 test1、test2 格式，範圍：第 1～8 章）— 50 題",
+  "created": "2026-11-02",
+  "description": "仿小考格式第三份；約三分之一用新問法考 mock-003／004 還沒搞定的盲點（802.11 a/b/g/n、T1/E1/T3、接頭、802 編號、設備層級、星狀拓樸、PaaS、物聯網、衛星高度）",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "提供開發者撰寫、部署應用程式的平台（例如 Google App Engine），屬於哪一種雲端服務？",
+      "options": [
+        "SaaS",
+        "IaaS",
+        "PaaS",
+        "DaaS"
+      ],
+      "answer": 2,
+      "explanation": "PaaS 是給開發者寫程式的平台，名字裡有 App 的 Google App Engine 就是 PaaS；Microsoft Azure 提供運算資源，是 IaaS；Google Docs 直接用軟體，是 SaaS。",
+      "tags": [
+        "雲端"
+      ]
+    },
+    {
+      "id": "q02",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網三層架構中，負責「辨識物體、擷取資料」的是哪一層？",
+      "options": [
+        "應用層",
+        "網路層",
+        "實體層",
+        "感知層"
+      ],
+      "answer": 3,
+      "explanation": "感知層在最下層，最靠近「物」，RFID、感測器（Sensor）都在這層；網路層負責傳輸（Wi-Fi、3G）；應用層在最上層（智慧城市等）。物聯網沒有「實體層」。",
+      "tags": [
+        "物聯網"
+      ]
+    },
+    {
+      "id": "q03",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "網路「資源分享」的各種應用中，最大的應用是哪一種？",
+      "options": [
+        "檔案分享",
+        "週邊設備分享",
+        "應用程式分享",
+        "訊息分享"
+      ],
+      "answer": 0,
+      "explanation": "網路最大的用途是資源分享，其中最大的應用是檔案分享；共用印表機是週邊設備分享。",
+      "tags": [
+        "資源分享"
+      ]
+    },
+    {
+      "id": "q04",
+      "chapter": 1,
+      "section": "1-2",
+      "question": "下列何者屬於「有線」傳輸媒介？",
+      "options": [
+        "微波",
+        "紅外線",
+        "光纖",
+        "衛星"
+      ],
+      "answer": 2,
+      "explanation": "有線媒介有雙絞線、同軸電纜、光纖、電話線；微波、紅外線、衛星、無線電波、雷射都是無線媒介。",
+      "tags": [
+        "傳輸媒介"
+      ]
+    },
+    {
+      "id": "q05",
+      "chapter": 1,
+      "section": "1-6",
+      "question": "消費者在博客來網路書店購買書籍，屬於哪一種電子商務？",
+      "options": [
+        "B2B",
+        "B2C",
+        "C2C",
+        "G2C"
+      ],
+      "answer": 1,
+      "explanation": "企業（博客來）賣給消費者是 B2C；Yahoo 拍賣網友之間交易是 C2C；中鋼和下游廠商之間是 B2B。",
+      "tags": [
+        "電子商務"
+      ]
+    },
+    {
+      "id": "q06",
+      "chapter": 1,
+      "section": "1-9",
+      "question": "SDN（軟體定義網路）的核心概念是什麼？",
+      "options": [
+        "把網路設備的控制功能抽出來，交給 SDN 控制器統一管理",
+        "把所有資料存放到雲端伺服器",
+        "以光纖全面取代銅線",
+        "利用通道技術在網際網路上建立安全管道"
+      ],
+      "answer": 0,
+      "explanation": "SDN 把設備的控制抽出來，交給 SDN 控制器統一管理，設備只負責傳資料；用通道技術建立安全管道是 VPN。",
+      "tags": [
+        "SDN"
+      ]
+    },
+    {
+      "id": "q07",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "某公司的台北總部與高雄分公司之間的網路連線，屬於哪一種網路？",
+      "options": [
+        "PAN",
+        "LAN",
+        "MAN",
+        "WAN"
+      ],
+      "answer": 3,
+      "explanation": "跨縣市、距離 10 公里以上是 WAN（廣域網路）；LAN 約 2 公里內；MAN 約 2～10 公里；PAN 是身邊的裝置。",
+      "tags": [
+        "網路範圍"
+      ]
+    },
+    {
+      "id": "q08",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "可以改善服務品質、減少使用者瀏覽 WWW 等待時間的伺服器是？",
+      "options": [
+        "BBS 伺服器",
+        "Proxy 伺服器",
+        "資料庫伺服器",
+        "WWW 伺服器"
+      ],
+      "answer": 1,
+      "explanation": "Proxy 伺服器用快取改善服務品質、減少等待時間；BBS 只是電子佈告欄；資料庫伺服器儲存交易與使用者資料；WWW 伺服器存放 HTML 網頁。",
+      "tags": [
+        "伺服器"
+      ]
+    },
+    {
+      "id": "q09",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "使用對講機時，一方講完另一方才能講，屬於哪一種傳輸模式？",
+      "options": [
+        "單工",
+        "半雙工",
+        "全雙工",
+        "多工"
+      ],
+      "answer": 1,
+      "explanation": "雙方能互傳但要輪流，是半雙工；單工只能一個方向（廣播電台）；全雙工可以同時傳（電話）。",
+      "tags": [
+        "傳輸模式"
+      ]
+    },
+    {
+      "id": "q10",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "關於「基頻傳輸（Baseband）」，下列敘述何者正確？",
+      "options": [
+        "傳送類比的正弦波，需要調變器",
+        "傳送數位訊號，常用於區域網路（LAN）",
+        "單向傳輸，適合長距離的 WAN",
+        "可以把頻寬切成多個頻道同時使用"
+      ],
+      "answer": 1,
+      "explanation": "基頻傳送數位訊號（方波），不需調變、雙向、距離短，用在 LAN，10BaseT 的 Base 就是基頻；其他三個選項是寬頻（Broadband）的特性。",
+      "tags": [
+        "基頻寬頻"
+      ]
+    },
+    {
+      "id": "q11",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "1000 Mbps 的網路，理論上每秒最多可傳輸多少 Byte？",
+      "options": [
+        "12.5 MByte",
+        "100 MByte",
+        "1000 MByte",
+        "125 MByte"
+      ],
+      "answer": 3,
+      "explanation": "網速用 bit、檔案用 Byte，1 Byte = 8 bit，所以 1000 Mbps ÷ 8 = 125 MB/s；12.5 MB/s 是 100 Mbps 的答案。",
+      "tags": [
+        "傳輸速率"
+      ]
+    },
+    {
+      "id": "q12",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "網路上只要擁有 IP 位址的裝置，都可以稱為什麼？",
+      "options": [
+        "節點",
+        "主機",
+        "路由器",
+        "伺服器"
+      ],
+      "answer": 0,
+      "explanation": "有 IP 位址的裝置就是節點；主機和路由器都是節點，差別是主機沒有路由功能，路由器有。",
+      "tags": [
+        "節點"
+      ]
+    },
+    {
+      "id": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型中，負責資料「編碼、格式轉換、壓縮、加密」的是哪一層？",
+      "options": [
+        "應用層",
+        "會議層",
+        "表現層",
+        "傳輸層"
+      ],
+      "answer": 2,
+      "explanation": "表現層（第 6 層）負責轉換：編碼、格式轉換、壓縮、加密；會議層管單工／半雙工／全雙工；傳輸層管不遺失、不重複。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q14",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "負責決定封包要走哪一條「路徑」的是 OSI 的哪一層？",
+      "options": [
+        "第 2 層 資料鏈結層",
+        "第 3 層 網路層",
+        "第 4 層 傳輸層",
+        "第 1 層 實體層"
+      ],
+      "answer": 1,
+      "explanation": "網路層（第 3 層）負責選路，路由器就在這層；資料鏈結層負責錯誤偵測與更正；傳輸層負責不遺失、不重複；實體層管電壓、接頭。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q15",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP 與 UDP 屬於 TCP/IP 模型的哪一層？",
+      "options": [
+        "應用層",
+        "網際網路層",
+        "網路介面層",
+        "傳輸層"
+      ],
+      "answer": 3,
+      "explanation": "TCP、UDP 在傳輸層（TCP 的 T 是 Transmission）；IP 在下一層的網際網路層。名字叫 TCP/IP，但它們是上下兩層。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q16",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的「網路介面層」對應 OSI 的哪幾層？",
+      "options": [
+        "第 1、2 層",
+        "第 3 層",
+        "第 4 層",
+        "第 5、6、7 層"
+      ],
+      "answer": 0,
+      "explanation": "網路介面層對應 OSI 第 1、2 層（實體層＋資料鏈結層）；網際網路層對應第 3 層；傳輸層對應第 4 層；應用層對應第 5、6、7 層。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q17",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "「寄出」電子郵件使用哪一種通訊協定？",
+      "options": [
+        "POP3",
+        "SMTP",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explanation": "寄信用 SMTP，收信用 POP3；FTP 傳檔案，HTTP 傳網頁。",
+      "tags": [
+        "協定"
+      ]
+    },
+    {
+      "id": "q18",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "資料由上往下傳送時，每一層都加上自己的表頭（Header），這個過程稱為？",
+      "options": [
+        "多工",
+        "分段",
+        "封裝",
+        "解封裝"
+      ],
+      "answer": 2,
+      "explanation": "往下傳時每層加上自己的表頭是封裝；往上傳時每層拆掉自己的表頭是解封裝。",
+      "tags": [
+        "封裝"
+      ]
+    },
+    {
+      "id": "q19",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "下列設備中，「只」支援 OSI 第 1 層的是？",
+      "options": [
+        "交換器",
+        "橋接器",
+        "集線器",
+        "路由器"
+      ],
+      "answer": 2,
+      "explanation": "集線器只會放大、轉發訊號，看不懂位址，屬於第 1 層；交換器、橋接器看得懂 MAC，支援第 1、2 層；路由器看得懂 IP，支援第 1、2、3 層。",
+      "tags": [
+        "設備層級"
+      ]
+    },
+    {
+      "id": "q20",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "交換器（Switch）和集線器（Hub）最大的差異是？",
+      "options": [
+        "交換器每個埠獨享頻寬，集線器所有埠共用頻寬",
+        "交換器只能連接光纖",
+        "集線器可以選擇最佳傳輸路徑",
+        "集線器看得懂 MAC 位址"
+      ],
+      "answer": 0,
+      "explanation": "交換器認得 MAC、每埠獨享頻寬；集線器廣播給所有埠、共用頻寬。選路是路由器的功能；看得懂 MAC 的是交換器，不是集線器。",
+      "tags": [
+        "設備"
+      ]
+    },
+    {
+      "id": "q21",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "教室裡每台電腦都用網路線接到講桌下的同一台集線器，這是哪一種拓樸？",
+      "options": [
+        "網狀",
+        "環狀",
+        "匯流排",
+        "星狀"
+      ],
+      "answer": 3,
+      "explanation": "所有電腦接到中間一台集線器是星狀（放射狀），也是小型 LAN 最常見的拓樸；網狀是每台都跟其他每台連，實務上是路由器之間串接。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q22",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "網狀拓樸在實務上通常出現在哪裡？",
+      "options": [
+        "路由器之間互相串接",
+        "家中電腦接到 IP 分享器",
+        "用一條同軸電纜串接所有電腦",
+        "電腦圍成一圈傳遞記號"
+      ],
+      "answer": 0,
+      "explanation": "網狀拓樸實務上是路由器互相串接；電腦接到分享器是星狀；一條線串全部是匯流排；圍成一圈傳記號是環狀。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q23",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "兩台集線器（Hub ↔ Hub）互相串接，應該使用哪一種網路線？",
+      "options": [
+        "直通線",
+        "跳接線",
+        "同軸電纜",
+        "電話線"
+      ],
+      "answer": 1,
+      "explanation": "同類設備互接（PC ↔ PC、Hub ↔ Hub）用跳接線（一端 568A、一端 568B）；PC 接 Hub／Switch 用直通線（兩端都是 568B）。",
+      "tags": [
+        "接線"
+      ]
+    },
+    {
+      "id": "q24",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "雙絞線把兩條導線絞在一起，主要目的是？",
+      "options": [
+        "增加線材強度",
+        "減少電磁干擾",
+        "降低製造成本",
+        "讓傳輸距離延長到 500 公尺"
+      ],
+      "answer": 1,
+      "explanation": "絞在一起是為了減少干擾；雙絞線最長約 100 公尺，500 公尺是 10Base5 粗同軸電纜的距離。",
+      "tags": [
+        "雙絞線"
+      ]
+    },
+    {
+      "id": "q25",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "要連接 TCP/IP 網路與 AppleTalk 這兩種「完全不同結構」的網路，需使用哪一種設備？",
+      "options": [
+        "橋接器",
+        "路由器",
+        "中繼器",
+        "閘道器"
+      ],
+      "answer": 3,
+      "explanation": "閘道器能轉換兩種完全不同網路的封包格式；橋接器連接不同網路區段；路由器負責選路；中繼器只還原訊號。",
+      "tags": [
+        "設備"
+      ]
+    },
+    {
+      "id": "q26",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802 標準規範的是 OSI 模型的哪幾層？",
+      "options": [
+        "第 1、2 層",
+        "第 1～3 層",
+        "第 2、3 層",
+        "第 1～7 層"
+      ],
+      "answer": 0,
+      "explanation": "IEEE 802 只規範實體層與資料鏈結層（第 1、2 層）。",
+      "tags": [
+        "IEEE 802"
+      ]
+    },
+    {
+      "id": "q27",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層的 MAC 子層，下列敘述何者正確？",
+      "options": [
+        "由 IEEE 802.2 規範",
+        "負責選擇傳輸路徑",
+        "與實體媒介無關，有線無線共用",
+        "與實體媒介有關"
+      ],
+      "answer": 3,
+      "explanation": "MAC 子層與實體媒介有關；LLC 子層與實體無關、有線無線共用，由 802.2 規範；選擇路徑是第 3 層網路層的工作。",
+      "tags": [
+        "LLC/MAC"
+      ]
+    },
+    {
+      "id": "q28",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框（Frame）中記錄的目的地與來源，是哪一種位址？",
+      "options": [
+        "IP 位址",
+        "MAC 位址",
+        "連接埠號碼",
+        "網址（URL）"
+      ],
+      "answer": 1,
+      "explanation": "訊框是第 2 層的資料單位，裡面是目的 MAC 與來源 MAC；IP 位址在第 3 層的封包（Packet）裡。",
+      "tags": [
+        "訊框"
+      ]
+    },
+    {
+      "id": "q29",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "1000BaseLX 名稱中的「LX」代表哪一種傳輸媒介？",
+      "options": [
+        "雙絞線",
+        "同軸電纜",
+        "短波長光纖",
+        "長波長光纖"
+      ],
+      "answer": 3,
+      "explanation": "SX 的 S 是 Short（短波長光纖），LX 的 L 是 Long（長波長光纖）；T 代表雙絞線。",
+      "tags": [
+        "命名規則"
+      ]
+    },
+    {
+      "id": "q30",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "下列「乙太網路規格 — 接頭」的配對，何者正確？",
+      "options": [
+        "1000BaseT — SC",
+        "10GBase-T — GG45",
+        "1000BaseSX — RJ-45",
+        "10BaseF — DB9"
+      ],
+      "answer": 1,
+      "explanation": "10GBase-T 用 GG45。名稱尾巴是 T 的是雙絞線：1000BaseT 用 RJ-45；Gigabit 光纖 1000BaseSX／LX 用 SC；舊光纖 10BaseF 用 ST；DB9 是 1000BaseCX。",
+      "tags": [
+        "接頭"
+      ]
+    },
+    {
+      "id": "q31",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "10BaseF、100BaseFX 這類 10／100 Mbps 的光纖乙太網路，使用哪一種接頭？",
+      "options": [
+        "ST",
+        "SC",
+        "RJ-45",
+        "GG45"
+      ],
+      "answer": 0,
+      "explanation": "10／100 M 的舊光纖用 ST；Gigabit 光纖（1000BaseSX／LX）用 SC；雙絞線用 RJ-45，10G 雙絞線用 GG45。",
+      "tags": [
+        "接頭"
+      ]
+    },
+    {
+      "id": "q32",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "下列何者「不是」VLAN 的功能？",
+      "options": [
+        "隔離廣播封包",
+        "突破實體位置的限制",
+        "增加網路位址設定的彈性",
+        "限制存取、提高安全性"
+      ],
+      "answer": 2,
+      "explanation": "VLAN 三大功能：隔離廣播、突破實體位置限制、限制存取提高安全；「增加網路位址設定彈性」不是 VLAN 的功能（小考考過）。",
+      "tags": [
+        "VLAN"
+      ]
+    },
+    {
+      "id": "q33",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "下列專線中，傳輸速率最快的是？",
+      "options": [
+        "T1",
+        "E1",
+        "E3",
+        "T3"
+      ],
+      "answer": 3,
+      "explanation": "T1 1.544、E1 2.048、E3 34.368、T3 44.736 Mbps，最快是 T3。同級的 E1 比 T1 快，但 T3 比 E3 快。",
+      "tags": [
+        "專線"
+      ]
+    },
+    {
+      "id": "q34",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "下列「專線 — 速率」的配對，何者正確？",
+      "options": [
+        "T1 — 2.048 Mbps",
+        "E1 — 1.544 Mbps",
+        "T1 — 1.544 Mbps",
+        "T3 — 64 Kbps"
+      ],
+      "answer": 2,
+      "explanation": "T1 = 1.544 Mbps（24 路）、E1 = 2.048 Mbps（30 路）、T3 = 44.736 Mbps；64 Kbps 是一路電話的速度。",
+      "tags": [
+        "專線"
+      ]
+    },
+    {
+      "id": "q35",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "傳統電話網路（PSTN）採用哪一種交換方式？",
+      "options": [
+        "電路交換",
+        "分封交換",
+        "細胞交換",
+        "訊息交換"
+      ],
+      "answer": 0,
+      "explanation": "講電話時整條線路都是你的，這是電路交換；分封交換切成大小不等的封包；細胞交換切成一樣大的細胞（ATM）。",
+      "tags": [
+        "交換方式"
+      ]
+    },
+    {
+      "id": "q36",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "Cable Modem 和 ADSL 相比，Cable Modem 特有的缺點是？",
+      "options": [
+        "離機房越遠速度越慢",
+        "頻寬由同一區的用戶共享，使用人數多時會變慢",
+        "無法同時講電話",
+        "一定要申請固定 IP 才能上網"
+      ],
+      "answer": 1,
+      "explanation": "Cable Modem 是同一區用戶共享頻寬，人越多越慢；「離機房越遠越慢」是 ADSL 的缺點。",
+      "tags": [
+        "Cable Modem"
+      ]
+    },
+    {
+      "id": "q37",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM Cell 共 53 Bytes，其中「資料」部分占多少 Bytes？",
+      "options": [
+        "53",
+        "5",
+        "48",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "ATM Cell 是 53 Bytes = 表頭 5 + 資料 48；64 Bytes 是乙太網路訊框的最小長度。",
+      "tags": [
+        "ATM"
+      ]
+    },
+    {
+      "id": "q38",
+      "chapter": 6,
+      "section": "6-補充",
+      "question": "VPN 是利用哪一種技術，在網際網路上建立安全的傳輸管道？",
+      "options": [
+        "通道技術",
+        "VLAN 標籤",
+        "載波聚合",
+        "跳頻展頻"
+      ],
+      "answer": 0,
+      "explanation": "VPN 用通道技術（把封包包在另一個封包裡）建立安全管道；VLAN 標籤是 802.1Q；載波聚合是 LTE-A；跳頻展頻是藍牙。",
+      "tags": [
+        "VPN"
+      ]
+    },
+    {
+      "id": "q39",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "下列哪一組頻段「全部」屬於 ISM 頻段？",
+      "options": [
+        "900 MHz、2.4 GHz、5.8 GHz",
+        "900 MHz、3 GHz、5.8 GHz",
+        "2.4 GHz、3 GHz、10 GHz",
+        "1.8 GHz、2.4 GHz、66 GHz"
+      ],
+      "answer": 0,
+      "explanation": "ISM 三個頻帶是 900 MHz、2.4 GHz、5.8 GHz；3 GHz 不是 ISM，10～66 GHz 是 WiMAX 的頻段。",
+      "tags": [
+        "ISM"
+      ]
+    },
+    {
+      "id": "q40",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "下列衛星依軌道高度「由低到高」排列，何者正確？",
+      "options": [
+        "同步衛星 → GPS → 星鏈",
+        "星鏈 → GPS → 同步衛星",
+        "GPS → 星鏈 → 同步衛星",
+        "星鏈 → 同步衛星 → GPS"
+      ],
+      "answer": 1,
+      "explanation": "星鏈約 500 km（低軌）< GPS 約 20,200 km < 同步衛星約 36,000 km（最高）。",
+      "tags": [
+        "衛星"
+      ]
+    },
+    {
+      "id": "q41",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 全球衛星定位系統由幾顆衛星組成？",
+      "options": [
+        "12 顆",
+        "36 顆",
+        "24 顆",
+        "48 顆"
+      ],
+      "answer": 2,
+      "explanation": "GPS 由 24 顆衛星組成，分在 6 個軌道，用三角定位計算位置。",
+      "tags": [
+        "GPS"
+      ]
+    },
+    {
+      "id": "q42",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "兩棟相距 300 公尺的大樓之間無法佈線，最適合使用哪一種無線傳輸媒介？",
+      "options": [
+        "紅外線",
+        "NFC",
+        "藍牙",
+        "雷射"
+      ],
+      "answer": 3,
+      "explanation": "雷射可傳 20～5000 公尺，適合大樓之間連線；紅外線約 5 m、NFC 約 20 cm、藍牙約 10 m，都太短。",
+      "tags": [
+        "無線媒介"
+      ]
+    },
+    {
+      "id": "q43",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "家中透過 Cable Modem 上網，想讓手機和筆電都能用無線方式上網際網路，應加裝哪一種設備？",
+      "options": [
+        "無線網卡",
+        "中繼器",
+        "無線路由器",
+        "集線器"
+      ],
+      "answer": 2,
+      "explanation": "無線路由器接 xDSL／Cable Modem，讓裝置以無線方式上網際網路；無線基地台 AP 是接有線 LAN 再發無線電波。",
+      "tags": [
+        "無線設備"
+      ]
+    },
+    {
+      "id": "q44",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "悠遊卡內的 RFID 標籤本身沒有電源，屬於哪一種標籤？",
+      "options": [
+        "主動式",
+        "半主動式",
+        "被動式",
+        "混合式"
+      ],
+      "answer": 2,
+      "explanation": "沒有電源、靠讀取器的電波感應運作的是被動式（悠遊卡、eTag）；主動式自己有電；半主動式有電但平常關著。",
+      "tags": [
+        "RFID"
+      ]
+    },
+    {
+      "id": "q45",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "關於 802.11 各規格，下列敘述何者正確？",
+      "options": [
+        "802.11a 使用 2.4 GHz",
+        "802.11b 最高速率 54 Mbps",
+        "802.11g 可以向下相容 802.11b",
+        "802.11n 只能使用 5 GHz"
+      ],
+      "answer": 2,
+      "explanation": "802.11g 是 2.4 GHz、54 Mbps，可向下相容 b。802.11a 用 5 GHz；802.11b 最高 11 Mbps；802.11n 可用 2.4 或 5 GHz。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q46",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "利用多根天線同時收送資料來提高傳輸率的 MIMO 技術，是哪一個規格加入的？",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": 3,
+      "explanation": "802.11n 加入 MIMO（多進多出）；802.11a 用的是 OFDM（正交分頻多工），用來避開 2.4 GHz 的干擾。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q47",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "下列「IEEE 標準 — 用途」的配對，何者正確？",
+      "options": [
+        "802.1Q — 輸入帳密的使用者認證",
+        "802.1x — 虛擬區域網路 VLAN",
+        "802.1x — WLAN Gateway 帳密認證",
+        "802.16 — 藍牙"
+      ],
+      "answer": 2,
+      "explanation": "802.1x 是認證（校園 Wi-Fi 輸入帳密）；802.1Q 是 VLAN；802.16 是 WiMAX，藍牙是 802.15。",
+      "tags": [
+        "802 標準"
+      ]
+    },
+    {
+      "id": "q48",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "藍牙、Wi-Fi、WiMAX 對應的 IEEE 標準依序是？",
+      "options": [
+        "802.15、802.11、802.16",
+        "802.11、802.15、802.16",
+        "802.16、802.11、802.15",
+        "802.15、802.16、802.11"
+      ],
+      "answer": 0,
+      "explanation": "藍牙 802.15（WPAN，範圍最小）、Wi-Fi 802.11（WLAN）、WiMAX 802.16（WMAN，範圍最大約 50 km）。",
+      "tags": [
+        "802 標準"
+      ]
+    },
+    {
+      "id": "q49",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "802.11 無線區域網路採用哪一種媒介存取方式？",
+      "options": [
+        "CSMA/CD",
+        "CSMA/CA",
+        "記號傳遞（Token Passing）",
+        "TDMA"
+      ],
+      "answer": 1,
+      "explanation": "無線訊號難以偵測碰撞，所以 802.11 改用 CSMA/CA（碰撞避免）；CSMA/CD 是有線乙太網路的方式；TDMA 是 GSM 用的。",
+      "tags": [
+        "CSMA/CA"
+      ]
+    },
+    {
+      "id": "q50",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "台灣的 3G 業者中，採用 CDMA2000 系統的是哪一家？",
+      "options": [
+        "中華電信",
+        "台灣大哥大",
+        "遠傳電信",
+        "亞太電信"
+      ],
+      "answer": 3,
+      "explanation": "亞太電信是台灣唯一用 CDMA2000 的 3G 業者，中華電信、台灣大哥大、遠傳電信都用 WCDMA。",
+      "tags": [
+        "3G"
+      ]
+    }
+  ]
+}

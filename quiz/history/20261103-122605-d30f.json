@@ -1,0 +1,865 @@
+{
+  "id": "20261103-122605-d30f",
+  "title": "模擬考 第六回 — 50 題",
+  "finished": true,
+  "quizIds": [
+    "mock-006"
+  ],
+  "finishedAt": "2026-11-03T12:26:05",
+  "durationSec": 445,
+  "total": 50,
+  "correct": 41,
+  "score": 82,
+  "items": [
+    {
+      "quizId": "mock-006",
+      "qid": "q38",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "關於 STP 與 UTP，下列何者正確？",
+      "options": [
+        "UTP 多一層金屬遮蔽、較貴",
+        "STP 是目前最常用的網路線",
+        "STP 多一層金屬遮蔽、較貴、抗干擾較好",
+        "UTP 抗干擾能力比 STP 好"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "STP（遮蔽式）多金屬遮蔽、貴、抗干擾好；UTP（無遮蔽）便宜、易受干擾，但是目前最常用。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q23",
+      "chapter": 6,
+      "section": "6-補充",
+      "question": "VPN 使用的「通道（Tunneling）技術」是指什麼？",
+      "options": [
+        "把封包封裝在另一個封包內",
+        "把資料切成 53 Bytes 的細胞",
+        "用多根天線同時收送資料",
+        "把廣播封包限制在同一群組"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "通道技術＝把封包封裝在另一個封包內，藉此在網際網路上建立安全傳輸管道（VPN）。53 Bytes 是 ATM、多天線是 MIMO、限制廣播是 VLAN。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q13",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.3 定義的是哪一種網路？",
+      "options": [
+        "CSMA/CD 乙太網路",
+        "記號環 Token Ring",
+        "LLC 共通規範",
+        "無線區域網路"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "802.2＝LLC、802.3＝CSMA/CD 乙太網路、802.5＝記號環、802.11＝WLAN。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q26",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "交換器與集線器「最大」的差異是什麼？",
+      "options": [
+        "交換器屬於第 1 層設備；集線器屬於第 2 層",
+        "交換器有路由功能；集線器沒有",
+        "交換器不能串接；集線器可用 Up Link 串接",
+        "交換器每個埠有專屬頻寬；集線器所有埠共用一個頻寬"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "交換器（L2，智慧型集線器）每埠專屬頻寬並具資料交換功能；集線器（L1）把資訊廣播到所有埠、共用頻寬。路由功能是 L3 的路由器。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q36",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "802.11 無線網路採用的媒介存取方式是？",
+      "options": [
+        "CSMA/CD（碰撞偵測）",
+        "Token Passing（記號傳遞）",
+        "TDMA（分時多工存取）",
+        "CSMA/CA（碰撞避免）"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "無線訊號難以偵測碰撞，所以 802.11 用 CSMA/CA「避免」碰撞；有線乙太網路才用 CSMA/CD「偵測」碰撞。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q20",
+      "chapter": 2,
+      "section": "2-2",
+      "question": "Windows 10、Windows 11 在投影片中屬於哪一類作業系統？",
+      "options": [
+        "伺服器端網路作業系統",
+        "一般作業系統 OS（無網路功能）",
+        "用戶端網路作業系統",
+        "嵌入式作業系統"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "用戶端 NOS 不內建（或只部分支援）伺服器功能：Win 95/98/XP/7/10/11。伺服器端 NOS 安裝時內建伺服器程式：Windows Server、Unix、Linux。MS-DOS、Win 3.1 才是一般 OS。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q08",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "比較 ADSL 與 Cable Modem，下列何者正確？",
+      "options": [
+        "ADSL 頻寬共用；Cable Modem 頻寬獨享",
+        "Cable Modem 網路安全性比 ADSL 佳",
+        "Cable Modem 可隨線路品質調整速率",
+        "ADSL 為星形架構、頻寬獨享；Cable Modem 為串接形、頻寬共用"
+      ],
+      "answer": 3,
+      "choice": 0,
+      "correct": false,
+      "explanation": "ADSL：星形、維修容易、頻寬獨享、可速率調整（Rate Adaptive）、安全性佳；Cable Modem：串接形、障礙互相影響、頻寬共用、安全性差。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q05",
+      "chapter": 1,
+      "section": "1-2",
+      "question": "下列哪一種屬於「有線」傳輸媒介？",
+      "options": [
+        "微波",
+        "紅外線",
+        "衛星",
+        "光纖"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "有線：雙絞線、同軸電纜、光纖、電話線；無線：紅外線、無線電波、微波、雷射、衛星。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q06",
+      "chapter": 5,
+      "section": "5-7",
+      "question": "曾是家庭與企業主流、使用 Cat 5 UTP、可由 10BaseT 直接升級的 100 Mbps 規格是？",
+      "options": [
+        "100BaseTX",
+        "100BaseT4",
+        "100BaseFX",
+        "1000BaseT"
+      ],
+      "answer": 0,
+      "choice": 1,
+      "correct": false,
+      "explanation": "100BaseTX 用 Cat 5；100BaseT4 用 Cat 3 的 4 對線、半雙工、已淘汰；100BaseFX 是多模光纖、2 km。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q33",
+      "chapter": 7,
+      "section": "7-6",
+      "question": "兩棟大樓相隔約 300 公尺、中間無法拉實體線路，投影片建議用哪一種無線方式連接？",
+      "options": [
+        "紅外線",
+        "雷射",
+        "藍牙",
+        "NFC"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "雷射：100 Mbps～1 Gbps、20～5000 m，適合大樓間點對點。紅外線約 5 m、藍牙約 10 m、NFC 約 20 cm，都太短。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q24",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "範圍約 2～10 公里，例如同一城市內校園各大樓相連的網路是？",
+      "options": [
+        "LAN 區域網路",
+        "WAN 廣域網路",
+        "PAN 個人網路",
+        "MAN 都會網路"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "LAN 約 2 km 以內、MAN 約 2～10 km、WAN 10 km 以上、PAN 是人身周邊。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q07",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "雙絞線把兩根銅線「絞合成螺旋狀」，主要目的是什麼？",
+      "options": [
+        "減少訊號衰減與串音、雜訊",
+        "增加傳輸距離到 2 公里",
+        "讓光訊號可以通過",
+        "減少接頭數量"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "絞合的作用：①減少訊號衰減 ②減少串音（crosstalk）與雜訊。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q47",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "廣播電台、電視只能由發送端傳到接收端，這是哪一種通訊傳輸模式？",
+      "options": [
+        "半雙工",
+        "全雙工",
+        "群播",
+        "單工"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "單工＝只有單方向（廣播電台、電視）；半雙工＝可收可發但不能同時（對講機）；全雙工＝同時收發（電話）。群播是傳輸數量分類，不是方向。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q39",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "乙太網路名稱「10Base2」中的「2」代表什麼？",
+      "options": [
+        "同軸電纜最長區段約 200 公尺（數字 × 100 公尺）",
+        "使用 2 對雙絞線",
+        "傳輸速度 2 Mbps",
+        "第 2 代乙太網路"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "A-B-C 命名：A＝速度（10 Mbps）、B＝Base 基頻、C＝媒介；數字 × 100 m＝同軸最長區段，10Base2 約 200 m（實際 185 m）、10Base5 為 500 m。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q34",
+      "chapter": 2,
+      "section": "2-3",
+      "question": "公司架設一台伺服器做快取，讓大家瀏覽網頁時等待時間變短、改善服務品質，這是哪一種伺服器？",
+      "options": [
+        "Proxy 伺服器",
+        "WWW 伺服器",
+        "BBS 伺服器",
+        "資料庫伺服器"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "Proxy＝改善服務品質、減少等待時間。WWW 伺服器存放 HTML 網頁；BBS 只是電子佈告欄；資料庫伺服器儲存交易與使用者資料。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q37",
+      "chapter": 7,
+      "section": "7-補充",
+      "question": "NFC 與 RFID 相比，下列何者正確？",
+      "options": [
+        "RFID 安全性較高，適合電子支付",
+        "NFC 通訊距離比 RFID 遠",
+        "NFC 安全性較高，適合電子支付；RFID 適合庫存管理與物品追蹤",
+        "NFC 與 RFID 完全無關"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "NFC 以 RFID 為基礎，距離約 20 cm 內、安全性較高 → 電子支付、個資交換；RFID 風險較低 → 庫存管理、物品追蹤。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q02",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型源自美國國防部，因此又被稱為什麼？",
+      "options": [
+        "ISO 模型",
+        "OSI 模型",
+        "DoD 模型",
+        "IEEE 模型"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "TCP/IP 模型別名：DoD 模型（國防部）、DARPA 模型、ARPANET 模型。ISO／OSI 是另一套七層模型。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q42",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "使用 RG-58 A/U 同軸電纜、BNC 接頭、最遠 185 公尺的「細乙太網路」是？",
+      "options": [
+        "10Base5",
+        "10BaseT",
+        "10Base2",
+        "10BaseF"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "10Base2＝細（Thin）、BNC、185 m、每段 30 台；10Base5＝粗（Thick）、AUI、500 m、每段 100 台；10BaseT＝UTP、RJ-45；10BaseF＝光纖、ST。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q31",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "用 10 Mbps 的網路傳一個 5 MByte 的檔案，理論上需要幾秒？",
+      "options": [
+        "4 秒",
+        "0.5 秒",
+        "2 秒",
+        "8 秒"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "10 Mbps ÷ 8 = 1.25 MByte/s；5 ÷ 1.25 = 4 秒。或 5 MB × 8 = 40 Mbit ÷ 10 = 4 秒。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q32",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "一台電腦送出的資料，同網路上「其他所有」電腦都會收到，稱為？",
+      "options": [
+        "群播（Multicast）",
+        "廣播（Broadcast）",
+        "點對點（Unicast）",
+        "單工（Simplex）"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "點對點＝一對一；群播＝一對一群（要先加入群組）；廣播＝一對其他全部。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q10",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "「網際網路（Internet）」泛指什麼樣的網路？",
+      "options": [
+        "以 IEEE 802.3 為標準的區域網路",
+        "以 TCP/IP 為通訊協定架設的網路",
+        "由美國國防部專用的軍事網路",
+        "以 OSI 七層模型實作的網路"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "Internet 定義：泛指以 TCP/IP 為通訊協定架設的網路。MILNET 才是軍事用；OSI 是參考模型，實際 Internet 用 TCP/IP。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q27",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "依投影片，網路分層架構的「缺點」是什麼？",
+      "options": [
+        "無法提供網路標準",
+        "不易理解",
+        "效率低落，且 OSI 過於學術化",
+        "無法對等交談"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "分層優點：分層負責、對等交談、逐層處理、提供網路標準、易於理解；缺點：效率低落、OSI 過於學術化。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q14",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "「每秒傳送的訊號單元數目」稱為什麼？",
+      "options": [
+        "鮑率（baud）",
+        "位元率（bps）",
+        "頻寬",
+        "頻率（Hz）"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "鮑率＝每秒訊號單元數，單位鮑；位元率＝傳輸速率 bps；頻寬＝數位訊號的最高位元率；頻率＝單位時間重複次數 Hz。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q09",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "下列何者是光纖的「缺點」？",
+      "options": [
+        "容易受電磁波干擾",
+        "價格與架設費用高，熔接分路繁瑣",
+        "衰減大、傳輸距離短",
+        "保密性差"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "光纖用光傳遞、完全不受電波干擾、衰減小距離遠、保密性高；缺點是貴、彎曲半徑不能太小、終端處理與熔接麻煩。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q29",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "規範電壓、電流、接頭、腳位、傳輸速度與距離的是 OSI 的哪一層？",
+      "options": [
+        "第 2 層 資料鏈結層",
+        "第 3 層 網路層",
+        "第 1 層 實體層",
+        "第 5 層 會議層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "實體層處理位元在實體媒介上的傳輸：電壓、電流、接頭、腳位、速度、距離。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q48",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "IP 分享器讓家中多台電腦共用一個 IP 上網，主要是因為它具備哪一種功能？",
+      "options": [
+        "CSMA/CD 碰撞偵測",
+        "調變與解調變",
+        "VLAN 隔離廣播",
+        "DHCP 伺服器，動態指派 IP"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "IP 分享器（L3）功能類似 Hub，主要具 DHCP 伺服器，讓多台 PC 分享一個 IP。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q04",
+      "chapter": 6,
+      "section": "6-4",
+      "question": "光世代網路中，光纖只拉到「交換箱」，後段再用銅線接到用戶，這種稱為？",
+      "options": [
+        "FTTH",
+        "FTTCab",
+        "FTTB",
+        "FTTC"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "FTTH 到府（Home）、FTTB 到建築（Building）、FTTC 到路邊（Curb）、FTTCab 到交換箱（Cabinet）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q15",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "10 Mbps 乙太網路的「5-4-3 規則」中，「3」代表什麼？",
+      "options": [
+        "只有 3 個區段可以接電腦",
+        "最多 3 個集線器",
+        "最多 3 個區段",
+        "每個區段最多 3 台電腦"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "5-4-3：最多 5 個區段、4 個集線器，其中只有 3 個區段可以接電腦。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q50",
+      "chapter": 1,
+      "section": "1-9",
+      "question": "SDN（軟體定義網路）的核心做法是什麼？",
+      "options": [
+        "把大程序拆成小程序交給多部伺服器處理",
+        "用 RFID 把物品連上網路",
+        "以光纖取代所有銅線",
+        "把網路設備的操控介面獨立出來，由 SDN 控制器統一管理"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "SDN 把控制與資料傳輸分開：設備只負責傳資料，SDN 控制器掌握全網狀況並規劃最佳路徑。拆小程序給多部伺服器是雲端運算；RFID 是物聯網。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q35",
+      "chapter": 5,
+      "section": "5-9",
+      "question": "10GBase-T（802.3an）至少要用哪一種線材，才能傳到 100 公尺？",
+      "options": [
+        "Cat 6a",
+        "Cat 5",
+        "Cat 5e",
+        "Cat 3"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "10GBase-T 要 Cat 6a（500 MHz）以上才能傳 100 m，並改用 GG45 接頭。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q16",
+      "chapter": 1,
+      "section": "1-10",
+      "question": "下列何者「不是」投影片所列網路未來的四大特點？",
+      "options": [
+        "網路寬頻化",
+        "網路有線化",
+        "網路無線化",
+        "家庭網路化"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "四大特點：網路寬頻化（ADSL、光纖）、網路無線化（Centrino、AP）、家庭網路化（遊戲機、網路冰箱）、雲端運算。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q45",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "RFID 系統由哪兩部分組成？高速公路 eTag 屬於哪一類標籤？",
+      "options": [
+        "電子標籤與讀取器；主動標籤",
+        "感測器與閘道器；被動標籤",
+        "電子標籤與讀取器；被動標籤",
+        "天線與基地台；半主動標籤"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "RFID＝電子標籤（Tag）＋讀取器（Reader）。eTag、悠遊卡、學生證都是無自主供電的被動標籤。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q18",
+      "chapter": 8,
+      "section": "8-2",
+      "question": "藍牙在 2.4 GHz 採用哪一種技術、共有幾個頻道？",
+      "options": [
+        "OFDM，79 個頻道",
+        "跳頻式展頻，79 個頻道",
+        "跳頻式展頻，24 個頻道",
+        "MIMO，30 個頻道"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "藍牙：ISM 2.4 GHz、跳頻式展頻、頻道間隔 1 MHz 共 79 個、約 721 Kbps、0 dBm 約 10 m。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q17",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "負責「錯誤偵測與更正」、確保資料正確性的是 OSI 的哪一層？",
+      "options": [
+        "第 4 層 傳輸層",
+        "第 2 層 資料鏈結層",
+        "第 3 層 網路層",
+        "第 6 層 表現層"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "資料鏈結層＝錯誤偵測與更正；傳輸層＝傳輸品質（正確、不遺失、不重複）；網路層＝路徑；表現層＝格式轉換。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q25",
+      "chapter": 5,
+      "section": "5-6",
+      "question": "10Base5（粗乙太網路）使用哪一種接頭？",
+      "options": [
+        "AUI",
+        "BNC",
+        "RJ-45",
+        "ST"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "10Base5→AUI、10Base2→BNC、10BaseT→RJ-45、10BaseF→ST。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q41",
+      "chapter": 6,
+      "section": "6-6",
+      "question": "ATM 的架構分成哪三層？",
+      "options": [
+        "應用層、傳輸層、實體層",
+        "感知層、網路層、應用層",
+        "ATM 調適層、ATM 層、ATM 實體層",
+        "LLC 層、MAC 層、PHY 層"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "ATM 三層：調適層（AAL）、ATM 層、ATM 實體層。感知／網路／應用是物聯網三層。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q30",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "IEEE（電機電子工程師學會）制定的是下列哪一項標準？",
+      "options": [
+        "OSI 參考模型",
+        "IEEE 802 系列",
+        "ASCII Code",
+        "RFC 文件"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "ISO→OSI、ITU→X.25/ISDN、ANSI→ASCII、IEEE→802 系列、IAB→RFC。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q22",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "WLAN 的基地台模式（Infrastructure）中，AP 涵蓋範圍形成的基本服務區擁有唯一的什麼？",
+      "options": [
+        "MAC 位址表",
+        "BSSID",
+        "VLAN ID",
+        "SSID 密碼"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "基地台模式：各電腦與 AP 連結，形成基本服務區（BSS），擁有唯一 BSSID。隨意網路模式（Ad Hoc）則不需 AP。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q49",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "依投影片，網路「最大」的應用是什麼？",
+      "options": [
+        "週邊設備（印表機）的分享",
+        "企業內部訊息公告",
+        "檔案的分享與管理",
+        "遠端登入應用程式伺服器"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "資源分享有四種：檔案、應用程式、週邊設備、訊息；其中最大應用是檔案的分享與管理（網路芳鄰、網路磁碟機、FTP 站）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q43",
+      "chapter": 3,
+      "section": "3-5",
+      "question": "TCP/IP 模型的「應用層」對應 OSI 模型的哪幾層？",
+      "options": [
+        "第 7 層",
+        "第 5、6、7 層",
+        "第 6、7 層",
+        "第 4、5、6、7 層"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "TCP/IP 應用層＝OSI 5、6、7；傳輸層＝4；網際網路層＝3；網路介面層＝1、2。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q28",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "下列何者是「固接式（專線）」連線的特點？",
+      "options": [
+        "費用低、安裝容易，但每次要先撥號",
+        "速度慢、品質不穩",
+        "架設完成後 24 小時都在網路上，但硬體成本貴",
+        "幾乎不需人工維護，最便宜"
+      ],
+      "answer": 2,
+      "choice": 2,
+      "correct": true,
+      "explanation": "固接（專線）：速度快、品質穩、24 小時在線，缺點是成本貴、架設複雜。撥接：費用低、安裝容易，但要撥號、速度慢。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q40",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "AP 訊號（約 100 公尺）超出房屋範圍的部分稱為什麼？有人惡意利用它稱為？",
+      "options": [
+        "熱點；熱點攻擊",
+        "死角；中繼攻擊",
+        "漫遊；漫遊攻擊",
+        "溢波；溢波攻擊"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "溢波＝AP 訊號超出房屋範圍的部分；惡意利用溢波＝溢波攻擊。熱點（Hot Spot）是公共場所的無線網路節點。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q19",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "GSM、3G、4G、5G 屬於哪一種無線網路類型？",
+      "options": [
+        "WWAN 無線廣域網路",
+        "WMAN 無線都會網路",
+        "WLAN 無線區域網路",
+        "WPAN 無線個人網路"
+      ],
+      "answer": 0,
+      "choice": 2,
+      "correct": false,
+      "explanation": "WPAN＝藍牙 802.15、WLAN＝Wi-Fi 802.11、WMAN＝WiMAX 802.16、WWAN＝GSM、GPRS、3G、4G、5G。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q21",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波傳輸為什麼需要中繼站？",
+      "options": [
+        "微波只能在 5 公尺內傳輸",
+        "微波需要光纖輔助",
+        "微波屬於 ISM 頻段會被干擾",
+        "微波是直線波，易受地球曲面與障礙物影響"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "微波（波長約 0.1～30 cm）是直線波，需無阻礙，易受地球曲面與障礙物影響，所以要用中繼站克服死角。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q01",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "目前主流、最高 1000 Mbps、用於 1000BaseT 的雙絞線等級是？",
+      "options": [
+        "Cat 3",
+        "Cat 5",
+        "Cat 6a",
+        "Cat 5e"
+      ],
+      "answer": 3,
+      "choice": 2,
+      "correct": false,
+      "explanation": "Cat 3 16 Mbps（10BaseT）、Cat 5 100 Mbps（100BaseTX）、Cat 5e 1000 Mbps（1000BaseT，主流）、Cat 6a 10 Gbps（10GBaseT）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q46",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "4.5G（LTE-Advanced）合併不同頻段一起使用的技術稱為什麼？",
+      "options": [
+        "MIMO 多進多出",
+        "CA 載波聚合",
+        "HSDPA 高速下載封包存取",
+        "OFDM 正交分頻多工"
+      ],
+      "answer": 1,
+      "choice": 0,
+      "correct": false,
+      "explanation": "LTE+（LTE-Advanced）具載波聚合 CA：2 個頻段＝2CA、3 個＝3CA（最高 450 Mbps）。HSDPA 是 3.5G。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q03",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "連接到有線區域網路，再發送無線電波讓筆電上網的設備是？",
+      "options": [
+        "無線網路卡",
+        "3.5G 網卡",
+        "RFID 讀取器",
+        "無線網路基地台（AP）"
+      ],
+      "answer": 3,
+      "choice": 3,
+      "correct": true,
+      "explanation": "AP（Access Point 存取點）連接有線 LAN 並發送無線電波；無線路由器則是透過 xDSL／Cable Modem 無線上網。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q44",
+      "chapter": 1,
+      "section": "1-6",
+      "question": "在拍賣網站上，一般消費者把二手物品賣給另一位消費者，屬於哪一種電子商務？",
+      "options": [
+        "B2C",
+        "C2C",
+        "B2B",
+        "C2B"
+      ],
+      "answer": 1,
+      "choice": 1,
+      "correct": true,
+      "explanation": "C2C＝消費者對消費者（Yahoo 拍賣）；B2C＝企業對消費者（博客來）；B2B＝企業對企業（中鋼）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q11",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "ADSL 在一條電話線上分出哪三種通道？",
+      "options": [
+        "上傳、下載、有線電視",
+        "語音、傳真、視訊",
+        "上傳、下載、POTS（語音電話）",
+        "TDM、FDM、CDM"
+      ],
+      "answer": 2,
+      "choice": 0,
+      "correct": false,
+      "explanation": "ADSL 三通道：上傳（64～640 Kbps）、下載（512 Kbps～8 Mbps）、POTS（4 KHz 原本的電話）。"
+    },
+    {
+      "quizId": "mock-006",
+      "qid": "q12",
+      "chapter": 5,
+      "section": "5-3",
+      "question": "下列何者是 CSMA/CD 的缺點？",
+      "options": [
+        "使用者越多，碰撞機率越高",
+        "需要集中控制",
+        "原理複雜不易實現",
+        "各站地位不平等"
+      ],
+      "answer": 0,
+      "choice": 0,
+      "correct": true,
+      "explanation": "CSMA/CD 優點：原理簡單、各站平等、不需集中控制；缺點：電纜長度受限（太長感測不到碰撞）、使用者越多碰撞越多。"
+    }
+  ]
+}

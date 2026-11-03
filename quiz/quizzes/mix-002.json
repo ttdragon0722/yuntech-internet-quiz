@@ -1,0 +1,867 @@
+{
+  "id": "mix-002",
+  "title": "第 1～8 章 綜合隨機 — 50 題",
+  "created": "2026-11-01",
+  "description": "八章各 6～7 題、題序打亂；挑既有題庫較少考的數字與名詞（訊框長度、Cat 等級、E3、4G 速率、Wi-Fi 6/7 等）",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "1992 年 NSFNET 的骨幹提升到哪一種線路？",
+      "options": [
+        "T1（1.544 Mbps）",
+        "T3（45 Mbps）",
+        "E1（2.048 Mbps）",
+        "56 Kbps 數據專線"
+      ],
+      "answer": 1,
+      "explanation": "1986 年 NSFNET 用 56 Kbps；1988 年改用 T1（1.544 Mbps）連 13 個節點；1992 年骨幹提升到 T3（45 Mbps）。",
+      "tags": [
+        "大事紀"
+      ]
+    },
+    {
+      "id": "q02",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "歐洲規格 E3 的傳輸速率是？",
+      "options": [
+        "139.264 Mbps",
+        "8.448 Mbps",
+        "44.736 Mbps",
+        "34.368 Mbps"
+      ],
+      "answer": 3,
+      "explanation": "E1 2.048、E2 8.448、E3 34.368、E4 139.264 Mbps；44.736 Mbps 是北美 T3。所以 E3 比 T3 慢。",
+      "tags": [
+        "E-Carrier"
+      ]
+    },
+    {
+      "id": "q03",
+      "chapter": 7,
+      "section": "7-8",
+      "question": "依投影片，主流筆電 Ultrabook 的規格是？",
+      "options": [
+        "厚度小於 20 mm、價格低於 1000 美元",
+        "螢幕小於 10 吋、以觸控為基本輸入",
+        "重量小於 1 kg、價格低於 2000 美元",
+        "厚度小於 10 mm、價格低於 500 美元"
+      ],
+      "answer": 0,
+      "explanation": "Ultrabook：厚度 < 20 mm、價格 < 1000 美元。「以觸控螢幕為基本輸入」是平板電腦。",
+      "tags": [
+        "行動裝置"
+      ]
+    },
+    {
+      "id": "q04",
+      "chapter": 3,
+      "section": "3-7",
+      "question": "制定 TCP/IP 標準的 IAB，底下有哪兩個團體？",
+      "options": [
+        "ITU 與 ANSI",
+        "IRTF 與 IETF",
+        "IEEE 與 ISO",
+        "DARPA 與 NSF"
+      ],
+      "answer": 1,
+      "explanation": "IAB（Internet Architecture Board）下有 IRTF（Internet Research Task Force）與 IETF（Internet Engineering Task Force）。",
+      "tags": [
+        "RFC",
+        "IAB"
+      ]
+    },
+    {
+      "id": "q05",
+      "chapter": 3,
+      "section": "3-6",
+      "question": "「TCP/IP」中的 TCP 與 IP 分別工作於哪一層？",
+      "options": [
+        "兩者都在傳輸層",
+        "TCP 在網路層、IP 在傳輸層",
+        "TCP 在應用層、IP 在資料鏈結層",
+        "TCP 在傳輸層、IP 在網路層"
+      ],
+      "answer": 3,
+      "explanation": "TCP/IP 是 TCP（傳輸層）與 IP（網路層）的統稱；IP 負責把封包路由到另一個網路，TCP 在 IP 之上負責通訊雙方的資料傳送。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q06",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "LTE-Advanced 合併 3 個頻段（3CA）的載波聚合，最高速率可達多少？",
+      "options": [
+        "100 Mbps",
+        "14.4 Mbps",
+        "300 Mbps",
+        "450 Mbps"
+      ],
+      "answer": 3,
+      "explanation": "CA 載波聚合合併不同頻段：2 個頻段叫 2CA，3 個叫 3CA，最高 450 Mbps。300 Mbps 是 802.11n。",
+      "tags": [
+        "4G",
+        "CA"
+      ]
+    },
+    {
+      "id": "q07",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "依投影片，「通訊三元素」是指？",
+      "options": [
+        "發送端、路由器、接收端",
+        "傳送對象、傳送媒介、傳送的資料",
+        "協定、模型、標準",
+        "網路卡、網路線、集線器"
+      ],
+      "answer": 1,
+      "explanation": "通訊三元素：傳送對象、傳送媒介、傳送的資料。",
+      "tags": [
+        "傳輸媒介"
+      ]
+    },
+    {
+      "id": "q08",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "10Base5 名稱中的「5」代表什麼？",
+      "options": [
+        "最多可串接 5 個集線器",
+        "傳輸速度 5 Mbps",
+        "同軸電纜最長區段為 500 公尺",
+        "使用第 5 類雙絞線"
+      ],
+      "answer": 2,
+      "explanation": "C 是數字時代表數字 × 100 公尺（同軸電纜最長區段），所以 5 = 500 公尺；第一個 10 才是速度 10 Mbps。",
+      "tags": [
+        "命名規則"
+      ]
+    },
+    {
+      "id": "q09",
+      "chapter": 7,
+      "section": "7-5",
+      "question": "紅外線傳輸模式中，「DF/IR」指的是哪一種？",
+      "options": [
+        "全向性（Omnidirectional IR）",
+        "散射式（Diffuse IR）",
+        "直接式（Direct-Beam IR）",
+        "IrDA 資料傳輸"
+      ],
+      "answer": 1,
+      "explanation": "三種模式：直接式 DB/IR、散射式 DF/IR（Diffuse）、全向性 Omni/IR。",
+      "tags": [
+        "紅外線"
+      ]
+    },
+    {
+      "id": "q10",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "TWNIC 2021 年第一季的調查中，國外連線頻寬前三名的 ISP 是？",
+      "options": [
+        "HiNet、TFN（台灣固網）、TWGate",
+        "HiNet、SeedNet、TANet",
+        "TANet、HiNet、TFN（台灣固網）",
+        "SeedNet、TWGate、中嘉寬頻"
+      ],
+      "answer": 0,
+      "explanation": "TWNIC 2021 Q1：國外連線頻寬前三是 HiNet、TFN（台灣固網）、TWGate。TANet、SeedNet 是早期的三大 ISP，題目問的不是這個。",
+      "tags": [
+        "ISP"
+      ]
+    },
+    {
+      "id": "q11",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "世界上「最大」的網路是什麼？",
+      "options": [
+        "廣域網路（WAN）",
+        "台灣學術網路（TANet）",
+        "都會網路（MAN）",
+        "網際網路（Internet）"
+      ],
+      "answer": 3,
+      "explanation": "網際網路是透過 TCP/IP 把個別網路連接起來形成的大網路，是世界上最大的網路；WAN 只是一種「範圍分類」。",
+      "tags": [
+        "網路範圍"
+      ]
+    },
+    {
+      "id": "q12",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "台灣的光纖到府是由哪個單位、在哪一年引進？",
+      "options": [
+        "交通部電信總局，2004 年",
+        "資策會，1998 年",
+        "教育部，民國 79 年",
+        "NCC，2021 年"
+      ],
+      "answer": 0,
+      "explanation": "光纖到府由交通部電信總局在 2004 年引進；NCC 統計 FTTx 用戶在 2021 年 12 月突破 400 萬。",
+      "tags": [
+        "光纖"
+      ]
+    },
+    {
+      "id": "q13",
+      "chapter": 7,
+      "section": "7-補充",
+      "question": "下列何者「不是」手機 NFC 功能的用法？",
+      "options": [
+        "模擬成 RFID 標籤",
+        "當作讀卡機",
+        "當作 GPS 衛星定位",
+        "與另一個 NFC 裝置點對點傳輸"
+      ],
+      "answer": 2,
+      "explanation": "手機 NFC 有三種用法：當讀卡機、模擬成 RFID 標籤、與另一 NFC 裝置點對點傳輸；GPS 是衛星定位，跟 NFC 無關。",
+      "tags": [
+        "NFC"
+      ]
+    },
+    {
+      "id": "q14",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "路由器連接廣域網路時扮演 DTE，而把 DTE 資料轉換成 WAN 可接受形式的是？",
+      "options": [
+        "MAU",
+        "NIC",
+        "DCE",
+        "AP"
+      ],
+      "answer": 2,
+      "explanation": "路由器是 DTE；DCE（例如 CSU/DSU）把 DTE 的資料轉成 WAN 可接受的形式，並提供時脈。MAU 用於記號環，AP 是無線基地台。",
+      "tags": [
+        "CSU/DSU"
+      ]
+    },
+    {
+      "id": "q15",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框中的目的位址、來源位址，各佔多少 Bytes？是哪一種位址？",
+      "options": [
+        "各 6 Bytes，IP 位址",
+        "各 4 Bytes，IP 位址",
+        "各 6 Bytes，MAC 位址",
+        "各 2 Bytes，連接埠號碼"
+      ],
+      "answer": 2,
+      "explanation": "目的與來源位址各 6 Bytes，都是第 2 層的 MAC 位址；IP 位址在第 3 層的封包裡。",
+      "tags": [
+        "訊框",
+        "MAC"
+      ]
+    },
+    {
+      "id": "q16",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "可用於 10BaseT 與 16M 記號環、最高 16 Mbps、現已淘汰的雙絞線是？",
+      "options": [
+        "Cat 2",
+        "Cat 5e",
+        "Cat 5",
+        "Cat 3"
+      ],
+      "answer": 3,
+      "explanation": "Cat 2 是 4 Mbps（語音、4M 記號環）；Cat 3 是 16 Mbps（10BaseT、16M 記號環）；Cat 5 是 100 Mbps（100BaseTX）；Cat 5e 是 1000 Mbps（主流）。",
+      "tags": [
+        "雙絞線",
+        "Cat"
+      ]
+    },
+    {
+      "id": "q17",
+      "chapter": 6,
+      "section": "6-4",
+      "question": "光世代網路（FTTH）的安全性比 Cable Modem 高，投影片說它靠的是什麼？",
+      "options": [
+        "QAM ＋ QPSK",
+        "VLAN ＋ PPPoE",
+        "TDM ＋ FDM",
+        "WEP ＋ WPA"
+      ],
+      "answer": 1,
+      "explanation": "比較表：光世代安全性高（VLAN ＋ PPPoE）、Cable Modem 低、ADSL 高（點對點）。WEP／WPA 是無線網路的加密方式。",
+      "tags": [
+        "FTTx"
+      ]
+    },
+    {
+      "id": "q18",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "集線器之間串接時，傳統上使用哪一種連接埠（現在多為自動偵測）？",
+      "options": [
+        "Console 埠",
+        "WAN 埠",
+        "Up Link 埠",
+        "USB 埠"
+      ],
+      "answer": 2,
+      "explanation": "集線器串接用 Up Link 埠，現在的設備多半會自動偵測。",
+      "tags": [
+        "集線器"
+      ]
+    },
+    {
+      "id": "q19",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "Wi-Fi 6 與 Wi-Fi 7 分別對應哪一個 IEEE 標準？",
+      "options": [
+        "802.11ax、802.11be",
+        "802.11ac、802.11ax",
+        "802.11n、802.11ac",
+        "802.11be、802.11ax"
+      ],
+      "answer": 0,
+      "explanation": "Wi-Fi 5 = 802.11ac；Wi-Fi 6 = 802.11ax；Wi-Fi 7 = 802.11be。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q20",
+      "chapter": 2,
+      "section": "2-10",
+      "question": "用 1000 Mbps 的網路傳輸 250 MByte 的檔案，理論上需要幾秒？",
+      "options": [
+        "0.25 秒",
+        "2 秒",
+        "20 秒",
+        "250 秒"
+      ],
+      "answer": 1,
+      "explanation": "1000 Mbps ÷ 8 = 125 MB/s；250 ÷ 125 = 2 秒。選 0.25 秒是忘了 ÷8（250 ÷ 1000）。",
+      "tags": [
+        "速率計算"
+      ]
+    },
+    {
+      "id": "q21",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "頻寬 500 MHz、可傳 10 Gbps、用於 10GBaseT 的雙絞線是？",
+      "options": [
+        "Cat 6",
+        "Cat 5e",
+        "Cat 7",
+        "Cat 6a"
+      ],
+      "answer": 3,
+      "explanation": "Cat 6 的頻寬是 250 MHz；Cat 6a（增強型）是 500 MHz，用於 10GBaseT；Cat 7 是 600 MHz。",
+      "tags": [
+        "雙絞線",
+        "Cat"
+      ]
+    },
+    {
+      "id": "q22",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "不計前導碼，乙太網路訊框的「最大」長度是？",
+      "options": [
+        "1500 Bytes",
+        "1518 Bytes",
+        "64 Bytes",
+        "1526 Bytes"
+      ],
+      "answer": 1,
+      "explanation": "6（目的）＋6（來源）＋2（型態）＋1500（資料）＋4（FCS）= 1518 Bytes；1500 只是資料欄位；加上前導碼 8 Bytes 才是 1526。",
+      "tags": [
+        "訊框"
+      ]
+    },
+    {
+      "id": "q23",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 的 24 顆衛星分布在幾個軌道上？",
+      "options": [
+        "6 個",
+        "12 個",
+        "4 個",
+        "24 個"
+      ],
+      "answer": 0,
+      "explanation": "GPS 由 24 顆衛星組成，分成 6 個軌道，高度約 20,200 公里，繞地球一周約 12 小時。",
+      "tags": [
+        "GPS"
+      ]
+    },
+    {
+      "id": "q24",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "T-Carrier 以分時多工為基礎，所使用的設備稱為什麼？",
+      "options": [
+        "CSU/DSU",
+        "多站存取單元（MAU）",
+        "多工器（MUX）",
+        "數據機（Modem）"
+      ],
+      "answer": 2,
+      "explanation": "T-Carrier 由貝爾實驗室在 1960 年代研發，使用脈衝碼調變（PCM）、以 TDM 為基礎，設備是多工器 MUX。",
+      "tags": [
+        "T-Carrier"
+      ]
+    },
+    {
+      "id": "q25",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "IEEE 802.6 定義的是什麼？",
+      "options": [
+        "網路安全",
+        "都會網路 MAN（DQDB 分配式佇列雙匯流排）",
+        "整合語音與資料網路（ISDN）",
+        "光纖技術"
+      ],
+      "answer": 1,
+      "explanation": "802.6 是 MAN（DQDB）；802.8 是光纖技術；802.9 是 ISDN；802.10 是網路安全。",
+      "tags": [
+        "IEEE 802"
+      ]
+    },
+    {
+      "id": "q26",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "比較 ADSL 與 Cable Modem，哪一個可以隨線路品質調整速率（Rate Adaptive）？",
+      "options": [
+        "兩者都不行",
+        "兩者都可以",
+        "ADSL",
+        "Cable Modem"
+      ],
+      "answer": 2,
+      "explanation": "ADSL 可依線路品質調整速率；Cable Modem 不具備這個功能，受到干擾時可能中斷。",
+      "tags": [
+        "ADSL",
+        "Cable Modem"
+      ]
+    },
+    {
+      "id": "q27",
+      "chapter": 7,
+      "section": "7-1",
+      "question": "下列何者是無線區域網路（WLAN）的缺點？",
+      "options": [
+        "密鑰的保管與遺失處理麻煩",
+        "線路容易損毀",
+        "無法在不易佈線的區域建置",
+        "需要重新佈線與裝潢"
+      ],
+      "answer": 0,
+      "explanation": "WLAN 缺點：易被竊取、需做使用者認證、易干擾、密鑰保管麻煩。其他三個選項都和 WLAN 的優點相反（省佈線、沒有線路損毀、可在不易佈線處建置）。",
+      "tags": [
+        "WLAN"
+      ]
+    },
+    {
+      "id": "q28",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "業界標準（由某家公司制定、市佔率高的標準）規模夠大以後，可能會怎麼樣？",
+      "options": [
+        "被收編為正規（formal）標準",
+        "改由 ITU 重新制定成 X.25",
+        "自動成為 RFC 文件",
+        "被 ISO 禁止使用"
+      ],
+      "answer": 0,
+      "explanation": "業界標準例如微軟 NetBIOS；若規模夠大，會被收編為正規標準。正規標準由工業組織或政府單位制定，例如乙太網路，制定過程曠日費時。",
+      "tags": [
+        "標準"
+      ]
+    },
+    {
+      "id": "q29",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型也有「五層」的說法，是把哪一層拆成兩層？",
+      "options": [
+        "網際網路層拆成 IPv4 層＋IPv6 層",
+        "傳輸層拆成 TCP 層＋UDP 層",
+        "應用層拆成應用層＋表現層",
+        "網路介面層拆成資料鏈結層＋實體層"
+      ],
+      "answer": 3,
+      "explanation": "TCP/IP 共四層；五層說法是把最底下的網路介面層拆成資料鏈結層與實體層。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q30",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "台灣的 Cable Modem 多採用哪一個標準？",
+      "options": [
+        "IEEE 802.3ab",
+        "DQDB",
+        "DOCSIS 2.0",
+        "PPPoE"
+      ],
+      "answer": 2,
+      "explanation": "台灣 Cable Modem 多用 DOCSIS 2.0；PPPoE 是 ADSL 撥接取得浮動 IP 的協定；DQDB 是 802.6 MAN。",
+      "tags": [
+        "Cable Modem"
+      ]
+    },
+    {
+      "id": "q31",
+      "chapter": 2,
+      "section": "2-9",
+      "question": "「頻率」的定義與單位是？",
+      "options": [
+        "每秒傳送的訊號單元數目，單位 baud",
+        "數位訊號的最高位元率，單位 bps",
+        "資料的傳輸速率，單位 Byte",
+        "單位時間內事件重複的次數，單位赫茲 Hz"
+      ],
+      "answer": 3,
+      "explanation": "頻率的單位是 Hz；鮑率是每秒訊號單元數（baud）；頻寬是最高位元率（bps）；位元率是傳輸速率（bps）。",
+      "tags": [
+        "名詞"
+      ]
+    },
+    {
+      "id": "q32",
+      "chapter": 1,
+      "section": "1-2",
+      "question": "依投影片，「使用網路需要的元素」不包括下列哪一項？",
+      "options": [
+        "顯示卡",
+        "網路介面卡與驅動程式",
+        "網路作業系統",
+        "分享資源用的週邊設備"
+      ],
+      "answer": 0,
+      "explanation": "六大元素：網路介面卡＋驅動程式、傳輸媒介、網路設備、網路作業系統、網路應用程式、分享資源用的週邊設備；顯示卡不在其中。",
+      "tags": [
+        "網路元素"
+      ]
+    },
+    {
+      "id": "q33",
+      "chapter": 6,
+      "section": "6-補充",
+      "question": "VPN 用戶端先連上網際網路，再與 VPN 伺服器建立連線，這是哪一種 VPN 架構？",
+      "options": [
+        "Network-to-Network",
+        "Peer-to-Peer",
+        "Point-to-Network",
+        "Client-to-Cloud"
+      ],
+      "answer": 2,
+      "explanation": "Point-to-Network：用戶端先上網，再連 VPN 伺服器；Network-to-Network：A 網路傳到 B 網路時自動建立 VPN。",
+      "tags": [
+        "VPN"
+      ]
+    },
+    {
+      "id": "q34",
+      "chapter": 8,
+      "section": "8-4",
+      "question": "WiMAX 的固定式 802.16d 與行動式 802.16e，後來合併成哪一個標準？",
+      "options": [
+        "802.16d-2004（2004 年 6 月）",
+        "802.16-2002（2002 年 4 月）",
+        "802.16a-2003（2003 年 1 月）",
+        "802.16e-2005（2006 年 3 月）"
+      ],
+      "answer": 3,
+      "explanation": "固定式 802.16d 加上行動式 802.16e，在 2006 年 3 月合併為 802.16e-2005。2002 年 4 月是 802.16 正式發表的時間。",
+      "tags": [
+        "WiMAX"
+      ]
+    },
+    {
+      "id": "q35",
+      "chapter": 5,
+      "section": "5-3",
+      "question": "CSMA/CD 偵測到碰撞後會怎麼做？",
+      "options": [
+        "停止傳送，等待一段隨機時間後再重送",
+        "繼續傳送，由接收端用 FCS 修正",
+        "立即以相同時間重送",
+        "改用記號（Token）取得傳送權"
+      ],
+      "answer": 0,
+      "explanation": "CSMA/CD：先偵測網路是否忙碌，空閒才送；傳送時偵測碰撞，一旦碰撞就停止，等待隨機時間後重送。",
+      "tags": [
+        "CSMA/CD"
+      ]
+    },
+    {
+      "id": "q36",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "全錄（Xerox）與哪兩家公司共同提出乙太網路規範，成為 IEEE 802.3 的基礎？",
+      "options": [
+        "Digital（DEC）與 Intel",
+        "Cisco 與 3Com",
+        "Ericsson 與 Nokia",
+        "IBM 與 Microsoft"
+      ],
+      "answer": 0,
+      "explanation": "Xerox PARC 在 1975 年研製出乙太網路，Xerox、DEC、Intel 共同提出規範（DIX），成為 802.3 的基礎。Ericsson、Nokia 參與的是藍牙。",
+      "tags": [
+        "乙太網路起源"
+      ]
+    },
+    {
+      "id": "q37",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "寬頻傳輸（Broadband）的方向性與主要使用的網路是？",
+      "options": [
+        "單向；區域網路 LAN",
+        "雙向；廣域網路 WAN",
+        "單向；廣域網路 WAN",
+        "雙向；區域網路 LAN"
+      ],
+      "answer": 2,
+      "explanation": "寬頻：類比、單向、距離遠、FDM、WAN；基頻：數位、雙向、距離短、TDM、LAN。",
+      "tags": [
+        "寬頻"
+      ]
+    },
+    {
+      "id": "q38",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "基頻與寬頻傳輸的訊號波形，下列何者正確？",
+      "options": [
+        "基頻是正弦波（類比）、寬頻是方波（數位）",
+        "兩者都是方波",
+        "兩者都是正弦波",
+        "基頻是方波（數位）、寬頻是正弦波（類比）"
+      ],
+      "answer": 3,
+      "explanation": "基頻用數位訊號（方波），不需調變；寬頻用類比訊號（正弦波），需要調變器。",
+      "tags": [
+        "基頻",
+        "寬頻"
+      ]
+    },
+    {
+      "id": "q39",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "10Base5（粗乙太網路）使用的同軸電纜規格是？",
+      "options": [
+        "RG-6（75Ω）",
+        "RG-8（50Ω）或 RG-11（75Ω）",
+        "RG-58A/U（50Ω）",
+        "Cat 3 UTP"
+      ],
+      "answer": 1,
+      "explanation": "RG-8／RG-11 用於 10Base5；RG-58A/U 用於 10Base2（細乙太網路）。",
+      "tags": [
+        "同軸電纜"
+      ]
+    },
+    {
+      "id": "q40",
+      "chapter": 3,
+      "section": "3-2",
+      "question": "依投影片，「模型（Model）」的作用是什麼？",
+      "options": [
+        "把複雜的事情具體化、簡單化，一眼掌握整體輪廓",
+        "由政府單位制定、具有法律效力的規範",
+        "把封包封裝在另一個封包內傳送",
+        "規定設備交換訊息的一系列參數"
+      ],
+      "answer": 0,
+      "explanation": "模型是把複雜事物具體化、簡單化；「規定交換訊息的參數」是協定；「封包裝在另一個封包內」是 VPN 的通道技術。",
+      "tags": [
+        "模型"
+      ]
+    },
+    {
+      "id": "q41",
+      "chapter": 3,
+      "section": "3-7",
+      "question": "RFC 1000 這份文件的內容是？",
+      "options": [
+        "OSI 七層模型定義",
+        "乙太網路訊框格式",
+        "RFC 的文件指引",
+        "IPv6 協定規格"
+      ],
+      "answer": 2,
+      "explanation": "RFC 文件包含所有 TCP/IP 協定標準，而 RFC 1000 是 RFC 的文件指引。",
+      "tags": [
+        "RFC"
+      ]
+    },
+    {
+      "id": "q42",
+      "chapter": 7,
+      "section": "7-9",
+      "question": "多人用 Wi-Fi 連到同一台設備，該設備再透過 3.5G 行動網路上網，也可以插在 USB 上當網卡用。這是？",
+      "options": [
+        "Wi-Fi Direct",
+        "3.5G 無線隨身分享器",
+        "無線網路基地台（AP）",
+        "RFID 讀取器"
+      ],
+      "answer": 1,
+      "explanation": "3.5G 無線隨身分享器：多人以 Wi-Fi 連到分享器，分享器透過 3.5G 上網，也可以插 USB 當網卡。",
+      "tags": [
+        "行動上網"
+      ]
+    },
+    {
+      "id": "q43",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "4G 在高速移動時、低速或靜止時的最高速率分別是？",
+      "options": [
+        "100 Mbps、1 Gbps",
+        "1 Gbps、100 Mbps",
+        "450 Mbps、10 Gbps",
+        "14.4 Mbps、100 Mbps"
+      ],
+      "answer": 0,
+      "explanation": "4G：高速移動最高 100 Mbps，低速或靜止最高 1 Gbps。14.4 Mbps 是 HSDPA，450 Mbps 是 3CA。",
+      "tags": [
+        "4G"
+      ]
+    },
+    {
+      "id": "q44",
+      "chapter": 1,
+      "section": "1-4",
+      "question": "1974 年開發出來、後來拆成兩種協定的是什麼？",
+      "options": [
+        "ARPANET（後拆成 ARPANET/MILNET）",
+        "HTTP（後拆成 HTTP/HTTPS）",
+        "Ethernet（後拆成 802.3/802.11）",
+        "TCP（後拆成 TCP/IP）"
+      ],
+      "answer": 3,
+      "explanation": "1974 年開發出 TCP，後來拆成 TCP 與 IP 兩種協定。ARPANET 拆成 ARPANET 與 MILNET 是 1983 年的事，而且拆的是網路，不是協定。",
+      "tags": [
+        "大事紀",
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q45",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "行動數據網路中，負責「建立數據連線」的是？",
+      "options": [
+        "AP",
+        "MSC",
+        "GGSN",
+        "SGSN"
+      ],
+      "answer": 3,
+      "explanation": "MSC 是行動服務中心（通話）；SGSN 負責建立數據連線；GGSN 負責連接外部數據網路。",
+      "tags": [
+        "WWAN"
+      ]
+    },
+    {
+      "id": "q46",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "TANet 台灣學術網路是在什麼時候建立的？",
+      "options": [
+        "民國 69 年 2 月",
+        "民國 79 年 7 月",
+        "民國 87 年 8 月",
+        "民國 82 年 6 月"
+      ],
+      "answer": 1,
+      "explanation": "TANet 由教育部與國立大學在民國 79 年 7 月建立。民國 87 年（1998）8 月是 SeedNet 獨立成「數位聯合電信」的時間。",
+      "tags": [
+        "ISP",
+        "TANet"
+      ]
+    },
+    {
+      "id": "q47",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "乙太網路訊框中「主要資料（Data）」欄位的長度範圍是？",
+      "options": [
+        "6～1500 Bytes",
+        "46～1500 Bytes",
+        "64～1518 Bytes",
+        "48～53 Bytes"
+      ],
+      "answer": 1,
+      "explanation": "Data 是 46～1500 Bytes；整個訊框（不含前導碼）最小 64 Bytes、最大 1518 Bytes；53 Bytes 是 ATM Cell。",
+      "tags": [
+        "訊框"
+      ]
+    },
+    {
+      "id": "q48",
+      "chapter": 2,
+      "section": "2-6",
+      "question": "點對點、群播、廣播的英文分別是？",
+      "options": [
+        "Multicast、Unicast、Broadcast",
+        "Broadcast、Multicast、Unicast",
+        "Unicast、Multicast、Broadcast",
+        "Unicast、Broadcast、Multicast"
+      ],
+      "answer": 2,
+      "explanation": "點對點 = Unicast（一對一）；群播 = Multicast（一對一群）；廣播 = Broadcast（一對其他全部）。",
+      "tags": [
+        "傳輸數量"
+      ]
+    },
+    {
+      "id": "q49",
+      "chapter": 1,
+      "section": "1-10",
+      "question": "Intel Centrino 技術與 AP 無線上網，是網路未來四大特點中的哪一項？",
+      "options": [
+        "網路寬頻化",
+        "網路無線化",
+        "家庭網路化",
+        "雲端運算"
+      ],
+      "answer": 1,
+      "explanation": "寬頻化的例子：ADSL、Cable Modem、光纖；無線化的例子：Intel Centrino、AP 無線上網；家庭網路化的例子：遊戲機、網路冰箱；雲端運算的例子：Google、Yahoo。",
+      "tags": [
+        "未來趨勢"
+      ]
+    },
+    {
+      "id": "q50",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "3.5G 的 HSDPA 下行速率，極速可達多少？",
+      "options": [
+        "14.4 Mbps",
+        "54 Mbps",
+        "3.6 Mbps",
+        "7.2 Mbps"
+      ],
+      "answer": 0,
+      "explanation": "HSDPA 尖峰 3.6 Mbps → 7.2 Mbps → 極速 14.4 Mbps；54 Mbps 是 802.11a／g。",
+      "tags": [
+        "3.5G"
+      ]
+    }
+  ]
+}

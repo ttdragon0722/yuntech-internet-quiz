@@ -1,0 +1,858 @@
+{
+  "id": "mock-004",
+  "title": "模擬小考 4（仿 test1、test2 格式，範圍：第 1～8 章）— 50 題",
+  "created": "2026-11-01",
+  "description": "仿小考格式第二份；約三分之一是 mock-003 錯題觀念換問法（PaaS/IaaS、直通線、LLC/MAC、T1/E1、ADSL vs Cable、802.11a/g）",
+  "questions": [
+    {
+      "id": "q01",
+      "chapter": 1,
+      "section": "1-7",
+      "question": "Microsoft Azure 屬於下列哪一種雲端服務？",
+      "options": [
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "DaaS"
+      ],
+      "answer": 2,
+      "explanation": "Azure 提供核心計算資源與網路基礎建設 → IaaS；Google App Engine 是 PaaS；Google Docs 是 SaaS。",
+      "tags": [
+        "雲端"
+      ]
+    },
+    {
+      "id": "q02",
+      "chapter": 1,
+      "section": "1-8",
+      "question": "物聯網三層架構中，Wi-Fi、3G 等無線傳輸屬於哪一層？",
+      "options": [
+        "感知層",
+        "網路層",
+        "應用層",
+        "實體層"
+      ],
+      "answer": 1,
+      "explanation": "感知層（RFID、Sensor 擷取資料）→ 網路層（Wi-Fi、2G/3G 傳輸）→ 應用層（智慧城市等）。",
+      "tags": [
+        "物聯網"
+      ]
+    },
+    {
+      "id": "q03",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "屬於中華電信數據通信所的 ISP 是下列哪一個？",
+      "options": [
+        "SeedNet",
+        "TANet",
+        "TFN",
+        "HiNet"
+      ],
+      "answer": 3,
+      "explanation": "HiNet 屬於中華電信，是台灣最大的 ISP；TANet 是教育部的學術網路；SeedNet 由資策會成立。",
+      "tags": [
+        "ISP"
+      ]
+    },
+    {
+      "id": "q04",
+      "chapter": 1,
+      "section": "1-5",
+      "question": "由教育部與國立大學共同建立、各級學校免費使用的網路是？",
+      "options": [
+        "HiNet",
+        "SeedNet",
+        "TANet",
+        "TWGate"
+      ],
+      "answer": 2,
+      "explanation": "TANet 台灣學術網路：教育部＋國立大學建立，全國各級學校免費使用。",
+      "tags": [
+        "ISP"
+      ]
+    },
+    {
+      "id": "q05",
+      "chapter": 1,
+      "section": "1-3",
+      "question": "辦公室多人共用一台印表機，屬於哪一種資源分享？",
+      "options": [
+        "檔案分享",
+        "應用程式分享",
+        "週邊設備分享",
+        "訊息分享"
+      ],
+      "answer": 2,
+      "explanation": "共用印表機是週邊設備分享，可以減少重複購買資源。",
+      "tags": [
+        "資源分享"
+      ]
+    },
+    {
+      "id": "q06",
+      "chapter": 1,
+      "section": "1-9",
+      "question": "SDN 的中文名稱是？",
+      "options": [
+        "內容傳遞網路",
+        "儲存區域網路",
+        "虛擬私人網路",
+        "軟體定義網路"
+      ],
+      "answer": 3,
+      "explanation": "SDN = Software Defined Network 軟體定義網路：把操控介面獨立出來，由 SDN 控制器統一管理。",
+      "tags": [
+        "SDN"
+      ]
+    },
+    {
+      "id": "q07",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "網路中同時存在主從式與對等式兩種架構，稱為？",
+      "options": [
+        "主從式",
+        "對等式",
+        "混合式",
+        "雲端式"
+      ],
+      "answer": 2,
+      "explanation": "兩種架構同時存在 → 混合式（Hybrid），常見於內部區網。",
+      "tags": [
+        "網路架構"
+      ]
+    },
+    {
+      "id": "q08",
+      "chapter": 2,
+      "section": "2-4",
+      "question": "每台電腦「自身既是 Client 也是 Server」的架構是？",
+      "options": [
+        "主從式",
+        "對等式",
+        "混合式",
+        "雲端式"
+      ],
+      "answer": 1,
+      "explanation": "對等式（P2P）每台都存資料，既發出請求也處理請求，例如 BT 下載。",
+      "tags": [
+        "網路架構"
+      ]
+    },
+    {
+      "id": "q09",
+      "chapter": 2,
+      "section": "2-5",
+      "question": "廣播電台只能發送、收音機只能接收，屬於哪一種傳輸模式？",
+      "options": [
+        "單工",
+        "半雙工",
+        "全雙工",
+        "多工"
+      ],
+      "answer": 0,
+      "explanation": "只有單一方向 → 單工；對講機是半雙工；電話是全雙工。",
+      "tags": [
+        "傳輸模式"
+      ]
+    },
+    {
+      "id": "q10",
+      "chapter": 2,
+      "section": "2-8",
+      "question": "基頻傳輸讓多個頻道同時使用的技術是？",
+      "options": [
+        "分時多工 TDM",
+        "分頻多工 FDM",
+        "分碼多工 CDM",
+        "分波多工 WDM"
+      ],
+      "answer": 0,
+      "explanation": "基頻用分時多工（TDM）；寬頻用分頻多工（FDM）。",
+      "tags": [
+        "基頻"
+      ]
+    },
+    {
+      "id": "q11",
+      "chapter": 2,
+      "section": "2-1",
+      "question": "手機透過藍牙連接無線耳機所形成的網路屬於？",
+      "options": [
+        "PAN",
+        "LAN",
+        "MAN",
+        "WAN"
+      ],
+      "answer": 0,
+      "explanation": "人身周邊的裝置連起來 → PAN 個人網路。",
+      "tags": [
+        "網路範圍"
+      ]
+    },
+    {
+      "id": "q12",
+      "chapter": 2,
+      "section": "2-7",
+      "question": "下列哪一項具有路由功能？",
+      "options": [
+        "主機",
+        "節點",
+        "路由器",
+        "工作站"
+      ],
+      "answer": 2,
+      "explanation": "主機可以提供或接受服務，但沒有路由功能；路由器有路由功能。",
+      "tags": [
+        "節點"
+      ]
+    },
+    {
+      "id": "q13",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "OSI 模型的最上層（第 7 層）是哪一層？",
+      "options": [
+        "實體層",
+        "傳輸層",
+        "表現層",
+        "應用層"
+      ],
+      "answer": 3,
+      "explanation": "OSI 由上而下：應用、表現、會議、傳輸、網路、資料鏈結、實體。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q14",
+      "chapter": 3,
+      "section": "3-3",
+      "question": "規範電壓、接頭種類與接腳定義的是 OSI 哪一層？",
+      "options": [
+        "實體層",
+        "資料鏈結層",
+        "網路層",
+        "傳輸層"
+      ],
+      "answer": 0,
+      "explanation": "實體層（第 1 層）規範電壓、電流、接頭、腳位、傳輸距離。",
+      "tags": [
+        "OSI"
+      ]
+    },
+    {
+      "id": "q15",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的最上層是哪一層？",
+      "options": [
+        "網路介面層",
+        "網際網路層",
+        "傳輸層",
+        "應用層"
+      ],
+      "answer": 3,
+      "explanation": "TCP/IP 四層由下而上：網路介面層 → 網際網路層 → 傳輸層 → 應用層。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q16",
+      "chapter": 3,
+      "section": "3-4",
+      "question": "TCP/IP 模型的網際網路層，傳送的資料單位稱為？",
+      "options": [
+        "Message",
+        "Segment",
+        "Packet",
+        "Frame"
+      ],
+      "answer": 2,
+      "explanation": "應用層 Message、傳輸層 Segment（TCP）、網際網路層 Packet、網路介面層 Frame。",
+      "tags": [
+        "TCP/IP"
+      ]
+    },
+    {
+      "id": "q17",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "瀏覽網頁（WWW）使用的是哪一種協定？",
+      "options": [
+        "FTP",
+        "SMTP",
+        "POP3",
+        "HTTP"
+      ],
+      "answer": 3,
+      "explanation": "網頁 HTTP、檔案傳輸 FTP、寄信 SMTP、收信 POP3。",
+      "tags": [
+        "協定"
+      ]
+    },
+    {
+      "id": "q18",
+      "chapter": 3,
+      "section": "3-1",
+      "question": "OSI 網路參考模型是由哪一個組織制定？",
+      "options": [
+        "ITU",
+        "ANSI",
+        "IEEE",
+        "ISO"
+      ],
+      "answer": 3,
+      "explanation": "ISO 制定 OSI；IEEE 制定 802；ANSI 制定 ASCII；ITU 制定 X.25、ISDN。",
+      "tags": [
+        "標準組織"
+      ]
+    },
+    {
+      "id": "q19",
+      "chapter": 4,
+      "section": "4-1",
+      "question": "集線器支援 OSI 7 層架構的哪幾層？",
+      "options": [
+        "第 1 層",
+        "第 1,2 層",
+        "第 1,2,3 層",
+        "第 2,3 層"
+      ],
+      "answer": 0,
+      "explanation": "集線器只會把訊號廣播到所有埠，看不懂位址 → 第 1 層設備。",
+      "tags": [
+        "設備層級"
+      ]
+    },
+    {
+      "id": "q20",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "電腦接到交換器的「正常接線」，要使用哪一種網路線？",
+      "options": [
+        "跳接線",
+        "同軸線",
+        "電話線",
+        "直通線"
+      ],
+      "answer": 3,
+      "explanation": "PC 接 Hub／Switch 用直通線（兩端都是 568B）；PC 對 PC、Hub 對 Hub 才用跳接線。",
+      "tags": [
+        "接線"
+      ]
+    },
+    {
+      "id": "q21",
+      "chapter": 4,
+      "section": "4-2",
+      "question": "UTP 的中文名稱是？",
+      "options": [
+        "遮蔽式雙絞線",
+        "無遮蔽式雙絞線",
+        "同軸電纜",
+        "光纖"
+      ],
+      "answer": 1,
+      "explanation": "UTP 無遮蔽式雙絞線（Unshielded），是目前最常用的線材；STP 是遮蔽式，多了一層金屬遮蔽。",
+      "tags": [
+        "雙絞線"
+      ]
+    },
+    {
+      "id": "q22",
+      "chapter": 4,
+      "section": "4-3",
+      "question": "所有電腦都直接連接到集線器的拓樸是？",
+      "options": [
+        "匯流排",
+        "星狀",
+        "環狀",
+        "網狀"
+      ],
+      "answer": 1,
+      "explanation": "星狀（放射狀）：所有電腦接到中間的集線器，也是小型 LAN 最常見的拓樸。",
+      "tags": [
+        "拓樸"
+      ]
+    },
+    {
+      "id": "q23",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "數據機的「解調變」是指下列哪一種轉換？",
+      "options": [
+        "數位轉類比",
+        "類比轉數位",
+        "類比轉光",
+        "數位轉光"
+      ],
+      "answer": 1,
+      "explanation": "調變：數位 → 類比（送出去）；解調變：類比 → 數位（收進來）。",
+      "tags": [
+        "數據機"
+      ]
+    },
+    {
+      "id": "q24",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "將衰減的訊號還原為原本強度的設備是？",
+      "options": [
+        "橋接器",
+        "路由器",
+        "閘道器",
+        "中繼器"
+      ],
+      "answer": 3,
+      "explanation": "中繼器（Repeater）把衰減的訊號還原後再傳送，屬於第 1 層設備。",
+      "tags": [
+        "中繼器"
+      ]
+    },
+    {
+      "id": "q25",
+      "chapter": 4,
+      "section": "4-4",
+      "question": "區域網路的「預設閘道」通常是哪一種設備？",
+      "options": [
+        "集線器",
+        "交換器",
+        "路由器",
+        "數據機"
+      ],
+      "answer": 2,
+      "explanation": "預設閘道通常就是該區網的路由器，負責把封包送到其他網路。",
+      "tags": [
+        "路由器"
+      ]
+    },
+    {
+      "id": "q26",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "資料鏈結層中，與網路實體「有關」的子層是？",
+      "options": [
+        "LLC",
+        "MAC",
+        "PHY",
+        "IP"
+      ],
+      "answer": 1,
+      "explanation": "MAC（媒介存取控制）與實體有關，依媒介不同而不同；LLC 與實體無關、有線無線共用。",
+      "tags": [
+        "子層"
+      ]
+    },
+    {
+      "id": "q27",
+      "chapter": 5,
+      "section": "5-2",
+      "question": "負責 LLC 子層共通規範的 IEEE 標準是？",
+      "options": [
+        "802.1",
+        "802.2",
+        "802.3",
+        "802.5"
+      ],
+      "answer": 1,
+      "explanation": "802.2 LLC；802.1 橋接共通規範；802.3 乙太網路；802.5 Token Ring。",
+      "tags": [
+        "IEEE 802"
+      ]
+    },
+    {
+      "id": "q28",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "10BaseF 名稱中的「F」代表哪一種傳輸媒介？",
+      "options": [
+        "雙絞線",
+        "光纖",
+        "同軸電纜",
+        "無線電波"
+      ],
+      "answer": 1,
+      "explanation": "F = 光纖（Fiber）；T = 雙絞線；C 是數字時代表同軸電纜長度。",
+      "tags": [
+        "命名規則"
+      ]
+    },
+    {
+      "id": "q29",
+      "chapter": 5,
+      "section": "5-4",
+      "question": "10Base5 名稱中的「Base」代表什麼？",
+      "options": [
+        "基頻",
+        "寬頻",
+        "基地台",
+        "基本速率"
+      ],
+      "answer": 0,
+      "explanation": "A-Base-C 的 Base 是訊號傳輸方式：基頻（Baseband）；乙太網路幾乎都是基頻。",
+      "tags": [
+        "命名規則"
+      ]
+    },
+    {
+      "id": "q30",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "1000BaseT 使用下列哪一種接頭？",
+      "options": [
+        "RJ-45",
+        "SC",
+        "ST",
+        "GG45"
+      ],
+      "answer": 0,
+      "explanation": "雙絞線（10BaseT、100BaseTX、1000BaseT）用 RJ-45；10GBase-T 才改用 GG45。",
+      "tags": [
+        "接頭"
+      ]
+    },
+    {
+      "id": "q31",
+      "chapter": 5,
+      "section": "5-8",
+      "question": "1000BaseSX、1000BaseLX 光纖網路卡使用的接頭是？",
+      "options": [
+        "RJ-45",
+        "SC",
+        "ST",
+        "GG45"
+      ],
+      "answer": 1,
+      "explanation": "Gigabit 光纖（SX、LX）用 SC；10BaseF 光纖用 ST。",
+      "tags": [
+        "接頭"
+      ]
+    },
+    {
+      "id": "q32",
+      "chapter": 5,
+      "section": "5-補充",
+      "question": "VLAN 讓廣播封包只在同一個 VLAN ID 群組內傳送，是哪一項功能？",
+      "options": [
+        "隔離廣播封包",
+        "突破實體位置限制",
+        "限制存取提高安全性",
+        "增加網路位址設定彈性"
+      ],
+      "answer": 0,
+      "explanation": "廣播只在群組內 → 隔離廣播封包；「增加網路位址設定彈性」不是 VLAN 的功能。",
+      "tags": [
+        "VLAN"
+      ]
+    },
+    {
+      "id": "q33",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "北美規格 T1 專線的傳輸速率是？",
+      "options": [
+        "64 Kbps",
+        "1.544 Mbps",
+        "2.048 Mbps",
+        "44.736 Mbps"
+      ],
+      "answer": 1,
+      "explanation": "T1 1.544 Mbps（24 路）；E1 2.048 Mbps（30 路）；T3 44.736 Mbps（672 路）。",
+      "tags": [
+        "專線"
+      ]
+    },
+    {
+      "id": "q34",
+      "chapter": 6,
+      "section": "6-5",
+      "question": "歐洲規格 E1 專線的傳輸速率是？",
+      "options": [
+        "64 Kbps",
+        "1.544 Mbps",
+        "2.048 Mbps",
+        "44.736 Mbps"
+      ],
+      "answer": 2,
+      "explanation": "E1 2.048 Mbps，可同時傳 30 路電話；同級的 E1 比 T1（1.544）快。",
+      "tags": [
+        "專線"
+      ]
+    },
+    {
+      "id": "q35",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "使用 ADSL 上網時還能同時講電話，是因為保留了哪一個頻道？",
+      "options": [
+        "上傳頻道",
+        "下載頻道",
+        "POTS 頻道",
+        "QAM 頻道"
+      ],
+      "answer": 2,
+      "explanation": "ADSL 有上傳、下載、POTS 三個通道；POTS（4 KHz）保留給原本的語音電話。",
+      "tags": [
+        "ADSL"
+      ]
+    },
+    {
+      "id": "q36",
+      "chapter": 6,
+      "section": "6-3",
+      "question": "有線電視業者利用同軸電纜提供的上網方式是？",
+      "options": [
+        "ADSL",
+        "Cable Modem",
+        "FTTH",
+        "專線"
+      ],
+      "answer": 1,
+      "explanation": "Cable Modem 用有線電視的同軸電纜；ADSL 用電話線；FTTH 用光纖。",
+      "tags": [
+        "Cable Modem"
+      ]
+    },
+    {
+      "id": "q37",
+      "chapter": 6,
+      "section": "6-1",
+      "question": "資料切成大小不等的封包、走不特定路徑再重組，是哪一種交換方式？",
+      "options": [
+        "電路交換",
+        "訊息交換",
+        "分封交換",
+        "細胞交換"
+      ],
+      "answer": 2,
+      "explanation": "大小不等的封包 → 分封交換；相等大小的細胞 → 細胞交換（ATM）。",
+      "tags": [
+        "交換方式"
+      ]
+    },
+    {
+      "id": "q38",
+      "chapter": 6,
+      "section": "6-2",
+      "question": "需要架設網站的 ADSL 用戶，應該申請哪一種 IP？",
+      "options": [
+        "浮動 IP",
+        "固定 IP",
+        "私人 IP",
+        "廣播 IP"
+      ],
+      "answer": 1,
+      "explanation": "要架網站、上網時數長的用戶（如 SOHO 族）適合固定 IP；一般家庭適合用 PPPoE 取得浮動 IP。",
+      "tags": [
+        "ADSL"
+      ]
+    },
+    {
+      "id": "q39",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "無線網路基地台的英文 Access Point，原則上應翻譯為？",
+      "options": [
+        "存取點",
+        "路由器",
+        "集線器",
+        "分享器"
+      ],
+      "answer": 0,
+      "explanation": "Access Point 原意是「存取點」，受大哥大基地台影響才俗稱「無線網路基地台」。",
+      "tags": [
+        "AP"
+      ]
+    },
+    {
+      "id": "q40",
+      "chapter": 7,
+      "section": "7-7",
+      "question": "裝置以軟體基地台（Soft AP）直接連線、不需透過基地台的技術是？",
+      "options": [
+        "Centrino",
+        "PCMCIA",
+        "GPRS",
+        "Wi-Fi Direct"
+      ],
+      "answer": 3,
+      "explanation": "Wi-Fi Direct 用軟體實作基地台，裝置之間不透過基地台就能連線。",
+      "tags": [
+        "Wi-Fi Direct"
+      ]
+    },
+    {
+      "id": "q41",
+      "chapter": 7,
+      "section": "7-3",
+      "question": "微波傳輸需要設置中繼站，主要原因是？",
+      "options": [
+        "直線波易受地球曲面與障礙物影響",
+        "傳輸速度太慢",
+        "頻率太低",
+        "只能單工傳輸"
+      ],
+      "answer": 0,
+      "explanation": "微波是直線波，需要無阻礙的路徑，會受地球曲面與障礙物影響，所以要用中繼站克服死角。",
+      "tags": [
+        "微波"
+      ]
+    },
+    {
+      "id": "q42",
+      "chapter": 7,
+      "section": "7-4",
+      "question": "GPS 衛星運行於大約多高的高空？",
+      "options": [
+        "50 公里",
+        "500 公里",
+        "20,200 公里",
+        "36,000 公里"
+      ],
+      "answer": 2,
+      "explanation": "星鏈約 500 km < GPS 約 20,200 km < 同步衛星約 36,000 km。",
+      "tags": [
+        "GPS"
+      ]
+    },
+    {
+      "id": "q43",
+      "chapter": 7,
+      "section": "7-2",
+      "question": "ISM 頻段開放給哪三種用途使用？",
+      "options": [
+        "電視、廣播、電信",
+        "軍事、政府、警察",
+        "交通、氣象、航太",
+        "工業、科學、醫學"
+      ],
+      "answer": 3,
+      "explanation": "ISM = Industrial（工業）、Scientific（科學）、Medical（醫學）。",
+      "tags": [
+        "ISM"
+      ]
+    },
+    {
+      "id": "q44",
+      "chapter": 7,
+      "section": "7-10",
+      "question": "RFID 系統至少包括哪兩個部分？",
+      "options": [
+        "電子標籤與讀取器",
+        "基地台與網卡",
+        "天線與衛星",
+        "數據機與分享器"
+      ],
+      "answer": 0,
+      "explanation": "RFID 由電子標籤（Tag）與讀取器（Reader）組成。",
+      "tags": [
+        "RFID"
+      ]
+    },
+    {
+      "id": "q45",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "在 2.4 GHz 運作、最高 54 Mbps，並向下相容 802.11b 的是？",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": 2,
+      "explanation": "g 是 a 和 b 的孩子：頻段像 b（2.4 GHz）、速度像 a（54 Mbps），並相容 b。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q46",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "802.11a 採用哪一種調變技術？",
+      "options": [
+        "OFDM",
+        "MIMO",
+        "CSMA/CD",
+        "跳頻展頻"
+      ],
+      "answer": 0,
+      "explanation": "802.11a 用 OFDM（正交分頻多工）；802.11n 用 MIMO；藍牙用跳頻展頻。",
+      "tags": [
+        "802.11"
+      ]
+    },
+    {
+      "id": "q47",
+      "chapter": 8,
+      "section": "8-1",
+      "question": "無線區域網路（WLAN）的 IEEE 標準是？",
+      "options": [
+        "802.11",
+        "802.14",
+        "802.15",
+        "802.16"
+      ],
+      "answer": 0,
+      "explanation": "WLAN = 802.11（Wi-Fi）；WPAN = 802.15（藍牙）；WMAN = 802.16（WiMAX）。",
+      "tags": [
+        "IEEE 802"
+      ]
+    },
+    {
+      "id": "q48",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "校園 WLAN Gateway 要求輸入帳號密碼，採用的認證標準是？",
+      "options": [
+        "802.1Q",
+        "802.1x",
+        "802.11b",
+        "802.15"
+      ],
+      "answer": 1,
+      "explanation": "認證用 802.1x；802.1Q 是 VLAN；802.11b 是 Wi-Fi 規格。",
+      "tags": [
+        "認證"
+      ]
+    },
+    {
+      "id": "q49",
+      "chapter": 8,
+      "section": "8-3",
+      "question": "工作站之間直接以無線連線、不需要 AP 的模式是？",
+      "options": [
+        "基地台模式",
+        "混合模式",
+        "中繼模式",
+        "隨意網路模式（Ad Hoc）"
+      ],
+      "answer": 3,
+      "explanation": "Ad Hoc（隨意網路模式）不需要 AP；基地台模式（Infrastructure）要透過 AP。",
+      "tags": [
+        "WLAN"
+      ]
+    },
+    {
+      "id": "q50",
+      "chapter": 8,
+      "section": "8-5",
+      "question": "台灣 3G 業者中，亞太電信採用的系統是？",
+      "options": [
+        "WCDMA",
+        "TD-SCDMA",
+        "GSM",
+        "CDMA2000"
+      ],
+      "answer": 3,
+      "explanation": "亞太電信用 CDMA2000（高通主導）；中華、台灣大、遠傳用 WCDMA；TD-SCDMA 是中國大陸。",
+      "tags": [
+        "3G"
+      ]
+    }
+  ]
+}
