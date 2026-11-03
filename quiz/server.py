@@ -14,7 +14,7 @@ from urllib.parse import parse_qs, urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import quizlib as ql  # noqa: E402
 
-HOST = "127.0.0.1"
+HOST = os.environ.get("QUIZ_HOST", "127.0.0.1")  # 設 0.0.0.0 可讓同網段手機連線
 PORT = int(os.environ.get("QUIZ_PORT", "8765"))
 STATIC_DIR = ql.ROOT / "static"
 MAX_BODY = 1_000_000
@@ -108,8 +108,10 @@ class Handler(SimpleHTTPRequestHandler):
         if not isinstance(body, dict):
             self._err("請求內容格式錯誤")
             return
-        attempt = ql.grade(body.get("items"), body.get("title"), body.get("durationSec"))
-        ql.save_attempt(attempt)
+        attempt_id = body.get("id")
+        attempt = ql.grade(body.get("items"), body.get("title"), body.get("durationSec"),
+                           attempt_id=attempt_id, finished=body.get("finished", True))
+        ql.save_attempt(attempt, update=attempt_id is not None)
         self._ok(attempt)
 
 
@@ -121,7 +123,7 @@ def main() -> None:
     ql.QUIZ_DIR.mkdir(exist_ok=True)
     ql.HISTORY_DIR.mkdir(exist_ok=True)
     server = ThreadingHTTPServer((HOST, PORT), Handler)
-    url = f"http://{HOST}:{PORT}/"
+    url = f"http://{'127.0.0.1' if HOST == '0.0.0.0' else HOST}:{PORT}/"
     log.info("出題系統已啟動：%s（Ctrl+C 結束）", url)
     if "--no-browser" not in sys.argv:
         webbrowser.open(url)

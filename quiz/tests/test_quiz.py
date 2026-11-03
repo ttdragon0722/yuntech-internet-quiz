@@ -105,7 +105,7 @@ def test_wrong_questions_tracks_fixes(dirs) -> None:
     first = ql.grade([{"quizId": "ch1-001", "qid": "q1", "choice": 2},
                       {"quizId": "ch1-001", "qid": "q2", "choice": 0}], "第一次", 0, qdir)
     second = ql.grade([{"quizId": "ch1-001", "qid": "q1", "choice": 0}], "第二次", 0, qdir)
-    second = {**second, "id": second["id"] + "z"}  # 確保排序在後
+    first, second = {**first, "id": "20260101-000000-aaaa"}, {**second, "id": "20260101-000001-aaaa"}
     ql.save_attempt(first, hdir)
     ql.save_attempt(second, hdir)
     attempts = ql.load_attempts(hdir)
@@ -152,6 +152,47 @@ def test_api_flow(base_url, dirs) -> None:
     assert body["data"]["title"] == "API 測試"
     _, body = call(f"{base_url}/api/wrong?unfixed=1")
     assert [w["qid"] for w in body["data"]] == ["q1"]
+
+
+def test_api_saves_each_answer_into_same_attempt(base_url, dirs) -> None:
+    q1_wrong = {"quizId": "ch1-001", "qid": "q1", "choice": 2}
+    q2_right = {"quizId": "ch1-001", "qid": "q2", "choice": 1}
+    status, body = call(f"{base_url}/api/attempts",
+                        {"title": "逐題", "items": [q1_wrong], "finished": False})
+    assert status == 200 and body["data"]["finished"] is False
+    attempt_id = body["data"]["id"]
+    _, body = call(f"{base_url}/api/wrong?unfixed=1")
+    assert [w["qid"] for w in body["data"]] == ["q1"]  # 答完第一題錯題本就更新
+
+    status, body = call(f"{base_url}/api/attempts", {
+        "id": attempt_id, "title": "逐題", "items": [q1_wrong, q2_right], "finished": True})
+    assert status == 200 and body["data"]["id"] == attempt_id
+    assert body["data"]["finished"] is True and body["data"]["total"] == 2
+    assert [p.name for p in dirs[1].glob("*.json")] == [f"{attempt_id}.json"]
+
+    status, body = call(f"{base_url}/api/attempts", {
+        "id": attempt_id, "title": "逐題", "items": [q2_right], "finished": False})
+    assert status == 400 and "交卷" in body["error"]
+
+
+def test_api_rejects_update_of_unknown_attempt(base_url) -> None:
+    item = {"quizId": "ch1-001", "qid": "q1", "choice": 0}
+    status, _ = call(f"{base_url}/api/attempts", {"id": "nope-1", "title": "x", "items": [item]})
+    assert status == 400
+    status, _ = call(f"{base_url}/api/attempts", {"id": "../x", "title": "x", "items": [item]})
+    assert status == 400
+    status, _ = call(f"{base_url}/api/attempts", {"title": "x", "items": [item], "finished": "no"})
+    assert status == 400
+
+
+def test_old_attempt_without_finished_flag_counts_as_finished(dirs) -> None:
+    qdir, hdir = dirs
+    old = ql.grade([{"quizId": "ch1-001", "qid": "q1", "choice": 0}], "舊", 0, qdir)
+    old = {k: v for k, v in old.items() if k != "finished"}
+    ql.save_attempt(old, hdir)
+    assert ql.attempt_summary(ql.load_attempt(old["id"], hdir))["finished"] is True
+    with pytest.raises(ql.QuizError, match="交卷"):
+        ql.save_attempt({**old, "finished": False}, hdir, update=True)
 
 
 def test_api_errors(base_url) -> None:

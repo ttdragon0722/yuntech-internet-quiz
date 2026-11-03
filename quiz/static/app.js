@@ -7,6 +7,8 @@ const DEFAULT_SETTINGS = Object.freeze({ mode: 'practice', shuffleQuestions: tru
 
 let session = null;        // 進行中的作答
 let pendingPractice = null; // 從錯題本／紀錄帶過來要練習的題目
+// 逐題存檔狀態：token 對應 session，id 是伺服器回傳的紀錄 id，chain 讓存檔依序送出
+let saver = { token: null, id: null, chain: Promise.resolve() };
 
 // ---------- 工具 ----------
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -89,7 +91,36 @@ function buildSession(title, rawQuestions, settings, retake = null) {
     startedAt: Date.now(),
     retake,
     submitting: false,
+    token: `${Date.now()}-${Math.random()}`,
   };
+}
+
+/**
+ * 依序把目前作答存到伺服器（同一份作答只會有一筆紀錄）。
+ * finished=false 時只送已作答的題目，未作答的不算錯。
+ * @returns {Promise<object|null>} 伺服器回傳的紀錄；沒有可存的內容時為 null
+ */
+function queueSave(s, finished) {
+  const items = s.questions
+    .map((q, i) => ({ quizId: q.quizId, qid: q.qid, choice: s.answers[i] }))
+    .filter((it) => finished || it.choice !== null);
+  if (!items.length) return Promise.resolve(null);
+  const body = { title: s.title, durationSec: Math.round((Date.now() - s.startedAt) / 1000), items, finished };
+  const run = async () => {
+    const id = saver.token === s.token ? saver.id : null;
+    const attempt = await api('attempts', { method: 'POST', body: JSON.stringify(id ? { ...body, id } : body) });
+    if (saver.token === s.token) saver = { ...saver, id: attempt.id };
+    return attempt;
+  };
+  const result = saver.chain.then(run);
+  saver = { ...saver, chain: result.catch(() => null) };
+  return result;
+}
+
+function startSession(s) {
+  session = s;
+  saver = { token: s.token, id: null, chain: Promise.resolve() };
+  renderTake();
 }
 
 const fromQuiz = (quiz) => quiz.questions.map((q) => ({ ...q, quizId: quiz.id, qid: q.id }));
@@ -109,6 +140,7 @@ function choose(displayIdx) {
     ? session.revealed.map((r, i) => (i === session.idx ? true : r))
     : session.revealed;
   updateSession({ answers, revealed });
+  queueSave(session, false).catch((err) => toast(`這題沒存到（交卷時會再存一次）：${err.message}`, true));
 }
 
 function go(delta) {
@@ -122,16 +154,8 @@ async function submit() {
   if (unanswered && !confirm(`還有 ${unanswered} 題沒作答，確定要交卷嗎？`)) return;
   session = { ...session, submitting: true };
   renderTake();
-  const items = session.questions.map((q, i) => ({ quizId: q.quizId, qid: q.qid, choice: session.answers[i] }));
   try {
-    const attempt = await api('attempts', {
-      method: 'POST',
-      body: JSON.stringify({
-        title: session.title,
-        durationSec: Math.round((Date.now() - session.startedAt) / 1000),
-        items,
-      }),
-    });
+    const attempt = await queueSave(session, true);
     session = null;
     location.hash = `#/attempt/${attempt.id}`;
   } catch (err) {
@@ -232,9 +256,7 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-window.addEventListener('beforeunload', (e) => {
-  if (session && session.answers.some((a) => a !== null)) e.preventDefault();
-});
+// 每答一題就存檔，中途離開不會遺失作答，因此不再攔截離開頁面。
 
 // ---------- 各頁面 ----------
 function settingsHtml(s) {
@@ -307,15 +329,14 @@ async function viewTake(idsText) {
   const title = quizzes.length === 1
     ? quizzes[0].title
     : `合併：${quizzes.map((q) => q.title).join(' ＋ ')}`.slice(0, 190);
-  session = buildSession(title, quizzes.flatMap(fromQuiz), loadSettings());
-  renderTake();
+  startSession(buildSession(title, quizzes.flatMap(fromQuiz), loadSettings()));
 }
 
 function viewPractice() {
   if (!pendingPractice) { location.hash = '#/wrong'; return; }
-  session = buildSession(pendingPractice.title, pendingPractice.questions, loadSettings());
+  const s = buildSession(pendingPractice.title, pendingPractice.questions, loadSettings());
   pendingPractice = null;
-  renderTake();
+  startSession(s);
 }
 
 function startPractice(title, rows) {
@@ -396,7 +417,7 @@ async function viewAttempt(id) {
       <div><div class="muted">${esc(fmtTime(a.finishedAt))} · ${fmtDuration(a.durationSec)}</div>
         <h1>${esc(a.title)}</h1></div><span class="spacer"></span>
       <div class="score ${a.score >= 80 ? 'good' : 'bad'}">${a.score}<span class="muted"> 分</span></div></div>
-      <p class="muted">答對 ${a.correct} / ${a.total} 題</p>
+      <p class="muted">答對 ${a.correct} / ${a.total} 題${a.finished === false ? '（未交卷，只含已作答的題目）' : ''}</p>
       <div class="grid">${chapterBreakdown(a.items)}</div>
       <div class="row" style="margin-top:14px">
         ${wrong.length ? `<button class="primary" id="redo-wrong">重練這次的 ${wrong.length} 題錯題</button>` : ''}
@@ -417,7 +438,7 @@ async function viewHistory() {
   const rows = attempts.map((a) => `<tr>
     <td>${esc(fmtTime(a.finishedAt))}</td>
     <td><a href="#/attempt/${esc(a.id)}">${esc(a.title)}</a></td>
-    <td><span class="chip ${a.score >= 80 ? 'ok' : 'bad'}">${a.score}</span></td>
+    <td><span class="chip ${a.score >= 80 ? 'ok' : 'bad'}">${a.score}</span>${a.finished ? '' : ' <span class="chip">未交卷</span>'}</td>
     <td>${a.correct}/${a.total}</td><td class="muted">${fmtDuration(a.durationSec)}</td></tr>`).join('');
   $app.innerHTML = `<h1>歷史紀錄</h1><p class="sub">共 ${attempts.length} 次作答，點標題看逐題檢討。</p>
     ${attempts.length

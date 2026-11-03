@@ -107,8 +107,15 @@ def list_quizzes(quiz_dir: Path | None = None) -> tuple[list[dict], list[str]]:
 # ---------- 作答 ----------
 
 def grade(items: Any, title: Any, duration_sec: Any = 0,
-          quiz_dir: Path | None = None) -> dict:
-    """依題庫檔重新評分（不信任前端），回傳完整作答紀錄（尚未存檔）。"""
+          quiz_dir: Path | None = None, attempt_id: Any = None,
+          finished: Any = True) -> dict:
+    """依題庫檔重新評分（不信任前端），回傳完整作答紀錄（尚未存檔）。
+
+    attempt_id 給定時沿用該 id（逐題存檔時更新同一筆）；finished=False 代表作答中。
+    """
+    _require(attempt_id is None or (isinstance(attempt_id, str) and bool(ID_RE.match(attempt_id))),
+             "紀錄 id 不合法")
+    _require(isinstance(finished, bool), "finished 必須是布林值")
     _require(isinstance(items, list) and items, "作答內容不可為空")
     _require(len(items) <= MAX_ITEMS_PER_ATTEMPT, "作答題數過多")
     _require(isinstance(title, str) and 0 < len(title) <= 200, "標題不合法")
@@ -140,8 +147,9 @@ def grade(items: Any, title: Any, duration_sec: Any = 0,
     except (TypeError, ValueError):
         duration = 0
     return {
-        "id": f"{now:%Y%m%d-%H%M%S}-{secrets.token_hex(2)}",
+        "id": attempt_id or f"{now:%Y%m%d-%H%M%S}-{secrets.token_hex(2)}",
         "title": title.strip(),
+        "finished": finished,
         "quizIds": sorted(cache),
         "finishedAt": now.isoformat(timespec="seconds"),
         "durationSec": duration,
@@ -152,11 +160,24 @@ def grade(items: Any, title: Any, duration_sec: Any = 0,
     }
 
 
-def save_attempt(attempt: dict, history_dir: Path | None = None) -> Path:
+def is_finished(attempt: dict) -> bool:
+    """舊紀錄沒有 finished 欄位，一律視為已交卷。"""
+    return attempt.get("finished", True) is not False
+
+
+def save_attempt(attempt: dict, history_dir: Path | None = None, update: bool = False) -> Path:
+    """新增紀錄；update=True 時改為覆寫一筆「作答中」的既有紀錄（已交卷的不可再改）。"""
     history_dir = history_dir or HISTORY_DIR
     history_dir.mkdir(parents=True, exist_ok=True)
     path = history_dir / f"{attempt['id']}.json"
-    path.write_text(json.dumps(attempt, ensure_ascii=False, indent=2), encoding="utf-8")
+    if update:
+        _require(path.is_file(), "找不到這筆作答紀錄")
+        _require(not is_finished(_read_json(path)), "這份已經交卷，不能再修改")
+    else:
+        _require(not path.exists(), "紀錄 id 重複")
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(attempt, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)  # 原子替換，避免寫到一半被讀到
     return path
 
 
@@ -179,8 +200,9 @@ def load_attempt(attempt_id: str, history_dir: Path | None = None) -> dict:
 
 
 def attempt_summary(a: dict) -> dict:
-    return {k: a.get(k) for k in ("id", "title", "finishedAt", "durationSec",
-                                  "total", "correct", "score", "quizIds")}
+    return {**{k: a.get(k) for k in ("id", "title", "finishedAt", "durationSec",
+                                     "total", "correct", "score", "quizIds")},
+            "finished": is_finished(a)}
 
 
 # ---------- 統計 ----------
